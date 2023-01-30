@@ -1,6 +1,6 @@
 // Example for populating the BlockGrid
-import '../ids-block-grid';
-import placeHolderImg from '../../../assets/images/placeholder-200x200.png';
+import '../ids-block-grid.ts';
+import placeHolderImg from '../../../assets/images/placeholder-200x200.png.ts';
 
 const blockGrid: any = document.querySelector('ids-block-grid');
 

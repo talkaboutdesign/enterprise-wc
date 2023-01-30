@@ -1,6 +1,6 @@
-import IdsKeyboardMixin from '../../mixins/ids-keyboard-mixin/ids-keyboard-mixin';
-import IdsElement from '../../core/ids-element';
-import IdsEventsMixin from '../../mixins/ids-events-mixin/ids-events-mixin';
+import IdsKeyboardMixin from '../../mixins/ids-keyboard-mixin/ids-keyboard-mixin.ts';
+import IdsElement from '../../core/ids-element.ts';
+import IdsEventsMixin from '../../mixins/ids-events-mixin/ids-events-mixin.ts';
 
 const Base = IdsKeyboardMixin(
   IdsEventsMixin(

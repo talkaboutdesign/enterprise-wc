@@ -1,3 +1,3 @@
 // Supporting components
-import '../ids-radio';
-import '../../ids-button/ids-button';
+import '../ids-radio.ts';
+import '../../ids-button/ids-button.ts';

@@ -1,22 +1,22 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
 import {
   injectTemplate,
   stringToBool,
   stringToNumber
-} from '../../utils/ids-string-utils/ids-string-utils';
+} from '../../utils/ids-string-utils/ids-string-utils.ts';
 
-import IdsDataSource from '../../core/ids-data-source';
-import '../ids-virtual-scroll/ids-virtual-scroll';
-import '../ids-checkbox/ids-checkbox';
-import Base from './ids-list-view-base';
-import '../ids-swappable/ids-swappable';
-import '../ids-swappable/ids-swappable-item';
+import IdsDataSource from '../../core/ids-data-source.ts';
+import '../ids-virtual-scroll/ids-virtual-scroll.ts';
+import '../ids-checkbox/ids-checkbox.ts';
+import Base from './ids-list-view-base.ts';
+import '../ids-swappable/ids-swappable.ts';
+import '../ids-swappable/ids-swappable-item.ts';
 
 import styles from './ids-list-view.scss';
-import type IdsSwappableItem from '../ids-swappable/ids-swappable-item';
-import type IdsVirtualScroll from '../ids-virtual-scroll/ids-virtual-scroll';
-import type IdsText from '../ids-text/ids-text';
+import type IdsSwappableItem from '../ids-swappable/ids-swappable-item.ts';
+import type IdsVirtualScroll from '../ids-virtual-scroll/ids-virtual-scroll.ts';
+import type IdsText from '../ids-text/ids-text.ts';
 
 export interface IdsListViewActivatedItem {
   /** The index value in current dataset */

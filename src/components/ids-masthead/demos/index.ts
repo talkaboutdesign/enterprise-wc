@@ -1,2 +1,2 @@
 // Supporting components
-import '../ids-masthead';
+import '../ids-masthead.ts';

@@ -1,6 +1,6 @@
-import { breakpoints } from '../../../utils/ids-breakpoint-utils/ids-breakpoint-utils';
-import '../../ids-radio/ids-radio-group';
-import '../../ids-radio/ids-radio';
+import { breakpoints } from '../../../utils/ids-breakpoint-utils/ids-breakpoint-utils.ts';
+import '../../ids-radio/ids-radio-group.ts';
+import '../../ids-radio/ids-radio.ts';
 
 document.addEventListener('DOMContentLoaded', () => {
   const triggerId = '#modal-trigger-btn';

@@ -1,1 +1,1 @@
-import '../../ids-button/ids-button';
+import '../../ids-button/ids-button.ts';

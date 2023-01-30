@@ -1,4 +1,4 @@
-import '../ids-data-grid';
+import '../ids-data-grid.ts';
 import booksJSON from '../../../assets/data/books.json';
 import menuContentsJSON from '../../../assets/data/menu-contents.json';
 

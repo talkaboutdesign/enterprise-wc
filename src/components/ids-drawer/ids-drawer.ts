@@ -1,11 +1,11 @@
 // Import Core
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { stripHTML } from '../../utils/ids-xss-utils/ids-xss-utils';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import { EDGES, TYPES } from './ids-drawer-attributes';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stripHTML } from '../../utils/ids-xss-utils/ids-xss-utils.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { EDGES, TYPES } from './ids-drawer-attributes.ts';
 
-import Base from './ids-drawer-base';
+import Base from './ids-drawer-base.ts';
 
 import styles from './ids-drawer.scss';
 

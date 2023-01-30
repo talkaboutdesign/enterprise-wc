@@ -1,10 +1,10 @@
-import { attributes } from '../../core/ids-attributes';
-import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin';
-import { IdsConstructor } from '../../core/ids-element';
-import { getClosest } from '../../utils/ids-dom-utils/ids-dom-utils';
-import { IdsInputInterface } from '../../components/ids-input/ids-input-attributes';
-import '../../components/ids-tooltip/ids-tooltip';
-import type IdsTooltip from '../../components/ids-tooltip/ids-tooltip';
+import { attributes } from '../../core/ids-attributes.ts';
+import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin.ts';
+import { IdsConstructor } from '../../core/ids-element.ts';
+import { getClosest } from '../../utils/ids-dom-utils/ids-dom-utils.ts';
+import { IdsInputInterface } from '../../components/ids-input/ids-input-attributes.ts';
+import '../../components/ids-tooltip/ids-tooltip.ts';
+import type IdsTooltip from '../../components/ids-tooltip/ids-tooltip.ts';
 
 type Constraints = IdsConstructor<EventsMixinInterface>;
 /**

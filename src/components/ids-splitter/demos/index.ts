@@ -1,1 +1,1 @@
-import '../ids-splitter';
+import '../ids-splitter.ts';

@@ -1,4 +1,4 @@
-import IdsDropdown from '../ids-dropdown/ids-dropdown';
+import IdsDropdown from '../ids-dropdown/ids-dropdown.ts';
 
 const Base = IdsDropdown;
 

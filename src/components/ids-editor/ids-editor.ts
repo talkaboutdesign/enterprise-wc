@@ -1,23 +1,23 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
 
-import Base from './ids-editor-base';
-import '../ids-button/ids-button';
-import '../ids-text/ids-text';
-import '../ids-checkbox/ids-checkbox';
-import '../ids-dropdown/ids-dropdown';
-import '../ids-input/ids-input';
-import '../ids-message/ids-message';
-import '../ids-modal/ids-modal';
-import '../ids-toolbar/ids-toolbar';
+import Base from './ids-editor-base.ts';
+import '../ids-button/ids-button.ts';
+import '../ids-text/ids-text.ts';
+import '../ids-checkbox/ids-checkbox.ts';
+import '../ids-dropdown/ids-dropdown.ts';
+import '../ids-input/ids-input.ts';
+import '../ids-message/ids-message.ts';
+import '../ids-modal/ids-modal.ts';
+import '../ids-toolbar/ids-toolbar.ts';
 
-import debounce from '../../utils/ids-debounce-utils/ids-debounce-utils';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import { isObject } from '../../utils/ids-object-utils/ids-object-utils';
+import debounce from '../../utils/ids-debounce-utils/ids-debounce-utils.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { isObject } from '../../utils/ids-object-utils/ids-object-utils.ts';
 
-import type IdsButton from '../ids-button/ids-button';
-import type IdsToolbarMoreActions from '../ids-toolbar/ids-toolbar-more-actions';
-import type IdsText from '../ids-text/ids-text';
+import type IdsButton from '../ids-button/ids-button.ts';
+import type IdsToolbarMoreActions from '../ids-toolbar/ids-toolbar-more-actions.ts';
+import type IdsText from '../ids-text/ids-text.ts';
 
 import {
   VIEWS,
@@ -30,12 +30,12 @@ import {
   qs,
   qsAll,
   rgbToHex
-} from './ids-editor-shared';
+} from './ids-editor-shared.ts';
 
 import {
   cleanHtml,
   trimContent
-} from './ids-editor-clean-utils';
+} from './ids-editor-clean-utils.ts';
 
 import {
   blockElem,
@@ -44,7 +44,7 @@ import {
   restoreSelection,
   selectionParents,
   findElementInSelection
-} from './ids-editor-selection-utils';
+} from './ids-editor-selection-utils.ts';
 
 import {
   parseTemplate,
@@ -55,14 +55,14 @@ import {
   errorMessageTemplate,
   hyperlinkModalTemplate,
   insertimageModalTemplate
-} from './ids-editor-templates';
+} from './ids-editor-templates.ts';
 
 import {
   handlePasteAsPlainText,
   handlePasteAsHtml
-} from './ids-editor-handle-paste';
+} from './ids-editor-handle-paste.ts';
 
-import formatHtml from './ids-editor-formatters';
+import formatHtml from './ids-editor-formatters.ts';
 
 import styles from './ids-editor.scss';
 

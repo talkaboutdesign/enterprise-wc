@@ -1,2 +1,2 @@
 // Supporting components
-import '../ids-menu';
+import '../ids-menu.ts';

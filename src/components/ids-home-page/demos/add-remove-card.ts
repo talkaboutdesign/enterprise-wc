@@ -1,5 +1,5 @@
 // home page add/remove card
-import '../ids-home-page';
+import '../ids-home-page.ts';
 
 document.addEventListener('DOMContentLoaded', () => {
   const homePage: any = document.querySelector('#home-page-toggle-card');

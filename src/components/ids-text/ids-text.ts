@@ -1,10 +1,10 @@
 import fontSizes from 'ids-identity/dist/theme-new/tokens/web/ui.config.font-sizes';
-import { attributes } from '../../core/ids-attributes';
-import { customElement, scss } from '../../core/ids-decorators';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import { getClosest } from '../../utils/ids-dom-utils/ids-dom-utils';
+import { attributes } from '../../core/ids-attributes.ts';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { getClosest } from '../../utils/ids-dom-utils/ids-dom-utils.ts';
 
-import Base from './ids-text-base';
+import Base from './ids-text-base.ts';
 
 import styles from './ids-text.scss';
 

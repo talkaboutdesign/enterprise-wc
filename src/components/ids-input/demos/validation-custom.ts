@@ -1,6 +1,6 @@
 // Supporting components
-import '../ids-input';
-import '../../ids-radio/ids-radio';
+import '../ids-input.ts';
+import '../../ids-radio/ids-radio.ts';
 
 document.addEventListener('DOMContentLoaded', () => {
   // Custom Rule (uppercase)

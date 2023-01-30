@@ -1,1 +1,1 @@
-import '../ids-form';
+import '../ids-form.ts';

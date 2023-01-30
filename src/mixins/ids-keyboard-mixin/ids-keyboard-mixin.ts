@@ -1,5 +1,5 @@
-import { IdsConstructor } from '../../core/ids-element';
-import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin';
+import { IdsConstructor } from '../../core/ids-element.ts';
+import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin.ts';
 
 export interface KeyboardMixinInterface {
   listen(keycode: Array<string> | string, elem: HTMLElement | any, callback: unknown): void;

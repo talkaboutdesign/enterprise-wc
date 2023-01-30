@@ -1,9 +1,9 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import '../ids-text/ids-text';
-import Base from './ids-radio-group-base';
-import type IdsRadio from './ids-radio';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import '../ids-text/ids-text.ts';
+import Base from './ids-radio-group-base.ts';
+import type IdsRadio from './ids-radio.ts';
 
 import styles from './ids-radio-group.scss';
 

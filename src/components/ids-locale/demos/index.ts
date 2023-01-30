@@ -1,2 +1,2 @@
 // Supporting components
-import '../ids-locale';
+import '../ids-locale.ts';

@@ -1,5 +1,5 @@
 import pathData from 'ids-identity/dist/theme-new/icons/standard/path-data.json';
-import '../ids-icon';
+import '../ids-icon.ts';
 
 // Imports Used in the Examples
 

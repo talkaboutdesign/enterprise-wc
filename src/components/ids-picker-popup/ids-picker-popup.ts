@@ -1,5 +1,5 @@
-import { customElement } from '../../core/ids-decorators';
-import Base from './ids-picker-popup-base';
+import { customElement } from '../../core/ids-decorators.ts';
+import Base from './ids-picker-popup-base.ts';
 
 /**
  * IDS Picker Popup Component

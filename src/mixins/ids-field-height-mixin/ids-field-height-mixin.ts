@@ -1,7 +1,7 @@
 // Import Core
-import { attributes } from '../../core/ids-attributes';
-import { IdsConstructor } from '../../core/ids-element';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
+import { attributes } from '../../core/ids-attributes.ts';
+import { IdsConstructor } from '../../core/ids-element.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
 interface FieldHeightInterface {
   onFieldHeightChange?(fieldHeight: string): void;

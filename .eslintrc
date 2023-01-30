@@ -154,7 +154,10 @@
       "no-bitwise": 0,
       // Allows non-null assertions using the ! postfix operator.
       "no-non-null-assertion": "off",
-      "@typescript-eslint/no-non-null-assertion": ["off"]
+      "@typescript-eslint/no-non-null-assertion": ["off"],
+      "import/extensions": ["always", {
+        "ignorePackages": true
+      }]
     }
   }]
 }

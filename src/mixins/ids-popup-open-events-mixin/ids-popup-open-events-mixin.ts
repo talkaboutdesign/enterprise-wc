@@ -1,6 +1,6 @@
-import type { IdsPopupElementRef } from '../../components/ids-popup/ids-popup-attributes';
-import { IdsConstructor } from '../../core/ids-element';
-import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin';
+import type { IdsPopupElementRef } from '../../components/ids-popup/ids-popup-attributes.ts';
+import { IdsConstructor } from '../../core/ids-element.ts';
+import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin.ts';
 
 interface PopupOpener {
   onOutsideClick?(e: Event): void;

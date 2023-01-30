@@ -1,7 +1,7 @@
-import '../ids-week-view';
-import '../../ids-calendar/ids-calendar-event';
-import '../../ids-menu-button/ids-menu-button';
-import '../../ids-popup-menu/ids-popup-menu';
+import '../ids-week-view.ts';
+import '../../ids-calendar/ids-calendar-event.ts';
+import '../../ids-menu-button/ids-menu-button.ts';
+import '../../ids-popup-menu/ids-popup-menu.ts';
 import eventsJSON from '../../../assets/data/events.json';
 import eventTypesJSON from '../../../assets/data/event-types.json';
 

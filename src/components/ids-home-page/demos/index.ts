@@ -1,2 +1,2 @@
 // Supporting components
-import '../ids-home-page';
+import '../ids-home-page.ts';

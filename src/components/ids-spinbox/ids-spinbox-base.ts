@@ -1,4 +1,4 @@
-import IdsTriggerField from '../ids-trigger-field/ids-trigger-field';
+import IdsTriggerField from '../ids-trigger-field/ids-trigger-field.ts';
 
 const Base = IdsTriggerField;
 

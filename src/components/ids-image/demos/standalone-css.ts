@@ -1,12 +1,12 @@
 import imageStyles from '../ids-image.scss';
 import textStyles from '../../ids-text/ids-text.scss';
 import layoutStyles from '../../ids-layout-grid/ids-layout-grid.scss';
-import { appendStyleSheets } from '../../../../scripts/append-stylesheets';
+import { appendStyleSheets } from '../../../../scripts/append-stylesheets.ts';
 
-import IdsImg10 from '../../../assets/images/10.jpg';
-import placeHolderImg6060 from '../../../assets/images/placeholder-60x60.png';
-import placeHolderImg154120 from '../../../assets/images/placeholder-154x120.png';
-import placeHolderImg300350 from '../../../assets/images/placeholder-300x350.png';
+import IdsImg10 from '../../../assets/images/10.jpg.ts';
+import placeHolderImg6060 from '../../../assets/images/placeholder-60x60.png.ts';
+import placeHolderImg154120 from '../../../assets/images/placeholder-154x120.png.ts';
+import placeHolderImg300350 from '../../../assets/images/placeholder-300x350.png.ts';
 
 // Ids Css
 appendStyleSheets(

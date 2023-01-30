@@ -1,5 +1,5 @@
-import IdsLocaleMixin from '../../mixins/ids-locale-mixin/ids-locale-mixin';
-import IdsModal from '../ids-modal/ids-modal';
+import IdsLocaleMixin from '../../mixins/ids-locale-mixin/ids-locale-mixin.ts';
+import IdsModal from '../ids-modal/ids-modal.ts';
 
 const Base = IdsLocaleMixin(
   IdsModal

@@ -1,5 +1,5 @@
 // Supporting components
-import '../ids-pager';
+import '../ids-pager.ts';
 
 document.addEventListener('DOMContentLoaded', () => {
   // Add an event listener to test clickable links

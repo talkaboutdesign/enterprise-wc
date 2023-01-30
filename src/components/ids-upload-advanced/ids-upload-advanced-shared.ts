@@ -1,4 +1,4 @@
-import { camelCase } from '../../utils/ids-string-utils/ids-string-utils';
+import { camelCase } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
 /**
  * Shared in between upload advanced.

@@ -1,7 +1,7 @@
 // Supporting components
-import '../ids-tabs';
-import '../ids-tab';
-import '../ids-tab-more';
-import '../ids-tab-content';
-import '../ids-tabs-context';
-import '../ids-tab-divider';
+import '../ids-tabs.ts';
+import '../ids-tab.ts';
+import '../ids-tab-more.ts';
+import '../ids-tab-content.ts';
+import '../ids-tabs-context.ts';
+import '../ids-tab-divider.ts';

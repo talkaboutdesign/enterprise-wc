@@ -1,7 +1,7 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { EXPANDABLE_AREA_TYPES } from './ids-exandable-area-attributes';
-import Base from './ids-exandable-area-base';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { EXPANDABLE_AREA_TYPES } from './ids-exandable-area-attributes.ts';
+import Base from './ids-exandable-area-base.ts';
 
 import styles from './ids-expandable-area.scss';
 

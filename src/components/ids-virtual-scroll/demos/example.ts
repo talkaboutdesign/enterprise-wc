@@ -1,5 +1,5 @@
 import productsJSON from '../../../assets/data/products.json';
-import css from '../../../assets/css/ids-virtual-scroll/index.css';
+import css from '../../../assets/css/ids-virtual-scroll/index.css.ts';
 
 const cssLink = `<link href="${css}" rel="stylesheet">`;
 const head = document.querySelector('head');

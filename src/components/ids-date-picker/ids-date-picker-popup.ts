@@ -1,45 +1,45 @@
-import { attributes, htmlAttributes } from '../../core/ids-attributes';
-import { customElement, scss } from '../../core/ids-decorators';
-import Base from './ids-date-picker-popup-base';
+import { attributes, htmlAttributes } from '../../core/ids-attributes.ts';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import Base from './ids-date-picker-popup-base.ts';
 import {
   subtractDate, isValidDate, hoursTo24, removeDateRange
-} from '../../utils/ids-date-utils/ids-date-utils';
-import { stringToBool, stringToNumber } from '../../utils/ids-string-utils/ids-string-utils';
-import { IdsPickerPopupCallbacks } from '../ids-picker-popup/ids-picker-popup';
+} from '../../utils/ids-date-utils/ids-date-utils.ts';
+import { stringToBool, stringToNumber } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { IdsPickerPopupCallbacks } from '../ids-picker-popup/ids-picker-popup.ts';
 import {
   IdsDatePickerCommonAttributes,
-} from './ids-date-picker-common';
+} from './ids-date-picker-common.ts';
 
 // Components
-import './ids-month-year-picklist';
-import '../ids-button/ids-button';
-import '../ids-modal-button/ids-modal-button';
-import '../ids-expandable-area/ids-expandable-area';
-import '../ids-month-view/ids-month-view';
-import '../ids-text/ids-text';
-import '../ids-time-picker/ids-time-picker';
-import '../ids-toggle-button/ids-toggle-button';
-import '../ids-toolbar/ids-toolbar';
-import '../ids-toolbar/ids-toolbar-section';
+import './ids-month-year-picklist.ts';
+import '../ids-button/ids-button.ts';
+import '../ids-modal-button/ids-modal-button.ts';
+import '../ids-expandable-area/ids-expandable-area.ts';
+import '../ids-month-view/ids-month-view.ts';
+import '../ids-text/ids-text.ts';
+import '../ids-time-picker/ids-time-picker.ts';
+import '../ids-toggle-button/ids-toggle-button.ts';
+import '../ids-toolbar/ids-toolbar.ts';
+import '../ids-toolbar/ids-toolbar-section.ts';
 
 // Types
-import type IdsButton from '../ids-button/ids-button';
-import type IdsExpandableArea from '../ids-expandable-area/ids-expandable-area';
-import type IdsLocale from '../ids-locale/ids-locale';
-import type IdsModalButton from '../ids-modal-button/ids-modal-button';
-import type IdsMonthView from '../ids-month-view/ids-month-view';
-import type IdsMonthYearPicklist from './ids-month-year-picklist';
+import type IdsButton from '../ids-button/ids-button.ts';
+import type IdsExpandableArea from '../ids-expandable-area/ids-expandable-area.ts';
+import type IdsLocale from '../ids-locale/ids-locale.ts';
+import type IdsModalButton from '../ids-modal-button/ids-modal-button.ts';
+import type IdsMonthView from '../ids-month-view/ids-month-view.ts';
+import type IdsMonthYearPicklist from './ids-month-year-picklist.ts';
 import type {
   IdsRangeSettings,
   IdsRangeSettingsInterface,
   IdsLegendSettings,
   IdsDisableSettings
-} from '../ids-month-view/ids-month-view-common';
-import type { IdsDayselectedEvent } from '../ids-month-view/ids-month-view';
-import type IdsTimePicker from '../ids-time-picker/ids-time-picker';
-import type IdsToggleButton from '../ids-toggle-button/ids-toggle-button';
-import type IdsToolbar from '../ids-toolbar/ids-toolbar';
-import type IdsToolbarSection from '../ids-toolbar/ids-toolbar-section';
+} from '../ids-month-view/ids-month-view-common.ts';
+import type { IdsDayselectedEvent } from '../ids-month-view/ids-month-view.ts';
+import type IdsTimePicker from '../ids-time-picker/ids-time-picker.ts';
+import type IdsToggleButton from '../ids-toggle-button/ids-toggle-button.ts';
+import type IdsToolbar from '../ids-toolbar/ids-toolbar.ts';
+import type IdsToolbarSection from '../ids-toolbar/ids-toolbar-section.ts';
 
 import styles from './ids-date-picker-popup.scss';
 

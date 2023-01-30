@@ -1,2 +1,2 @@
 // Supporting components
-import '../ids-color';
+import '../ids-color.ts';

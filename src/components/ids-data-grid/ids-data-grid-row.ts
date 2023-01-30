@@ -1,11 +1,11 @@
-import { customElement } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { nextUntil } from '../../utils/ids-dom-utils/ids-dom-utils';
-import { injectTemplate } from '../../utils/ids-string-utils/ids-string-utils';
-import IdsElement from '../../core/ids-element';
-import type IdsDataGrid from './ids-data-grid';
-import type { IdsDataGridColumn } from './ids-data-grid-column';
-import IdsDataGridCell from './ids-data-grid-cell';
+import { customElement } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { nextUntil } from '../../utils/ids-dom-utils/ids-dom-utils.ts';
+import { injectTemplate } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import IdsElement from '../../core/ids-element.ts';
+import type IdsDataGrid from './ids-data-grid.ts';
+import type { IdsDataGridColumn } from './ids-data-grid-column.ts';
+import IdsDataGridCell from './ids-data-grid-cell.ts';
 
 @customElement('ids-data-grid-row')
 export default class IdsDataGridRow extends IdsElement {

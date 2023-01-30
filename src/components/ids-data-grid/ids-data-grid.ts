@@ -1,18 +1,18 @@
 // Utils
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes, IdsDirection } from '../../core/ids-attributes';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import { next, previous } from '../../utils/ids-dom-utils/ids-dom-utils';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes, IdsDirection } from '../../core/ids-attributes.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { next, previous } from '../../utils/ids-dom-utils/ids-dom-utils.ts';
 
 // Dependencies
-import IdsDataSource from '../../core/ids-data-source';
-import IdsDataGridFormatters from './ids-data-grid-formatters';
-import { editors } from './ids-data-grid-editors';
-import IdsDataGridFilters, { IdsDataGridFilterConditions } from './ids-data-grid-filters';
-import { IdsDataGridContextmenuArgs, setContextmenu } from './ids-data-grid-contextmenu';
-import { IdsDataGridColumn, IdsDataGridColumnGroup } from './ids-data-grid-column';
+import IdsDataSource from '../../core/ids-data-source.ts';
+import IdsDataGridFormatters from './ids-data-grid-formatters.ts';
+import { editors } from './ids-data-grid-editors.ts';
+import IdsDataGridFilters, { IdsDataGridFilterConditions } from './ids-data-grid-filters.ts';
+import { IdsDataGridContextmenuArgs, setContextmenu } from './ids-data-grid-contextmenu.ts';
+import { IdsDataGridColumn, IdsDataGridColumnGroup } from './ids-data-grid-column.ts';
 
-import IdsPopupMenu from '../ids-popup-menu/ids-popup-menu';
+import IdsPopupMenu from '../ids-popup-menu/ids-popup-menu.ts';
 import {
   IdsDataGridEmptyMessageElements,
   setEmptyMessage,
@@ -20,26 +20,26 @@ import {
   hideEmptyMessage,
   IdsDataGridToggleEmptyMessage,
   emptyMessageTemplate,
-} from './ids-data-grid-empty-message';
+} from './ids-data-grid-empty-message.ts';
 
 // Styles
 import styles from './ids-data-grid.scss';
 
 // Sub Components
-import IdsDataGridHeader from './ids-data-grid-header';
-import IdsDataGridRow from './ids-data-grid-row';
-import '../ids-virtual-scroll/ids-virtual-scroll';
+import IdsDataGridHeader from './ids-data-grid-header.ts';
+import IdsDataGridRow from './ids-data-grid-row.ts';
+import '../ids-virtual-scroll/ids-virtual-scroll.ts';
 
 // Mixins
-import IdsElement from '../../core/ids-element';
-import IdsEventsMixin from '../../mixins/ids-events-mixin/ids-events-mixin';
-import IdsThemeMixin from '../../mixins/ids-theme-mixin/ids-theme-mixin';
-import IdsKeyboardMixin from '../../mixins/ids-keyboard-mixin/ids-keyboard-mixin';
-import IdsLocaleMixin from '../../mixins/ids-locale-mixin/ids-locale-mixin';
-import IdsPagerMixin from '../../mixins/ids-pager-mixin/ids-pager-mixin';
-import IdsDataGridSaveSettingsMixin from './ids-data-grid-save-settings-mixin';
-import IdsDataGridTooltipMixin from './ids-data-grid-tooltip-mixin';
-import IdsDataGridCell from './ids-data-grid-cell';
+import IdsElement from '../../core/ids-element.ts';
+import IdsEventsMixin from '../../mixins/ids-events-mixin/ids-events-mixin.ts';
+import IdsThemeMixin from '../../mixins/ids-theme-mixin/ids-theme-mixin.ts';
+import IdsKeyboardMixin from '../../mixins/ids-keyboard-mixin/ids-keyboard-mixin.ts';
+import IdsLocaleMixin from '../../mixins/ids-locale-mixin/ids-locale-mixin.ts';
+import IdsPagerMixin from '../../mixins/ids-pager-mixin/ids-pager-mixin.ts';
+import IdsDataGridSaveSettingsMixin from './ids-data-grid-save-settings-mixin.ts';
+import IdsDataGridTooltipMixin from './ids-data-grid-tooltip-mixin.ts';
+import IdsDataGridCell from './ids-data-grid-cell.ts';
 
 const Base = IdsThemeMixin(
   IdsPagerMixin(

@@ -1,6 +1,6 @@
-import { attributes } from '../../core/ids-attributes';
-import { IdsConstructor } from '../../core/ids-element';
-import { stripTags } from '../../utils/ids-xss-utils/ids-xss-utils';
+import { attributes } from '../../core/ids-attributes.ts';
+import { IdsConstructor } from '../../core/ids-element.ts';
+import { stripTags } from '../../utils/ids-xss-utils/ids-xss-utils.ts';
 
 interface OrientationHandler {
   onOrientationRefresh?(): void;

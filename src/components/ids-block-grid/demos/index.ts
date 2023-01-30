@@ -1,10 +1,10 @@
 // Supporting components
-import '../ids-block-grid';
+import '../ids-block-grid.ts';
 // Listing Page
-import '../../ids-demo-app/ids-demo-listing';
+import '../../ids-demo-app/ids-demo-listing.ts';
 import indexYaml from './index.yaml';
 
-import placeHolderImg from '../../../assets/images/placeholder-200x200.png';
+import placeHolderImg from '../../../assets/images/placeholder-200x200.png.ts';
 
 // Images
 const images = document.querySelectorAll('img');

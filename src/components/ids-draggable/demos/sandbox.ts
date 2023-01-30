@@ -1,4 +1,4 @@
-import css from '../../../assets/css/ids-draggable/index.css';
+import css from '../../../assets/css/ids-draggable/index.css.ts';
 
 const cssLink = `<link href="${css}" rel="stylesheet">`;
 const head = document.querySelector('head');

@@ -1,4 +1,4 @@
-import avatarPlaceholder from '../../../assets/images/avatar-placeholder.jpg';
+import avatarPlaceholder from '../../../assets/images/avatar-placeholder.jpg.ts';
 
 const avatarImg: any = window.document.getElementById('avatar');
 avatarImg.src = avatarPlaceholder;

@@ -1,10 +1,10 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import Base from './ids-process-indicator-base';
-import './ids-process-indicator-step';
-import '../ids-alert/ids-alert';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import Base from './ids-process-indicator-base.ts';
+import './ids-process-indicator-step.ts';
+import '../ids-alert/ids-alert.ts';
 
 import styles from './ids-process-indicator.scss';
-import type IdsProcessStep from './ids-process-indicator-step';
+import type IdsProcessStep from './ids-process-indicator-step.ts';
 
 /**
  * IDS Process Indicator Component

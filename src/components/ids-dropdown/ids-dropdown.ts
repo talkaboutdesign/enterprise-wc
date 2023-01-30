@@ -1,23 +1,23 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import Base from './ids-dropdown-base';
-import '../ids-trigger-field/ids-trigger-field';
-import '../ids-trigger-field/ids-trigger-button';
-import '../ids-input/ids-input';
-import '../ids-popup/ids-popup';
-import '../ids-list-box/ids-list-box';
-import '../ids-text/ids-text';
-import '../ids-icon/ids-icon';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import Base from './ids-dropdown-base.ts';
+import '../ids-trigger-field/ids-trigger-field.ts';
+import '../ids-trigger-field/ids-trigger-button.ts';
+import '../ids-input/ids-input.ts';
+import '../ids-popup/ids-popup.ts';
+import '../ids-list-box/ids-list-box.ts';
+import '../ids-text/ids-text.ts';
+import '../ids-icon/ids-icon.ts';
 
 import styles from './ids-dropdown.scss';
-import type IdsPopup from '../ids-popup/ids-popup';
-import type IdsTriggerButton from '../ids-trigger-field/ids-trigger-button';
-import type IdsListBox from '../ids-list-box/ids-list-box';
-import type IdsTriggerField from '../ids-trigger-field/ids-trigger-field';
-import type IdsListBoxOption from '../ids-list-box/ids-list-box-option';
-import type IdsIcon from '../ids-icon/ids-icon';
-import { IdsPopupElementRef } from '../ids-popup/ids-popup-attributes';
+import type IdsPopup from '../ids-popup/ids-popup.ts';
+import type IdsTriggerButton from '../ids-trigger-field/ids-trigger-button.ts';
+import type IdsListBox from '../ids-list-box/ids-list-box.ts';
+import type IdsTriggerField from '../ids-trigger-field/ids-trigger-field.ts';
+import type IdsListBoxOption from '../ids-list-box/ids-list-box-option.ts';
+import type IdsIcon from '../ids-icon/ids-icon.ts';
+import { IdsPopupElementRef } from '../ids-popup/ids-popup-attributes.ts';
 
 export type IdsDropdownOption = {
   id?: string,

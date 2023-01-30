@@ -1,7 +1,7 @@
-import IdsThemeMixin from '../../mixins/ids-theme-mixin/ids-theme-mixin';
-import IdsKeyboardMixin from '../../mixins/ids-keyboard-mixin/ids-keyboard-mixin';
-import IdsEventsMixin from '../../mixins/ids-events-mixin/ids-events-mixin';
-import IdsElement from '../../core/ids-element';
+import IdsThemeMixin from '../../mixins/ids-theme-mixin/ids-theme-mixin.ts';
+import IdsKeyboardMixin from '../../mixins/ids-keyboard-mixin/ids-keyboard-mixin.ts';
+import IdsEventsMixin from '../../mixins/ids-events-mixin/ids-events-mixin.ts';
+import IdsElement from '../../core/ids-element.ts';
 
 const Base = IdsThemeMixin(
   IdsKeyboardMixin(

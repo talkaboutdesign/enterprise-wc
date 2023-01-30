@@ -1,12 +1,12 @@
-import '../../ids-text/ids-text';
-import '../../ids-header/ids-header';
+import '../../ids-text/ids-text.ts';
+import '../../ids-header/ids-header.ts';
 
-import '../ids-tabs';
-import '../ids-tab';
-import '../ids-tab-content';
-import '../ids-tabs-context';
-import '../ids-tab-divider';
-import '../../ids-toolbar/ids-toolbar';
+import '../ids-tabs.ts';
+import '../ids-tab.ts';
+import '../ids-tab-content.ts';
+import '../ids-tabs-context.ts';
+import '../ids-tab-divider.ts';
+import '../../ids-toolbar/ids-toolbar.ts';
 
 document.addEventListener('DOMContentLoaded', () => {
   const tabElements = [...document.querySelectorAll('ids-tabs')];

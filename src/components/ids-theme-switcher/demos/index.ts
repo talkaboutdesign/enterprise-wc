@@ -1,3 +1,3 @@
 // Supporting components
-import '../ids-theme-switcher';
-import '../../ids-tag/ids-tag';
+import '../ids-theme-switcher.ts';
+import '../../ids-tag/ids-tag.ts';

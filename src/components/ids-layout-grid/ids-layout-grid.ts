@@ -1,5 +1,5 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
 import {
   fluidGridClass,
   fluidGridXlClass,
@@ -7,10 +7,10 @@ import {
   colsGridClass,
   rowsClass,
   noMarginsClass
-} from './ids-layout-grid-attributes';
+} from './ids-layout-grid-attributes.ts';
 
-import Base from './ids-layout-grid-base';
-import './ids-layout-grid-cell';
+import Base from './ids-layout-grid-base.ts';
+import './ids-layout-grid-cell.ts';
 
 import styles from './ids-layout-grid.scss';
 

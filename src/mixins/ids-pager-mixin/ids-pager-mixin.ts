@@ -1,12 +1,12 @@
-import { attributes } from '../../core/ids-attributes';
-import IdsDataSource from '../../core/ids-data-source';
+import { attributes } from '../../core/ids-attributes.ts';
+import IdsDataSource from '../../core/ids-data-source.ts';
 
-import '../../components/ids-pager/ids-pager';
-import '../../components/ids-button/ids-button';
-import '../../components/ids-menu-button/ids-menu-button';
-import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin';
-import { IdsConstructor } from '../../core/ids-element';
-import type IdsPager from '../../components/ids-pager/ids-pager';
+import '../../components/ids-pager/ids-pager.ts';
+import '../../components/ids-button/ids-button.ts';
+import '../../components/ids-menu-button/ids-menu-button.ts';
+import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin.ts';
+import { IdsConstructor } from '../../core/ids-element.ts';
+import type IdsPager from '../../components/ids-pager/ids-pager.ts';
 
 const PAGINATION_TYPES = {
   NONE: 'none',

@@ -1,6 +1,6 @@
-import '../../ids-masthead/ids-masthead';
-import '../../ids-header/ids-header';
-import css from '../../../assets/css/ids-layout-grid/homepages-example.css';
+import '../../ids-masthead/ids-masthead.ts';
+import '../../ids-header/ids-header.ts';
+import css from '../../../assets/css/ids-layout-grid/homepages-example.css.ts';
 
 const mediaQueryMd = window.matchMedia('(max-width: 1546px)');
 const gridCell2: any = document.getElementById('grid-cell-2');

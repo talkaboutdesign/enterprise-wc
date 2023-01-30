@@ -1,21 +1,21 @@
-import { attributes } from '../../core/ids-attributes';
-import { customElement, scss } from '../../core/ids-decorators';
+import { attributes } from '../../core/ids-attributes.ts';
+import { customElement, scss } from '../../core/ids-decorators.ts';
 
-import Base from './ids-lookup-base';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
+import Base from './ids-lookup-base.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
-import '../ids-trigger-field/ids-trigger-field';
-import '../ids-modal/ids-modal';
-import '../ids-data-grid/ids-data-grid';
+import '../ids-trigger-field/ids-trigger-field.ts';
+import '../ids-modal/ids-modal.ts';
+import '../ids-data-grid/ids-data-grid.ts';
 
 import styles from './ids-lookup.scss';
-import type IdsTriggerField from '../ids-trigger-field/ids-trigger-field';
-import type IdsTriggerButton from '../ids-trigger-field/ids-trigger-button';
-import type IdsDataGrid from '../ids-data-grid/ids-data-grid';
-import type IdsModal from '../ids-modal/ids-modal';
-import type IdsText from '../ids-text/ids-text';
-import { IdsPopupElementRef } from '../ids-popup/ids-popup-attributes';
-import { IdsDataGridColumn } from '../ids-data-grid/ids-data-grid-column';
+import type IdsTriggerField from '../ids-trigger-field/ids-trigger-field.ts';
+import type IdsTriggerButton from '../ids-trigger-field/ids-trigger-button.ts';
+import type IdsDataGrid from '../ids-data-grid/ids-data-grid.ts';
+import type IdsModal from '../ids-modal/ids-modal.ts';
+import type IdsText from '../ids-text/ids-text.ts';
+import { IdsPopupElementRef } from '../ids-popup/ids-popup-attributes.ts';
+import { IdsDataGridColumn } from '../ids-data-grid/ids-data-grid-column.ts';
 
 /**
  * IDS Lookup Component

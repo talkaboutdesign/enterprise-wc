@@ -1,4 +1,4 @@
-import { appendStyleSheets } from '../../../../scripts/append-stylesheets';
+import { appendStyleSheets } from '../../../../scripts/append-stylesheets.ts';
 import toolbarStyles from '../ids-toolbar.scss';
 import toolbarSectionStyles from '../ids-toolbar-section.scss';
 import layoutStyles from '../../ids-layout-grid/ids-layout-grid.scss';

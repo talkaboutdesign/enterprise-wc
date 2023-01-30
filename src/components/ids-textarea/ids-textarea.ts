@@ -1,12 +1,12 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
-import Base from './ids-textarea-base';
+import Base from './ids-textarea-base.ts';
 
-import '../ids-icon/ids-icon';
-import '../ids-text/ids-text';
-import '../ids-trigger-field/ids-trigger-field';
+import '../ids-icon/ids-icon.ts';
+import '../ids-text/ids-text.ts';
+import '../ids-trigger-field/ids-trigger-field.ts';
 
 import styles from './ids-textarea.scss';
 

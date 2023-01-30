@@ -1,4 +1,4 @@
-import { camelCase, stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
+import { camelCase, stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
 /**
  * Shared in between tree.

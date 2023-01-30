@@ -1,5 +1,5 @@
-import IdsTab from './ids-tab';
-import IdsLocaleMixin from '../../mixins/ids-locale-mixin/ids-locale-mixin';
+import IdsTab from './ids-tab.ts';
+import IdsLocaleMixin from '../../mixins/ids-locale-mixin/ids-locale-mixin.ts';
 
 const Base = IdsLocaleMixin(IdsTab);
 

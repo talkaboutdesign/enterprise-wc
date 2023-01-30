@@ -1,11 +1,11 @@
-import { attributes } from '../../core/ids-attributes';
-import { customElement, scss } from '../../core/ids-decorators';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
+import { attributes } from '../../core/ids-attributes.ts';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
-import Base from './ids-tooltip-base';
+import Base from './ids-tooltip-base.ts';
 import styles from './ids-tooltip.scss';
-import type IdsPopup from '../ids-popup/ids-popup';
-import '../ids-popup/ids-popup';
+import type IdsPopup from '../ids-popup/ids-popup.ts';
+import '../ids-popup/ids-popup.ts';
 
 /**
  * IDS Tooltip Component

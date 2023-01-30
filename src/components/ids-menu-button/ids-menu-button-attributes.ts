@@ -1,5 +1,5 @@
 // Import Core
-import { attributes } from '../../core/ids-attributes';
+import { attributes } from '../../core/ids-attributes.ts';
 
 // Property names
 const MENU_BUTTON_ATTRIBUTES = [

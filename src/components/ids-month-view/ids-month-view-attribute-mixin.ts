@@ -1,7 +1,7 @@
-import { attributes } from '../../core/ids-attributes';
-import { deepClone } from '../../utils/ids-deep-clone-utils/ids-deep-clone-utils';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import { IdsConstructor } from '../../core/ids-element';
+import { attributes } from '../../core/ids-attributes.ts';
+import { deepClone } from '../../utils/ids-deep-clone-utils/ids-deep-clone-utils.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { IdsConstructor } from '../../core/ids-element.ts';
 
 import type {
   IdsRangeSettings,
@@ -9,7 +9,7 @@ import type {
   IdsLegend,
   IdsLegendSettings,
   IdsDisableSettings
-} from './ids-month-view-common';
+} from './ids-month-view-common.ts';
 
 export interface MonthViewAttributeMixinInterface {
   // as instance functions

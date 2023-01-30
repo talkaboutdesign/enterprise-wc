@@ -1,3 +1,3 @@
 // Supporting components
-import '../ids-pager';
-import '../../ids-data-grid/ids-data-grid';
+import '../ids-pager.ts';
+import '../../ids-data-grid/ids-data-grid.ts';

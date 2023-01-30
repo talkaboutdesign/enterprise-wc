@@ -1,1 +1,1 @@
-import '../ids-tag';
+import '../ids-tag.ts';

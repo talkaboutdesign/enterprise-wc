@@ -1,16 +1,16 @@
 import {
   customElement,
   scss,
-} from '../../core/ids-decorators';
+} from '../../core/ids-decorators.ts';
 
-import { attributes } from '../../core/ids-attributes';
-import Base from './ids-swaplist-base';
-import IdsDataSource from '../../core/ids-data-source';
-import { injectTemplate } from '../../utils/ids-string-utils/ids-string-utils';
-import '../ids-card/ids-card';
-import '../ids-button/ids-button';
-import '../ids-list-view/ids-list-view';
-import '../ids-swappable/ids-swappable';
+import { attributes } from '../../core/ids-attributes.ts';
+import Base from './ids-swaplist-base.ts';
+import IdsDataSource from '../../core/ids-data-source.ts';
+import { injectTemplate } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import '../ids-card/ids-card.ts';
+import '../ids-button/ids-button.ts';
+import '../ids-list-view/ids-list-view.ts';
+import '../ids-swappable/ids-swappable.ts';
 
 import styles from './ids-swaplist.scss';
 

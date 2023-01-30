@@ -1,8 +1,8 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import IdsDataSource from '../../core/ids-data-source';
-import IdsBlockGridItem from './ids-block-grid-item';
-import Base from './ids-block-grid-base';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import IdsDataSource from '../../core/ids-data-source.ts';
+import IdsBlockGridItem from './ids-block-grid-item.ts';
+import Base from './ids-block-grid-base.ts';
 
 import styles from './ids-block-grid.scss';
 

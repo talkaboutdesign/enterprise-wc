@@ -1,4 +1,4 @@
-import '../ids-time-picker';
+import '../ids-time-picker.ts';
 
 // Initialize the 4.x
 document.addEventListener('DOMContentLoaded', () => {

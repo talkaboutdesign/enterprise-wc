@@ -1,2 +1,2 @@
 // Supporting components
-import '../ids-list-builder';
+import '../ids-list-builder.ts';

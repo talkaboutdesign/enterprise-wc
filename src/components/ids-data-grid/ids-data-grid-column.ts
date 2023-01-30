@@ -1,4 +1,4 @@
-import { IdsDataGridEditor } from './ids-data-grid-editors';
+import { IdsDataGridEditor } from './ids-data-grid-editors.ts';
 
 export interface IdsDataGridColumnFormatOptions {
   /* Set the style of the number fx integer */

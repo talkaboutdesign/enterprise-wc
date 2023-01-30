@@ -2,9 +2,9 @@ import {
   sanitizeHTML,
   stripHTML,
   stripTags
-} from '../../utils/ids-xss-utils/ids-xss-utils';
-import { attributes } from '../../core/ids-attributes';
-import { IdsBaseConstructor } from '../../core/ids-element';
+} from '../../utils/ids-xss-utils/ids-xss-utils.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { IdsBaseConstructor } from '../../core/ids-element.ts';
 
 const IdsXssMixin = <T extends IdsBaseConstructor>(superclass: T) => class extends superclass {
   constructor(...args: any[]) {

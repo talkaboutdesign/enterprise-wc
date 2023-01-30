@@ -1,16 +1,16 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import { getClosestContainerNode } from '../../utils/ids-dom-utils/ids-dom-utils';
-import { stripTags } from '../../utils/ids-xss-utils/ids-xss-utils';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { getClosestContainerNode } from '../../utils/ids-dom-utils/ids-dom-utils.ts';
+import { stripTags } from '../../utils/ids-xss-utils/ids-xss-utils.ts';
 
-import './ids-toolbar-section';
-import './ids-toolbar-more-actions';
+import './ids-toolbar-section.ts';
+import './ids-toolbar-more-actions.ts';
 
-import Base from './ids-toolbar-base';
+import Base from './ids-toolbar-base.ts';
 
 import styles from './ids-toolbar.scss';
-import type IdsToolbarMoreActions from './ids-toolbar-more-actions';
+import type IdsToolbarMoreActions from './ids-toolbar-more-actions.ts';
 
 const FORMATTER_VARIANT = 'alternate-formatter';
 

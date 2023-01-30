@@ -1,11 +1,11 @@
-import IdsEventsMixin from '../../mixins/ids-events-mixin/ids-events-mixin';
-import IdsColorVariantMixin from '../../mixins/ids-color-variant-mixin/ids-color-variant-mixin';
-import IdsLocaleMixin from '../../mixins/ids-locale-mixin/ids-locale-mixin';
-import IdsThemeMixin from '../../mixins/ids-theme-mixin/ids-theme-mixin';
-import IdsTooltipMixin from '../../mixins/ids-tooltip-mixin/ids-tooltip-mixin';
-import IdsRippleMixin from '../../mixins/ids-ripple-mixin/ids-ripple-mixin';
-import IdsHideFocusMixin from '../../mixins/ids-hide-focus-mixin/ids-hide-focus-mixin';
-import IdsElement from '../../core/ids-element';
+import IdsEventsMixin from '../../mixins/ids-events-mixin/ids-events-mixin.ts';
+import IdsColorVariantMixin from '../../mixins/ids-color-variant-mixin/ids-color-variant-mixin.ts';
+import IdsLocaleMixin from '../../mixins/ids-locale-mixin/ids-locale-mixin.ts';
+import IdsThemeMixin from '../../mixins/ids-theme-mixin/ids-theme-mixin.ts';
+import IdsTooltipMixin from '../../mixins/ids-tooltip-mixin/ids-tooltip-mixin.ts';
+import IdsRippleMixin from '../../mixins/ids-ripple-mixin/ids-ripple-mixin.ts';
+import IdsHideFocusMixin from '../../mixins/ids-hide-focus-mixin/ids-hide-focus-mixin.ts';
+import IdsElement from '../../core/ids-element.ts';
 
 const Base = IdsTooltipMixin(
   IdsThemeMixin(

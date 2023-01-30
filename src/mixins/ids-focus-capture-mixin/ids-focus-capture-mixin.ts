@@ -1,11 +1,11 @@
 // Import Core
-import { attributes } from '../../core/ids-attributes';
+import { attributes } from '../../core/ids-attributes.ts';
 
 // Import Utils
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import { getClosestContainerNode } from '../../utils/ids-dom-utils/ids-dom-utils';
-import { IdsConstructor } from '../../core/ids-element';
-import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { getClosestContainerNode } from '../../utils/ids-dom-utils/ids-dom-utils.ts';
+import { IdsConstructor } from '../../core/ids-element.ts';
+import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin.ts';
 
 const FOCUS_CAPTURE_EVENTNAME = 'keydown.focus-capture';
 

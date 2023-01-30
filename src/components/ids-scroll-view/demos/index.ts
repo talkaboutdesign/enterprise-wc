@@ -1,2 +1,2 @@
 // Supporting components
-import '../ids-scroll-view';
+import '../ids-scroll-view.ts';

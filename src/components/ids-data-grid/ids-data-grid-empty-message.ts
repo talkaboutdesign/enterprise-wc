@@ -1,8 +1,8 @@
-import '../ids-empty-message/ids-empty-message';
-import type IdsEmptyMessage from '../ids-empty-message/ids-empty-message';
-import type IdsText from '../ids-text/ids-text';
-import type IdsVirtualScroll from '../ids-virtual-scroll/ids-virtual-scroll';
-import type IdsDataGrid from './ids-data-grid';
+import '../ids-empty-message/ids-empty-message.ts';
+import type IdsEmptyMessage from '../ids-empty-message/ids-empty-message.ts';
+import type IdsText from '../ids-text/ids-text.ts';
+import type IdsVirtualScroll from '../ids-virtual-scroll/ids-virtual-scroll.ts';
+import type IdsDataGrid from './ids-data-grid.ts';
 
 /**
  * Empty message elements interface.

@@ -1,15 +1,15 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
-import Base from './ids-upload-base';
-import '../ids-trigger-field/ids-trigger-field';
-import '../ids-trigger-field/ids-trigger-button';
-import '../ids-text/ids-text';
-import '../ids-icon/ids-icon';
+import Base from './ids-upload-base.ts';
+import '../ids-trigger-field/ids-trigger-field.ts';
+import '../ids-trigger-field/ids-trigger-button.ts';
+import '../ids-text/ids-text.ts';
+import '../ids-icon/ids-icon.ts';
 
 import styles from './ids-upload.scss';
-import type IdsTriggerButton from '../ids-trigger-field/ids-trigger-button';
+import type IdsTriggerButton from '../ids-trigger-field/ids-trigger-button.ts';
 
 // Input id
 const ID = 'ids-upload-id';

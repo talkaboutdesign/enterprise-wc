@@ -1,15 +1,15 @@
-import '../ids-list-view';
+import '../ids-list-view.ts';
 import productsJSON from '../../../assets/data/products-100.json';
 
 // Supporting components
-import '../../ids-badge/ids-badge';
-import '../../ids-card/ids-card';
-import '../../ids-hyperlink/ids-hyperlink';
-import '../../ids-image/ids-image';
-import '../../ids-layout-flex/ids-layout-flex';
-import '../../ids-hidden/ids-hidden';
-import IdsImg10 from '../../../assets/images/10.jpg';
-import placeHolderImg154120 from '../../../assets/images/placeholder-154x120.png';
+import '../../ids-badge/ids-badge.ts';
+import '../../ids-card/ids-card.ts';
+import '../../ids-hyperlink/ids-hyperlink.ts';
+import '../../ids-image/ids-image.ts';
+import '../../ids-layout-flex/ids-layout-flex.ts';
+import '../../ids-hidden/ids-hidden.ts';
+import IdsImg10 from '../../../assets/images/10.jpg.ts';
+import placeHolderImg154120 from '../../../assets/images/placeholder-154x120.png.ts';
 
 // Add total price to given data (helper method)
 const totalPrice = (data: any) => data.map(

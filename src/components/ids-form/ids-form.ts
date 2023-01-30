@@ -1,9 +1,9 @@
-import { customElement } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
+import { customElement } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
-import Base from './ids-form-base';
-import { FIELD_HEIGHTS } from '../../mixins/ids-field-height-mixin/ids-field-height-mixin';
+import Base from './ids-form-base.ts';
+import { FIELD_HEIGHTS } from '../../mixins/ids-field-height-mixin/ids-field-height-mixin.ts';
 
 /**
  * IDS Form Component

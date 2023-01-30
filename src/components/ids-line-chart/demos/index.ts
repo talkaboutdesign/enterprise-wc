@@ -1,1 +1,1 @@
-import '../ids-line-chart';
+import '../ids-line-chart.ts';

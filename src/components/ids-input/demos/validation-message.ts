@@ -1,7 +1,7 @@
 // Supporting components
-import '../ids-input';
-import '../../ids-radio/ids-radio';
-import '../../ids-button/ids-button';
+import '../ids-input.ts';
+import '../../ids-radio/ids-radio.ts';
+import '../../ids-button/ids-button.ts';
 
 document.addEventListener('DOMContentLoaded', () => {
   const btnAddMessages: any = document.querySelector('#btn-add-messages');

@@ -1,8 +1,8 @@
-import IdsImg10 from '../../../assets/images/10.jpg';
-import placeHolderImg6060 from '../../../assets/images/placeholder-60x60.png';
-import placeHolderImg154120 from '../../../assets/images/placeholder-154x120.png';
-import placeHolderImg300350 from '../../../assets/images/placeholder-300x350.png';
-import placeholderImg500200 from '../../../assets/images/placeholder-500x200.png';
+import IdsImg10 from '../../../assets/images/10.jpg.ts';
+import placeHolderImg6060 from '../../../assets/images/placeholder-60x60.png.ts';
+import placeHolderImg154120 from '../../../assets/images/placeholder-154x120.png.ts';
+import placeHolderImg300350 from '../../../assets/images/placeholder-300x350.png.ts';
+import placeholderImg500200 from '../../../assets/images/placeholder-500x200.png.ts';
 
 const idsImgClass10 = window.document.getElementsByClassName('ids-img-10');
 [...idsImgClass10].forEach((element: any) => {

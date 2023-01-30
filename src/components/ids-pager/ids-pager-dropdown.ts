@@ -1,13 +1,13 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-// import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+// import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
 // Import Utils
-import Base from './ids-pager-dropdown-base';
+import Base from './ids-pager-dropdown-base.ts';
 
-import './ids-pager-button';
-import './ids-pager-input';
-import './ids-pager-number-list';
+import './ids-pager-button.ts';
+import './ids-pager-input.ts';
+import './ids-pager-number-list.ts';
 
 import styles from './ids-pager.scss';
 

@@ -1,2 +1,2 @@
 // Supporting components
-import '../ids-alert';
+import '../ids-alert.ts';

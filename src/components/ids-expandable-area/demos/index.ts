@@ -1,6 +1,6 @@
 // Supporting components
-import '../ids-expandable-area';
-import '../../ids-input/ids-input';
-import '../../ids-toggle-button/ids-toggle-button';
-import '../../ids-icon/ids-icon';
-import '../../ids-hyperlink/ids-hyperlink';
+import '../ids-expandable-area.ts';
+import '../../ids-input/ids-input.ts';
+import '../../ids-toggle-button/ids-toggle-button.ts';
+import '../../ids-icon/ids-icon.ts';
+import '../../ids-hyperlink/ids-hyperlink.ts';

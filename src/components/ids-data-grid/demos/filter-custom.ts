@@ -1,11 +1,11 @@
-import type IdsDataGrid from '../ids-data-grid';
-import '../ids-data-grid';
-import type { IdsDataGridColumn } from '../ids-data-grid-column';
-import '../../ids-popup-menu/ids-popup-menu';
-import '../../ids-container/ids-container';
-import '../../ids-button/ids-button';
-import '../../ids-layout-flex/ids-layout-flex';
-import IdsInput from '../../ids-input/ids-input';
+import type IdsDataGrid from '../ids-data-grid.ts';
+import '../ids-data-grid.ts';
+import type { IdsDataGridColumn } from '../ids-data-grid-column.ts';
+import '../../ids-popup-menu/ids-popup-menu.ts';
+import '../../ids-container/ids-container.ts';
+import '../../ids-button/ids-button.ts';
+import '../../ids-layout-flex/ids-layout-flex.ts';
+import IdsInput from '../../ids-input/ids-input.ts';
 import productsJSON from '../../../assets/data/products.json';
 
 // Example for populating the DataGrid

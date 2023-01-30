@@ -1,4 +1,4 @@
-import IdsElement from '../../core/ids-element';
+import IdsElement from '../../core/ids-element.ts';
 
 const Base = IdsElement;
 

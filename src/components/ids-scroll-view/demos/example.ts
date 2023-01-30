@@ -1,9 +1,9 @@
-import camera1 from '../../../assets/images/camera-1.png';
-import camera2 from '../../../assets/images/camera-2.png';
-import camera3 from '../../../assets/images/camera-3.png';
-import camera4 from '../../../assets/images/camera-4.png';
-import camera5 from '../../../assets/images/camera-5.png';
-import camera6 from '../../../assets/images/camera-6.png';
+import camera1 from '../../../assets/images/camera-1.png.ts';
+import camera2 from '../../../assets/images/camera-2.png.ts';
+import camera3 from '../../../assets/images/camera-3.png.ts';
+import camera4 from '../../../assets/images/camera-4.png.ts';
+import camera5 from '../../../assets/images/camera-5.png.ts';
+import camera6 from '../../../assets/images/camera-6.png.ts';
 
 const camera1Img: any = window.document.getElementsByClassName('camera-1')[0];
 const camera2Img: any = window.document.getElementsByClassName('camera-2')[0];

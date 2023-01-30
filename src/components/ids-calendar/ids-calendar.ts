@@ -1,26 +1,26 @@
-import Base from './ids-calendar-base';
-import { CalendarEventData, CalendarEventTypeData } from './ids-calendar-event';
-import IdsDatePickerPopup from '../ids-date-picker/ids-date-picker-popup';
-import IdsMonthView from '../ids-month-view/ids-month-view';
-import IdsWeekView from '../ids-week-view/ids-week-view';
-import IdsCheckbox from '../ids-checkbox/ids-checkbox';
-import '../ids-toolbar/ids-toolbar';
-import IdsToolbarSection from '../ids-toolbar/ids-toolbar-section';
+import Base from './ids-calendar-base.ts';
+import { CalendarEventData, CalendarEventTypeData } from './ids-calendar-event.ts';
+import IdsDatePickerPopup from '../ids-date-picker/ids-date-picker-popup.ts';
+import IdsMonthView from '../ids-month-view/ids-month-view.ts';
+import IdsWeekView from '../ids-week-view/ids-week-view.ts';
+import IdsCheckbox from '../ids-checkbox/ids-checkbox.ts';
+import '../ids-toolbar/ids-toolbar.ts';
+import IdsToolbarSection from '../ids-toolbar/ids-toolbar-section.ts';
 import styles from './ids-calendar.scss';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import { attributes } from '../../core/ids-attributes';
-import { customElement, scss } from '../../core/ids-decorators';
-import { breakpoints } from '../../utils/ids-breakpoint-utils/ids-breakpoint-utils';
-import IdsPopup from '../ids-popup/ids-popup';
-import { getClosest } from '../../utils/ids-dom-utils/ids-dom-utils';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { breakpoints } from '../../utils/ids-breakpoint-utils/ids-breakpoint-utils.ts';
+import IdsPopup from '../ids-popup/ids-popup.ts';
+import { getClosest } from '../../utils/ids-dom-utils/ids-dom-utils.ts';
 import {
   dateDiff,
   firstDayOfWeekDate,
   isValidDate,
   lastDayOfWeekDate,
   subtractDate
-} from '../../utils/ids-date-utils/ids-date-utils';
-import IdsLocale from '../ids-locale/ids-locale';
+} from '../../utils/ids-date-utils/ids-date-utils.ts';
+import IdsLocale from '../ids-locale/ids-locale.ts';
 
 type CalendarEventDetail = {
   id: string;

@@ -1,17 +1,17 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
-import Base from './ids-tree-node-base';
+import Base from './ids-tree-node-base.ts';
 
-import IdsTreeShared from './ids-tree-shared';
-import '../ids-badge/ids-badge';
-import '../ids-text/ids-text';
-import '../ids-checkbox/ids-checkbox';
+import IdsTreeShared from './ids-tree-shared.ts';
+import '../ids-badge/ids-badge.ts';
+import '../ids-text/ids-text.ts';
+import '../ids-checkbox/ids-checkbox.ts';
 
 import styles from './ids-tree-node.scss';
-import type IdsTree from './ids-tree';
-import type IdsCheckbox from '../ids-checkbox/ids-checkbox';
+import type IdsTree from './ids-tree.ts';
+import type IdsCheckbox from '../ids-checkbox/ids-checkbox.ts';
 
 /**
  * IDS Tree Node Component

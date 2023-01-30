@@ -1,23 +1,23 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes, htmlAttributes } from '../../core/ids-attributes';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes, htmlAttributes } from '../../core/ids-attributes.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
-import Base from './ids-button-base';
+import Base from './ids-button-base.ts';
 import {
   BUTTON_TYPES,
   BUTTON_DEFAULTS,
   BUTTON_ATTRIBUTES,
   ICON_ALIGN_CLASSNAMES,
   baseProtoClasses
-} from './ids-button-common';
+} from './ids-button-common.ts';
 import type {
   IdsButtonIconAlignment,
   IdsButtonType
-} from './ids-button-common';
+} from './ids-button-common.ts';
 
 import styles from './ids-button.scss';
-import type IdsIcon from '../ids-icon/ids-icon';
-import type IdsText from '../ids-text/ids-text';
+import type IdsIcon from '../ids-icon/ids-icon.ts';
+import type IdsText from '../ids-text/ids-text.ts';
 
 /**
  * IDS Button Component

@@ -1,11 +1,11 @@
-import type IdsDataGrid from '../ids-data-grid';
-import type IdsPopupMenu from '../../ids-popup-menu/ids-popup-menu';
-import type IdsMenuItem from '../../ids-menu/ids-menu-item';
-import '../ids-data-grid';
-import type { IdsDataGridColumn } from '../ids-data-grid-column';
-import { escapeHTML } from '../../../utils/ids-xss-utils/ids-xss-utils';
+import type IdsDataGrid from '../ids-data-grid.ts';
+import type IdsPopupMenu from '../../ids-popup-menu/ids-popup-menu.ts';
+import type IdsMenuItem from '../../ids-menu/ids-menu-item.ts';
+import '../ids-data-grid.ts';
+import type { IdsDataGridColumn } from '../ids-data-grid-column.ts';
+import { escapeHTML } from '../../../utils/ids-xss-utils/ids-xss-utils.ts';
 import booksJSON from '../../../assets/data/books.json';
-import css from '../../../assets/css/ids-data-grid/custom-link.css';
+import css from '../../../assets/css/ids-data-grid/custom-link.css.ts';
 
 const cssLink = `<link href="${css}" rel="stylesheet">`;
 document.querySelector('head')?.insertAdjacentHTML('afterbegin', cssLink);

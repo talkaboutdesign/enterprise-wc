@@ -1,0 +1,19 @@
+{
+  "imports": {
+    "std/": "https://deno.land/std@0.174.0/"
+  },
+  "tasks": {
+    "build": "deno bundle src/components/enterprise-wc.ts",
+    "dev": "deno run --watch=src/,test/ *.ts"
+  },
+  "compilerOptions": {
+    "allowJs": false,
+    "lib": ["deno.window"],
+    "checkJs": false,
+    "emitDecoratorMetadata": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "strict": true
+  }
+}

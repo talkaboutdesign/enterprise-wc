@@ -1,21 +1,21 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
 
-import '../ids-checkbox/ids-checkbox';
-import '../ids-dropdown/ids-dropdown';
-import Base from './ids-multiselect-base';
-import '../ids-tag/ids-tag';
-import '../ids-text/ids-text';
+import '../ids-checkbox/ids-checkbox.ts';
+import '../ids-dropdown/ids-dropdown.ts';
+import Base from './ids-multiselect-base.ts';
+import '../ids-tag/ids-tag.ts';
+import '../ids-text/ids-text.ts';
 
 // Import Sass to be encapsulated in the component shadowRoot
 import styles from './ids-multiselect.scss';
-import { stringToBool, stringToNumber, buildClassAttrib } from '../../utils/ids-string-utils/ids-string-utils';
+import { stringToBool, stringToNumber, buildClassAttrib } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
-import type { IdsDropdownOption, IdsDropdownOptions } from '../ids-dropdown/ids-dropdown';
-import type IdsTag from '../ids-tag/ids-tag';
-import type IdsIcon from '../ids-icon/ids-icon';
-import type IdsCheckbox from '../ids-checkbox/ids-checkbox';
-import type IdsText from '../ids-text/ids-text';
+import type { IdsDropdownOption, IdsDropdownOptions } from '../ids-dropdown/ids-dropdown.ts';
+import type IdsTag from '../ids-tag/ids-tag.ts';
+import type IdsIcon from '../ids-icon/ids-icon.ts';
+import type IdsCheckbox from '../ids-checkbox/ids-checkbox.ts';
+import type IdsText from '../ids-text/ids-text.ts';
 
 /**
  * IDS Multiselect Component

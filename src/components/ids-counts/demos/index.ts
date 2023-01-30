@@ -1,2 +1,2 @@
 // Supporting components
-import '../ids-counts';
+import '../ids-counts.ts';

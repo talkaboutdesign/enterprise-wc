@@ -1,2 +1,2 @@
 // Supporting components
-import '../ids-list-box';
+import '../ids-list-box.ts';

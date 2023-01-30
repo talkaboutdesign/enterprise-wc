@@ -1,2 +1,2 @@
 // IdsToast Example
-import '../ids-toast';
+import '../ids-toast.ts';

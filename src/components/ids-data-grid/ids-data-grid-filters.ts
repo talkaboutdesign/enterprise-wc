@@ -1,24 +1,24 @@
-import { attributes } from '../../core/ids-attributes';
-import { hasClass } from '../../utils/ids-dom-utils/ids-dom-utils';
-import { escapeHTML } from '../../utils/ids-xss-utils/ids-xss-utils';
-import type { IdsDataGridColumn } from './ids-data-grid-column';
-import IdsDataGridCell from './ids-data-grid-cell';
-import '../ids-menu-button/ids-menu-button';
-import '../ids-popup-menu/ids-popup-menu';
-import '../ids-popup/ids-popup';
-import '../ids-menu/ids-menu';
-import '../ids-menu/ids-menu-item';
-import '../ids-input/ids-input';
-import '../ids-dropdown/ids-dropdown';
-import '../ids-icon/ids-icon';
-import '../ids-trigger-field/ids-trigger-button';
-import '../ids-trigger-field/ids-trigger-field';
-import '../ids-date-picker/ids-date-picker-popup';
-import '../ids-time-picker/ids-time-picker';
+import { attributes } from '../../core/ids-attributes.ts';
+import { hasClass } from '../../utils/ids-dom-utils/ids-dom-utils.ts';
+import { escapeHTML } from '../../utils/ids-xss-utils/ids-xss-utils.ts';
+import type { IdsDataGridColumn } from './ids-data-grid-column.ts';
+import IdsDataGridCell from './ids-data-grid-cell.ts';
+import '../ids-menu-button/ids-menu-button.ts';
+import '../ids-popup-menu/ids-popup-menu.ts';
+import '../ids-popup/ids-popup.ts';
+import '../ids-menu/ids-menu.ts';
+import '../ids-menu/ids-menu-item.ts';
+import '../ids-input/ids-input.ts';
+import '../ids-dropdown/ids-dropdown.ts';
+import '../ids-icon/ids-icon.ts';
+import '../ids-trigger-field/ids-trigger-button.ts';
+import '../ids-trigger-field/ids-trigger-field.ts';
+import '../ids-date-picker/ids-date-picker-popup.ts';
+import '../ids-time-picker/ids-time-picker.ts';
 
-import type IdsMenuItem from '../ids-menu/ids-menu-item';
-import type IdsTriggerField from '../ids-trigger-field/ids-trigger-field';
-import type IdsDatePickerPopup from '../ids-date-picker/ids-date-picker-popup';
+import type IdsMenuItem from '../ids-menu/ids-menu-item.ts';
+import type IdsTriggerField from '../ids-trigger-field/ids-trigger-field.ts';
+import type IdsDatePickerPopup from '../ids-date-picker/ids-date-picker-popup.ts';
 
 // Instance counter
 let instanceCounter = 0;

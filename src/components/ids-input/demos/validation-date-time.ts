@@ -1,5 +1,5 @@
 // Supporting components
-import '../ids-input';
+import '../ids-input.ts';
 
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.e2e-input-mask')

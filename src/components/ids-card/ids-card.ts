@@ -1,12 +1,12 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import Base from './ids-card-base';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import Base from './ids-card-base.ts';
 
-import '../ids-checkbox/ids-checkbox';
+import '../ids-checkbox/ids-checkbox.ts';
 import styles from './ids-card.scss';
-import type IdsHyperlink from '../ids-hyperlink/ids-hyperlink';
-import type IdsCheckbox from '../ids-checkbox/ids-checkbox';
+import type IdsHyperlink from '../ids-hyperlink/ids-hyperlink.ts';
+import type IdsCheckbox from '../ids-checkbox/ids-checkbox.ts';
 
 /**
  * IDS Card Component

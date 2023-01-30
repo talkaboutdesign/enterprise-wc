@@ -1,5 +1,5 @@
 // Supporting components
-import { DIGITS_REGEX, EMPTY_STRING } from '../ids-mask-common';
+import { DIGITS_REGEX, EMPTY_STRING } from '../ids-mask-common.ts';
 
 document.addEventListener('DOMContentLoaded', () => {
   // Masked field with a prefix

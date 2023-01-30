@@ -1,10 +1,10 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
 import styles from './ids-data-label.scss';
-import IdsThemeMixin from '../../mixins/ids-theme-mixin/ids-theme-mixin';
-import IdsEventsMixin from '../../mixins/ids-events-mixin/ids-events-mixin';
-import IdsElement from '../../core/ids-element';
-import '../ids-text/ids-text';
+import IdsThemeMixin from '../../mixins/ids-theme-mixin/ids-theme-mixin.ts';
+import IdsEventsMixin from '../../mixins/ids-events-mixin/ids-events-mixin.ts';
+import IdsElement from '../../core/ids-element.ts';
+import '../ids-text/ids-text.ts';
 
 /**
  * IDS Data Label Component

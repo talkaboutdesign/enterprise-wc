@@ -1,17 +1,17 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import Base from './ids-breadcrumb-base';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import Base from './ids-breadcrumb-base.ts';
 import styles from './ids-breadcrumb.scss';
-import { attributes } from '../../core/ids-attributes';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
-import '../ids-hyperlink/ids-hyperlink';
-import '../ids-menu-button/ids-menu-button';
-import '../ids-menu/ids-menu-group';
-import '../ids-menu/ids-menu-item';
-import '../ids-popup-menu/ids-popup-menu';
-import type IdsMenuButton from '../ids-menu-button/ids-menu-button';
-import type IdsPopupMenu from '../ids-popup-menu/ids-popup-menu';
-import type IdsMenuGroup from '../ids-menu/ids-menu-group';
+import '../ids-hyperlink/ids-hyperlink.ts';
+import '../ids-menu-button/ids-menu-button.ts';
+import '../ids-menu/ids-menu-group.ts';
+import '../ids-menu/ids-menu-item.ts';
+import '../ids-popup-menu/ids-popup-menu.ts';
+import type IdsMenuButton from '../ids-menu-button/ids-menu-button.ts';
+import type IdsPopupMenu from '../ids-popup-menu/ids-popup-menu.ts';
+import type IdsMenuGroup from '../ids-menu/ids-menu-group.ts';
 
 /**
  * IDS Breadcrumb Component

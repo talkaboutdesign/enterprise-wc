@@ -1,2 +1,2 @@
 // Supporting components
-import '../ids-error-page';
+import '../ids-error-page.ts';

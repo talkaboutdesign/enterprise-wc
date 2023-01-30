@@ -1,5 +1,5 @@
 // Supporting components
-import '../../ids-button/ids-button';
+import '../../ids-button/ids-button.ts';
 
 const times: any = [];
 

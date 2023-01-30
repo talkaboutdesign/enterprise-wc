@@ -1,2 +1,2 @@
 // Supporting components
-import '../ids-lookup';
+import '../ids-lookup.ts';

@@ -1,10 +1,10 @@
-import '../ids-expandable-area';
-import '../../ids-data-label/ids-data-label';
+import '../ids-expandable-area.ts';
+import '../../ids-data-label/ids-data-label.ts';
 
 // Supporting components
-import '../../ids-input/ids-input';
-import '../../ids-toggle-button/ids-toggle-button';
-import '../../ids-hyperlink/ids-hyperlink';
+import '../../ids-input/ids-input.ts';
+import '../../ids-toggle-button/ids-toggle-button.ts';
+import '../../ids-hyperlink/ids-hyperlink.ts';
 
 document.addEventListener('DOMContentLoaded', () => {
   // Add an event listener to test clickable links

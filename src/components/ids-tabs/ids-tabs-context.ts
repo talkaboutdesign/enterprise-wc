@@ -1,11 +1,11 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
 
-import Base from './ids-tabs-context-base';
-import './ids-tab-content';
+import Base from './ids-tabs-context-base.ts';
+import './ids-tab-content.ts';
 
 import styles from './ids-tabs.scss';
-import type IdsTabContent from './ids-tab-content';
+import type IdsTabContent from './ids-tab-content.ts';
 
 /**
  * IDS Tabs Context Component

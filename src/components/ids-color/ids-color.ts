@@ -1,11 +1,11 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import Base from './ids-color-base';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import Base from './ids-color-base.ts';
 
 import styles from './ids-color.scss';
-import IdsTooltip from '../ids-tooltip/ids-tooltip';
-import IdsIcon from '../ids-icon/ids-icon';
+import IdsTooltip from '../ids-tooltip/ids-tooltip.ts';
+import IdsIcon from '../ids-icon/ids-icon.ts';
 
 const SwatchSizes = ['xs', 'sm', 'mm', 'md', 'lg'] as const;
 export type SwatchSizesType = typeof SwatchSizes[number];

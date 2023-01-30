@@ -1,9 +1,9 @@
-import { IdsInputInterface } from '../../components/ids-input/ids-input-attributes';
-import { attributes } from '../../core/ids-attributes';
-import { IdsConstructor } from '../../core/ids-element';
-import { isObjectAndNotEmpty } from '../../utils/ids-object-utils/ids-object-utils';
-import { isValidDate } from '../../utils/ids-date-utils/ids-date-utils';
-import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin';
+import { IdsInputInterface } from '../../components/ids-input/ids-input-attributes.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { IdsConstructor } from '../../core/ids-element.ts';
+import { isObjectAndNotEmpty } from '../../utils/ids-object-utils/ids-object-utils.ts';
+import { isValidDate } from '../../utils/ids-date-utils/ids-date-utils.ts';
+import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin.ts';
 
 export type IdsValidationErrorMessage = {
   /** The unique id in the check messages */

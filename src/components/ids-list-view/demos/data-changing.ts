@@ -1,5 +1,5 @@
-import '../ids-list-view';
-import type IdsListView from '../ids-list-view';
+import '../ids-list-view.ts';
+import type IdsListView from '../ids-list-view.ts';
 import productsJSON from '../../../assets/data/products-100.json';
 
 const listView = document.querySelector<IdsListView>('ids-list-view');

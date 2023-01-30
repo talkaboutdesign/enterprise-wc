@@ -1,2 +1,2 @@
 // Supporting components
-import '../ids-badge';
+import '../ids-badge.ts';

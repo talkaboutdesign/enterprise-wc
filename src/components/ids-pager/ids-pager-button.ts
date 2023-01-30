@@ -1,16 +1,16 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
 
-import Base from './ids-pager-button-base';
+import Base from './ids-pager-button-base.ts';
 
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import '../ids-button/ids-button';
-import '../ids-icon/ids-icon';
-import { buttonTypes } from './ids-pager-attributes';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import '../ids-button/ids-button.ts';
+import '../ids-icon/ids-icon.ts';
+import { buttonTypes } from './ids-pager-attributes.ts';
 
 import styles from './ids-pager-button.scss';
-import type IdsButton from '../ids-button/ids-button';
-import type IdsIcon from '../ids-icon/ids-icon';
+import type IdsButton from '../ids-button/ids-button.ts';
+import type IdsIcon from '../ids-icon/ids-icon.ts';
 
 /**
  * IDS PagerButton Component

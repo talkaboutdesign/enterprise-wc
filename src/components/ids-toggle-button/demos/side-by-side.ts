@@ -1,4 +1,4 @@
-import '../ids-toggle-button';
+import '../ids-toggle-button.ts';
 
 document.addEventListener('DOMContentLoaded', () => {
   // Add an event listener to test clickable links

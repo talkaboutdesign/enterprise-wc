@@ -1,11 +1,11 @@
-import IdsEventsMixin from '../../mixins/ids-events-mixin/ids-events-mixin';
-import IdsDirtyTrackerMixin from '../../mixins/ids-dirty-tracker-mixin/ids-dirty-tracker-mixin';
-import IdsLabelStateMixin from '../../mixins/ids-label-state-mixin/ids-label-state-mixin';
-import IdsValidationMixin from '../../mixins/ids-validation-mixin/ids-validation-mixin';
-import IdsHitboxMixin from '../../mixins/ids-hitbox-mixin/ids-hitbox-mixin';
-import IdsThemeMixin from '../../mixins/ids-theme-mixin/ids-theme-mixin';
-import IdsLocaleMixin from '../../mixins/ids-locale-mixin/ids-locale-mixin';
-import IdsElement from '../../core/ids-element';
+import IdsEventsMixin from '../../mixins/ids-events-mixin/ids-events-mixin.ts';
+import IdsDirtyTrackerMixin from '../../mixins/ids-dirty-tracker-mixin/ids-dirty-tracker-mixin.ts';
+import IdsLabelStateMixin from '../../mixins/ids-label-state-mixin/ids-label-state-mixin.ts';
+import IdsValidationMixin from '../../mixins/ids-validation-mixin/ids-validation-mixin.ts';
+import IdsHitboxMixin from '../../mixins/ids-hitbox-mixin/ids-hitbox-mixin.ts';
+import IdsThemeMixin from '../../mixins/ids-theme-mixin/ids-theme-mixin.ts';
+import IdsLocaleMixin from '../../mixins/ids-locale-mixin/ids-locale-mixin.ts';
+import IdsElement from '../../core/ids-element.ts';
 
 const Base = IdsDirtyTrackerMixin(
   IdsLabelStateMixin(

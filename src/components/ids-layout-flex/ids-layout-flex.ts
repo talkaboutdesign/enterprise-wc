@@ -1,11 +1,11 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { stringToNumber } from '../../utils/ids-string-utils/ids-string-utils';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToNumber } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
-import Base from './ids-layout-flex-base';
+import Base from './ids-layout-flex-base.ts';
 import styles from './ids-layout-flex.scss';
 
-import './ids-layout-flex-item';
+import './ids-layout-flex-item.ts';
 
 // List of flex options
 export const FLEX_OPTIONS = {

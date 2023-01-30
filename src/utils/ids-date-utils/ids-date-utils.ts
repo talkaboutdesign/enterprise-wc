@@ -1,5 +1,5 @@
-import { ummalquraData } from '../../components/ids-locale/info/umalqura-data';
-import { stringToNumber } from '../ids-string-utils/ids-string-utils';
+import { ummalquraData } from '../../components/ids-locale/info/umalqura-data.ts';
+import { stringToNumber } from '../ids-string-utils/ids-string-utils.ts';
 
 /**
  * Determine whether or not a date is todays date.

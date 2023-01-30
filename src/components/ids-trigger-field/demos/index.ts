@@ -1,1 +1,1 @@
-import '../ids-trigger-field';
+import '../ids-trigger-field.ts';

@@ -1,2 +1,2 @@
 // Supporting components
-import '../ids-icon';
+import '../ids-icon.ts';

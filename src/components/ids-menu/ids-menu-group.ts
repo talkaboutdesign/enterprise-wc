@@ -1,18 +1,18 @@
 // Import Core
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes, htmlAttributes } from '../../core/ids-attributes';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes, htmlAttributes } from '../../core/ids-attributes.ts';
 
 // Import Base and Mixins
-import Base from './ids-menu-group-base';
+import Base from './ids-menu-group-base.ts';
 
 // Import Utils
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import { MENU_GROUP_SELECT_TYPES } from './ids-menu-attributes';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { MENU_GROUP_SELECT_TYPES } from './ids-menu-attributes.ts';
 
 // Import Styles
 import styles from './ids-menu-group.scss';
-import IdsMenuHeader from './ids-menu-header';
-import IdsMenuItem from './ids-menu-item';
+import IdsMenuHeader from './ids-menu-header.ts';
+import IdsMenuItem from './ids-menu-item.ts';
 
 /**
  * IDS Menu Group Component

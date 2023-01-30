@@ -1,5 +1,5 @@
-import { attributes } from '../../core/ids-attributes';
-import { IdsBaseConstructor } from '../../core/ids-element';
+import { attributes } from '../../core/ids-attributes.ts';
+import { IdsBaseConstructor } from '../../core/ids-element.ts';
 
 /**
 /**

@@ -1,10 +1,10 @@
 // eslint-disable-next-line max-classes-per-file
-import IdsCheckbox from '../ids-checkbox/ids-checkbox';
-import IdsInput from '../ids-input/ids-input';
-import IdsDropdown from '../ids-dropdown/ids-dropdown';
-import type IdsDataGridCell from './ids-data-grid-cell';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import IdsTriggerField from '../ids-trigger-field/ids-trigger-field';
+import IdsCheckbox from '../ids-checkbox/ids-checkbox.ts';
+import IdsInput from '../ids-input/ids-input.ts';
+import IdsDropdown from '../ids-dropdown/ids-dropdown.ts';
+import type IdsDataGridCell from './ids-data-grid-cell.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import IdsTriggerField from '../ids-trigger-field/ids-trigger-field.ts';
 
 export interface IdsDataGridEditorOptions {
   /** The type of editor (i.e. text, data, time, dropdown, checkbox, number ect) */

@@ -1,8 +1,8 @@
-import Base from './ids-calendar-event-base';
+import Base from './ids-calendar-event-base.ts';
 import styles from './ids-calendar-event.scss';
-import { customElement, scss } from '../../core/ids-decorators';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import { attributes } from '../../core/ids-attributes';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { attributes } from '../../core/ids-attributes.ts';
 
 export type CalendarEventData = {
   id: string;

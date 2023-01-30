@@ -1,4 +1,4 @@
-import '../ids-date-picker';
+import '../ids-date-picker.ts';
 
 (async function init() {
   const container: any = document.querySelector('ids-container');

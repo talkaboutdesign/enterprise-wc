@@ -1,4 +1,4 @@
-import '../ids-date-picker';
+import '../ids-date-picker.ts';
 
 // Initialize the 4.x
 document.addEventListener('DOMContentLoaded', () => {

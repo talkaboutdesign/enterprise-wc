@@ -1,23 +1,23 @@
-import { attributes } from '../../core/ids-attributes';
-import { customElement, scss } from '../../core/ids-decorators';
-import { QUALITATIVE_COLORS } from '../ids-axis-chart/ids-chart-colors';
-import { patternData } from '../ids-axis-chart/ids-pattern-data';
+import { attributes } from '../../core/ids-attributes.ts';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { QUALITATIVE_COLORS } from '../ids-axis-chart/ids-chart-colors.ts';
+import { patternData } from '../ids-axis-chart/ids-pattern-data.ts';
 import {
   injectTemplate,
   stringToBool,
   stringToNumber,
   kebabCase
-} from '../../utils/ids-string-utils/ids-string-utils';
+} from '../../utils/ids-string-utils/ids-string-utils.ts';
 
-import Base from './ids-pie-chart-base';
-import IdsDataSource from '../../core/ids-data-source';
+import Base from './ids-pie-chart-base.ts';
+import IdsDataSource from '../../core/ids-data-source.ts';
 
-import '../ids-tooltip/ids-tooltip';
-import '../ids-empty-message/ids-empty-message';
+import '../ids-tooltip/ids-tooltip.ts';
+import '../ids-empty-message/ids-empty-message.ts';
 
 import styles from './ids-pie-chart.scss';
-import type IdsEmptyMessage from '../ids-empty-message/ids-empty-message';
-import type IdsTooltip from '../ids-tooltip/ids-tooltip';
+import type IdsEmptyMessage from '../ids-empty-message/ids-empty-message.ts';
+import type IdsTooltip from '../ids-tooltip/ids-tooltip.ts';
 
 type IdsPieChartData = {
   name?: string,

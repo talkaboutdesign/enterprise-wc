@@ -1,13 +1,13 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes, htmlAttributes } from '../../core/ids-attributes';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import { stripHTML } from '../../utils/ids-xss-utils/ids-xss-utils';
-import { convertColorToRgba, convertStatusToIDSColor } from '../../utils/ids-color-utils/ids-color-utils';
-import Base from './ids-slider-base';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes, htmlAttributes } from '../../core/ids-attributes.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { stripHTML } from '../../utils/ids-xss-utils/ids-xss-utils.ts';
+import { convertColorToRgba, convertStatusToIDSColor } from '../../utils/ids-color-utils/ids-color-utils.ts';
+import Base from './ids-slider-base.ts';
 
 import styles from './ids-slider.scss';
-import IdsDraggable from '../ids-draggable/ids-draggable';
-import IdsText from '../ids-text/ids-text';
+import IdsDraggable from '../ids-draggable/ids-draggable.ts';
+import IdsText from '../ids-text/ids-text.ts';
 
 type IdsSliderType = 'single' | 'range' | 'step';
 

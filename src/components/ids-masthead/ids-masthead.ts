@@ -1,15 +1,15 @@
-import { attributes } from '../../core/ids-attributes';
-import { customElement, scss } from '../../core/ids-decorators';
-import Base from './ids-masthead-base';
+import { attributes } from '../../core/ids-attributes.ts';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import Base from './ids-masthead-base.ts';
 
-import '../ids-header/ids-header';
-import '../ids-toolbar/ids-toolbar';
+import '../ids-header/ids-header.ts';
+import '../ids-toolbar/ids-toolbar.ts';
 
 import styles from './ids-masthead.scss';
-import type IdsToolbarSection from '../ids-toolbar/ids-toolbar-section';
-import type IdsToolbarMoreActions from '../ids-toolbar/ids-toolbar-more-actions';
-import type IdsButton from '../ids-button/ids-button';
-import type IdsMenuButton from '../ids-menu-button/ids-menu-button';
+import type IdsToolbarSection from '../ids-toolbar/ids-toolbar-section.ts';
+import type IdsToolbarMoreActions from '../ids-toolbar/ids-toolbar-more-actions.ts';
+import type IdsButton from '../ids-button/ids-button.ts';
+import type IdsMenuButton from '../ids-menu-button/ids-menu-button.ts';
 
 export type MastheadSlots = {
   start: HTMLElement | null;

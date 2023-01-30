@@ -1,4 +1,4 @@
 // Supporting components
-import '../ids-editor';
-import '../../ids-radio/ids-radio';
-import '../../ids-checkbox/ids-checkbox';
+import '../ids-editor.ts';
+import '../../ids-radio/ids-radio.ts';
+import '../../ids-checkbox/ids-checkbox.ts';

@@ -1,26 +1,26 @@
-import { attributes, htmlAttributes } from '../../core/ids-attributes';
-import { customElement, scss } from '../../core/ids-decorators';
-import Base from './ids-month-year-picklist-base';
+import { attributes, htmlAttributes } from '../../core/ids-attributes.ts';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import Base from './ids-month-year-picklist-base.ts';
 
-import '../ids-text/ids-text';
+import '../ids-text/ids-text.ts';
 
 import {
   weekNumber,
   weekNumberToDate
-} from '../../utils/ids-date-utils/ids-date-utils';
-import { getClosest } from '../../utils/ids-dom-utils/ids-dom-utils';
-import { stringToBool, stringToNumber } from '../../utils/ids-string-utils/ids-string-utils';
+} from '../../utils/ids-date-utils/ids-date-utils.ts';
+import { getClosest } from '../../utils/ids-dom-utils/ids-dom-utils.ts';
+import { stringToBool, stringToNumber } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
 import {
   IdsDatePickerCommonAttributes,
   MONTH_KEYS,
   PICKLIST_LENGTH
-} from './ids-date-picker-common';
+} from './ids-date-picker-common.ts';
 
 // Types
 import type {
   IdsDisableSettings,
-} from '../ids-month-view/ids-month-view-common';
+} from '../ids-month-view/ids-month-view-common.ts';
 
 import styles from './ids-month-year-picklist.scss';
 

@@ -1,4 +1,4 @@
-import { addIcon } from '../ids-icon';
+import { addIcon } from '../ids-icon.ts';
 
 document.addEventListener('DOMContentLoaded', () => {
   const container = document.querySelector('ids-container');

@@ -1,5 +1,5 @@
-import type IdsElement from '../../core/ids-element';
-import { attributes } from '../../core/ids-attributes';
+import type IdsElement from '../../core/ids-element.ts';
+import { attributes } from '../../core/ids-attributes.ts';
 
 export type IdsPopupElementRef = IdsElement | HTMLElement | SVGElement | null;
 

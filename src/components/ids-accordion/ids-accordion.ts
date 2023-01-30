@@ -1,12 +1,12 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import Base from './ids-accordion-base';
-import './ids-accordion-header';
-import './ids-accordion-panel';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import Base from './ids-accordion-base.ts';
+import './ids-accordion-header.ts';
+import './ids-accordion-panel.ts';
 import styles from './ids-accordion.scss';
-import type IdsAccordionHeader from './ids-accordion-header';
-import type IdsAccordionPanel from './ids-accordion-panel';
+import type IdsAccordionHeader from './ids-accordion-header.ts';
+import type IdsAccordionPanel from './ids-accordion-panel.ts';
 
 /**
  * IDS Accordion Component

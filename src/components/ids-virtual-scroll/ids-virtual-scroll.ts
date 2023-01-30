@@ -1,10 +1,10 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import Base from './ids-virtual-scroll-base';
-import { injectTemplate } from '../../utils/ids-string-utils/ids-string-utils';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import Base from './ids-virtual-scroll-base.ts';
+import { injectTemplate } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
 import styles from './ids-virtual-scroll.scss';
-import IdsDataSource from '../../core/ids-data-source';
+import IdsDataSource from '../../core/ids-data-source.ts';
 
 const DEFAULT_HEIGHT = '100vh';
 const DEFAULT_ITEM_HEIGHT = 50;

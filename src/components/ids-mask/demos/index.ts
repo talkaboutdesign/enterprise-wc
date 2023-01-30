@@ -1,2 +1,2 @@
 // Supporting components
-import '../../ids-input/ids-input';
+import '../../ids-input/ids-input.ts';

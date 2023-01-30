@@ -1,13 +1,13 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { TYPES } from './ids-notification-attributes';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { TYPES } from './ids-notification-attributes.ts';
 
-import '../ids-text/ids-text';
-import '../ids-alert/ids-alert';
-import '../ids-icon/ids-icon';
-import '../ids-hyperlink/ids-hyperlink';
-import '../ids-button/ids-button';
-import Base from './ids-notification-banner-base';
+import '../ids-text/ids-text.ts';
+import '../ids-alert/ids-alert.ts';
+import '../ids-icon/ids-icon.ts';
+import '../ids-hyperlink/ids-hyperlink.ts';
+import '../ids-button/ids-button.ts';
+import Base from './ids-notification-banner-base.ts';
 
 import styles from './ids-notification-banner.scss';
 

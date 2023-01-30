@@ -1,15 +1,15 @@
-import '../ids-card';
-import '../../ids-list-view/ids-list-view';
-import '../../ids-button/ids-button';
-import '../../ids-input/ids-input';
-import '../../ids-toolbar/ids-toolbar';
-import '../../ids-menu-button/ids-menu-button';
-import '../../ids-popup-menu/ids-popup-menu';
-import '../../ids-text/ids-text';
+import '../ids-card.ts';
+import '../../ids-list-view/ids-list-view.ts';
+import '../../ids-button/ids-button.ts';
+import '../../ids-input/ids-input.ts';
+import '../../ids-toolbar/ids-toolbar.ts';
+import '../../ids-menu-button/ids-menu-button.ts';
+import '../../ids-popup-menu/ids-popup-menu.ts';
+import '../../ids-text/ids-text.ts';
 import eventsJSON from '../../../assets/data/events.json';
 
 // Import Css
-import css from '../../../assets/css/ids-card/toolbar.css';
+import css from '../../../assets/css/ids-card/toolbar.css.ts';
 
 const cssLink = `<link href="${css}" rel="stylesheet">`;
 const head = document.querySelector('head');

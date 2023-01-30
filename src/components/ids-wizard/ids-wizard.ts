@@ -1,9 +1,9 @@
-import { attributes } from '../../core/ids-attributes';
-import { customElement, scss } from '../../core/ids-decorators';
-import Base from './ids-wizard-base';
+import { attributes } from '../../core/ids-attributes.ts';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import Base from './ids-wizard-base.ts';
 
 // Dependencies
-import '../ids-text/ids-text';
+import '../ids-text/ids-text.ts';
 
 import styles from './ids-wizard.scss';
 

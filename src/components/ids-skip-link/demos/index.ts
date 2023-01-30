@@ -1,1 +1,1 @@
-import '../ids-skip-link';
+import '../ids-skip-link.ts';

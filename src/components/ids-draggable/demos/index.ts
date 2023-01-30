@@ -1,2 +1,2 @@
 // Supporting components
-import '../ids-draggable';
+import '../ids-draggable.ts';

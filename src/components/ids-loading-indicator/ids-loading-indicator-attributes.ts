@@ -1,5 +1,5 @@
-import { attributes } from '../../core/ids-attributes';
-import { buildClassAttrib } from '../../utils/ids-string-utils/ids-string-utils';
+import { attributes } from '../../core/ids-attributes.ts';
+import { buildClassAttrib } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
 const getPercentageTextHtml = ({ progress, type = 'circular' }:{ progress:any, type?:string }) => (
   `<div class="progress-percentage ${type}" part="percentage-text">

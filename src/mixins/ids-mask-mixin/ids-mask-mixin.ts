@@ -1,12 +1,12 @@
-import maskAPI from '../../components/ids-mask/ids-mask-global';
-import { convertPatternFromString, PLACEHOLDER_CHAR, IdsMaskOptions } from '../../components/ids-mask/ids-mask-common';
-import { dateMask, numberMask, rangeDateMask } from '../../components/ids-mask/ids-masks';
-import { attributes } from '../../core/ids-attributes';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import { IdsConstructor } from '../../core/ids-element';
-import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin';
-import { IdsInputInterface } from '../../components/ids-input/ids-input-attributes';
-import { LocaleHandler, LocaleMixinInterface } from '../ids-locale-mixin/ids-locale-mixin';
+import maskAPI from '../../components/ids-mask/ids-mask-global.ts';
+import { convertPatternFromString, PLACEHOLDER_CHAR, IdsMaskOptions } from '../../components/ids-mask/ids-mask-common.ts';
+import { dateMask, numberMask, rangeDateMask } from '../../components/ids-mask/ids-masks.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { IdsConstructor } from '../../core/ids-element.ts';
+import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin.ts';
+import { IdsInputInterface } from '../../components/ids-input/ids-input-attributes.ts';
+import { LocaleHandler, LocaleMixinInterface } from '../ids-locale-mixin/ids-locale-mixin.ts';
 
 const MASK_ATTRIBUTES = [
   attributes.MASK,

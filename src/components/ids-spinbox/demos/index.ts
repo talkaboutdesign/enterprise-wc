@@ -1,1 +1,1 @@
-import '../ids-spinbox';
+import '../ids-spinbox.ts';

@@ -1,5 +1,5 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import Base from './ids-hierarchy-legend-base';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import Base from './ids-hierarchy-legend-base.ts';
 
 import styles from './ids-hierarchy-legend.scss';
 

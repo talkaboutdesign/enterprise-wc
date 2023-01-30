@@ -1,4 +1,4 @@
-import { appendStyleSheets } from '../../../../scripts/append-stylesheets';
+import { appendStyleSheets } from '../../../../scripts/append-stylesheets.ts';
 import uploadAdvancedStyles from '../ids-upload-advanced.scss';
 import uploadAdvancedFileStyles from '../ids-upload-advanced-file.scss';
 import layoutStyles from '../../ids-layout-grid/ids-layout-grid.scss';

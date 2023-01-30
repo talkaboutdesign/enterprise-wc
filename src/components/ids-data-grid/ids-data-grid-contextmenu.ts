@@ -1,7 +1,7 @@
-import { eventPath, findInPath, HTMLElementEvent } from '../../utils/ids-event-path-utils/ids-event-path-utils';
-import { stringToNumber } from '../../utils/ids-string-utils/ids-string-utils';
-import type IdsPopupMenu from '../ids-popup-menu/ids-popup-menu';
-import type IdsDataGrid from './ids-data-grid';
+import { eventPath, findInPath, HTMLElementEvent } from '../../utils/ids-event-path-utils/ids-event-path-utils.ts';
+import { stringToNumber } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import type IdsPopupMenu from '../ids-popup-menu/ids-popup-menu.ts';
+import type IdsDataGrid from './ids-data-grid.ts';
 
 /**
  * Contextmenu arguments interface.

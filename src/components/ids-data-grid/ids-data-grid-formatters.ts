@@ -1,12 +1,12 @@
-import '../ids-hyperlink/ids-hyperlink';
-import '../ids-button/ids-button';
-import '../ids-badge/ids-badge';
-import '../ids-alert/ids-alert';
+import '../ids-hyperlink/ids-hyperlink.ts';
+import '../ids-button/ids-button.ts';
+import '../ids-badge/ids-badge.ts';
+import '../ids-alert/ids-alert.ts';
 
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import { escapeHTML } from '../../utils/ids-xss-utils/ids-xss-utils';
-import type { IdsDataGridColumn } from './ids-data-grid-column';
-import type IdsDataGrid from './ids-data-grid';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { escapeHTML } from '../../utils/ids-xss-utils/ids-xss-utils.ts';
+import type { IdsDataGridColumn } from './ids-data-grid-column.ts';
+import type IdsDataGrid from './ids-data-grid.ts';
 
 /* eslint-disable jsdoc/require-returns */
 /* eslint-disable jsdoc/require-param */

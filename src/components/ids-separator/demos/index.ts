@@ -1,1 +1,1 @@
-import '../ids-separator';
+import '../ids-separator.ts';

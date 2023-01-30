@@ -1,7 +1,7 @@
 // Supporting components
-import '../../ids-input/ids-input';
-import '../../ids-dropdown/ids-dropdown';
-import { deepClone } from '../../../utils/ids-deep-clone-utils/ids-deep-clone-utils';
+import '../../ids-input/ids-input.ts';
+import '../../ids-dropdown/ids-dropdown.ts';
+import { deepClone } from '../../../utils/ids-deep-clone-utils/ids-deep-clone-utils.ts';
 
 document.addEventListener('DOMContentLoaded', () => {
   const pageContainer: any = document.querySelector('ids-container');

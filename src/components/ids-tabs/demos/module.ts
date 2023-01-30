@@ -1,6 +1,6 @@
-import '../../ids-icon/ids-icon';
-import '../../ids-header/ids-header';
-import '../../ids-toolbar/ids-toolbar';
+import '../../ids-icon/ids-icon.ts';
+import '../../ids-header/ids-header.ts';
+import '../../ids-toolbar/ids-toolbar.ts';
 
 document.addEventListener('DOMContentLoaded', () => {
   const tabList: any = document.querySelector('ids-tabs');

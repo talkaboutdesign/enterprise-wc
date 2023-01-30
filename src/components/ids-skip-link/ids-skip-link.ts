@@ -1,7 +1,7 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import '../ids-hyperlink/ids-hyperlink';
-import Base from './ids-skip-link-base';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import '../ids-hyperlink/ids-hyperlink.ts';
+import Base from './ids-skip-link-base.ts';
 
 import styles from './ids-skip-link.scss';
 

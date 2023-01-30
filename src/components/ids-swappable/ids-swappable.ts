@@ -1,12 +1,12 @@
 import {
   customElement,
   scss,
-} from '../../core/ids-decorators';
+} from '../../core/ids-decorators.ts';
 
-import { attributes } from '../../core/ids-attributes';
-import Base from './ids-swappable-base';
+import { attributes } from '../../core/ids-attributes.ts';
+import Base from './ids-swappable-base.ts';
 import styles from './ids-swappable.scss';
-import IdsSwappableItem from './ids-swappable-item';
+import IdsSwappableItem from './ids-swappable-item.ts';
 
 /**
  * IDS Swappable Component

@@ -1,4 +1,4 @@
-import type IdsToolbar from '../ids-toolbar';
+import type IdsToolbar from '../ids-toolbar.ts';
 
 document.addEventListener('DOMContentLoaded', () => {
   const toolbarEl = document.querySelector<IdsToolbar>('#my-toolbar');

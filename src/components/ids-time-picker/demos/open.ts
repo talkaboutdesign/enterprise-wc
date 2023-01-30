@@ -1,1 +1,1 @@
-import '../ids-time-picker';
+import '../ids-time-picker.ts';

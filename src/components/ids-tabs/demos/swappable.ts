@@ -1,5 +1,5 @@
-import '../../ids-swappable/ids-swappable';
-import '../../ids-swappable/ids-swappable-item';
+import '../../ids-swappable/ids-swappable.ts';
+import '../../ids-swappable/ids-swappable-item.ts';
 
 document.addEventListener('DOMContentLoaded', () => {
   const tabElements = [...document.querySelectorAll('ids-tabs')];

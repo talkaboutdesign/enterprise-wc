@@ -1,12 +1,12 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes, htmlAttributes } from '../../core/ids-attributes';
-import { stringToBool, buildClassAttrib } from '../../utils/ids-string-utils/ids-string-utils';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes, htmlAttributes } from '../../core/ids-attributes.ts';
+import { stringToBool, buildClassAttrib } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
-import Base from './ids-tab-base';
-import '../ids-text/ids-text';
+import Base from './ids-tab-base.ts';
+import '../ids-text/ids-text.ts';
 
 import styles from './ids-tab.scss';
-import type IdsText from '../ids-text/ids-text';
+import type IdsText from '../ids-text/ids-text.ts';
 
 type IdsTabOnActionCallback = (isSelected: boolean) => void;
 

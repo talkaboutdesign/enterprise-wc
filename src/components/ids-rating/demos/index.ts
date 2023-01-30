@@ -1,1 +1,1 @@
-import '../ids-rating';
+import '../ids-rating.ts';

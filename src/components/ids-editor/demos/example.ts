@@ -1,4 +1,4 @@
-import placeHolderUrl from '../../../assets/images/placeholder-154x120.png';
+import placeHolderUrl from '../../../assets/images/placeholder-154x120.png.ts';
 
 document.addEventListener('DOMContentLoaded', async () => {
   const modals = {

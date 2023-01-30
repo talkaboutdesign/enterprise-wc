@@ -1,4 +1,4 @@
-import { getClosestRootNode } from '../../utils/ids-dom-utils/ids-dom-utils';
+import { getClosestRootNode } from '../../utils/ids-dom-utils/ids-dom-utils.ts';
 
 // Menu Selection Types
 const MENU_GROUP_SELECT_TYPES = [

@@ -1,4 +1,4 @@
-import '../ids-trigger-field';
+import '../ids-trigger-field.ts';
 
 // Initialize the 4.x
 $('body').initialize();

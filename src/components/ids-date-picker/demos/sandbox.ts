@@ -1,4 +1,4 @@
-import '../ids-date-picker';
+import '../ids-date-picker.ts';
 
 const datePickerAvailable: any = document.querySelector('#e2e-date-picker-available');
 

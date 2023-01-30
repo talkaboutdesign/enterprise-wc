@@ -1,4 +1,4 @@
-import { version } from '../../core/ids-attributes';
+import { version } from '../../core/ids-attributes.ts';
 
 /**
  * Return an object with some browser information. Used primary for the ids-about component.

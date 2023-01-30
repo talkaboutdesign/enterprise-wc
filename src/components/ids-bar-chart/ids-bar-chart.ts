@@ -1,7 +1,7 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { stringToNumber } from '../../utils/ids-string-utils/ids-string-utils';
-import Base from './ids-bar-chart-base';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToNumber } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import Base from './ids-bar-chart-base.ts';
 import styles from './ids-bar-chart.scss';
 
 type IdsBarChartSelected = {

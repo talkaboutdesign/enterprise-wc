@@ -1,4 +1,4 @@
-import { camelCase } from '../utils/ids-string-utils/ids-string-utils';
+import { camelCase } from '../utils/ids-string-utils/ids-string-utils.ts';
 import styles from './ids-element.scss';
 
 export type IdsBaseConstructor = new (...args: any[]) => IdsElement;

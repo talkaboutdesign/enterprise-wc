@@ -1,5 +1,5 @@
 // Supporting components
-import '../ids-hierarchy';
-import '../ids-hierarchy-item';
-import '../ids-hierarchy-legend';
-import '../ids-hierarchy-legend-item';
+import '../ids-hierarchy.ts';
+import '../ids-hierarchy-item.ts';
+import '../ids-hierarchy-legend.ts';
+import '../ids-hierarchy-legend-item.ts';

@@ -1,1 +1,1 @@
-import '../ids-multiselect';
+import '../ids-multiselect.ts';

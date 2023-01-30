@@ -1,8 +1,8 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes, htmlAttributes } from '../../core/ids-attributes';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import '../ids-trigger-field/ids-trigger-button';
-import Base from './ids-spinbox-base';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes, htmlAttributes } from '../../core/ids-attributes.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import '../ids-trigger-field/ids-trigger-button.ts';
+import Base from './ids-spinbox-base.ts';
 import styles from './ids-spinbox.scss';
 
 /**

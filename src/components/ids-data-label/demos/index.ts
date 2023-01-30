@@ -1,2 +1,2 @@
 // Supporting components
-import '../ids-data-label';
+import '../ids-data-label.ts';

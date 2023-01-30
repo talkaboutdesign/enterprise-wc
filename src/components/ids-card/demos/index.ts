@@ -1,3 +1,3 @@
 // Supporting components
-import '../ids-card';
-import '../../ids-hyperlink/ids-hyperlink';
+import '../ids-card.ts';
+import '../../ids-hyperlink/ids-hyperlink.ts';

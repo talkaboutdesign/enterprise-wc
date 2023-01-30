@@ -1,6 +1,6 @@
 // Supporting components
-import '../../ids-input/ids-input';
-import '../../ids-dropdown/ids-dropdown';
+import '../../ids-input/ids-input.ts';
+import '../../ids-dropdown/ids-dropdown.ts';
 
 document.addEventListener('DOMContentLoaded', () => {
   const pageContainer: any = document.querySelector('ids-container');

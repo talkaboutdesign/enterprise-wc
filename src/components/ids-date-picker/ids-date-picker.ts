@@ -1,41 +1,41 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
 
-import Base from './ids-date-picker-base';
+import Base from './ids-date-picker-base.ts';
 
 import {
   buildClassAttrib,
   stringToBool,
   stringToNumber
-} from '../../utils/ids-string-utils/ids-string-utils';
+} from '../../utils/ids-string-utils/ids-string-utils.ts';
 import {
   isValidDate, umalquraToGregorian, hoursTo24
-} from '../../utils/ids-date-utils/ids-date-utils';
-import { getClosest } from '../../utils/ids-dom-utils/ids-dom-utils';
+} from '../../utils/ids-date-utils/ids-date-utils.ts';
+import { getClosest } from '../../utils/ids-dom-utils/ids-dom-utils.ts';
 
 // Supporting components
-import './ids-date-picker-popup';
-import '../ids-button/ids-button';
-import '../ids-toggle-button/ids-toggle-button';
-import '../ids-icon/ids-icon';
-import '../ids-text/ids-text';
-import '../ids-trigger-field/ids-trigger-field';
+import './ids-date-picker-popup.ts';
+import '../ids-button/ids-button.ts';
+import '../ids-toggle-button/ids-toggle-button.ts';
+import '../ids-icon/ids-icon.ts';
+import '../ids-text/ids-text.ts';
+import '../ids-trigger-field/ids-trigger-field.ts';
 
 // Datepicker Shared
 import {
   IdsDatePickerCommonAttributes,
-} from './ids-date-picker-common';
+} from './ids-date-picker-common.ts';
 
 // Types
 import type {
   IdsRangeSettings,
   IdsDisableSettings,
   IdsLegend
-} from '../ids-month-view/ids-month-view-common';
-import type { IdsDayselectedEvent } from '../ids-month-view/ids-month-view';
-import type IdsDatePickerPopup from './ids-date-picker-popup';
-import type IdsTimePicker from '../ids-time-picker/ids-time-picker';
-import type IdsToggleButton from '../ids-toggle-button/ids-toggle-button';
+} from '../ids-month-view/ids-month-view-common.ts';
+import type { IdsDayselectedEvent } from '../ids-month-view/ids-month-view.ts';
+import type IdsDatePickerPopup from './ids-date-picker-popup.ts';
+import type IdsTimePicker from '../ids-time-picker/ids-time-picker.ts';
+import type IdsToggleButton from '../ids-toggle-button/ids-toggle-button.ts';
 
 // Styles
 import styles from './ids-date-picker.scss';

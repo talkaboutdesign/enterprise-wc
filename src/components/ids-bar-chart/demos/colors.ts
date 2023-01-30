@@ -1,6 +1,6 @@
 import componentsColorsJSON from '../../../assets/data/components-colors.json';
 
-import '../ids-bar-chart';
+import '../ids-bar-chart.ts';
 
 const setData = async () => {
   const res = await fetch(componentsColorsJSON as any);

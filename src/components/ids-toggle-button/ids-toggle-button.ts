@@ -1,12 +1,12 @@
-import { attributes } from '../../core/ids-attributes';
-import { customElement, scss } from '../../core/ids-decorators';
-import Base from './ids-toggle-button-base';
+import { attributes } from '../../core/ids-attributes.ts';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import Base from './ids-toggle-button-base.ts';
 
-import { BUTTON_ATTRIBUTES, BUTTON_TYPES } from '../ids-button/ids-button-common';
-import type { IdsButtonType } from '../ids-button/ids-button-common';
+import { BUTTON_ATTRIBUTES, BUTTON_TYPES } from '../ids-button/ids-button-common.ts';
+import type { IdsButtonType } from '../ids-button/ids-button-common.ts';
 
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import '../ids-icon/ids-icon';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import '../ids-icon/ids-icon.ts';
 
 import styles from '../ids-button/ids-button.scss';
 

@@ -1,13 +1,13 @@
-import { attributes } from '../../core/ids-attributes';
-import { deepClone } from '../../utils/ids-deep-clone-utils/ids-deep-clone-utils';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
+import { attributes } from '../../core/ids-attributes.ts';
+import { deepClone } from '../../utils/ids-deep-clone-utils/ids-deep-clone-utils.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
-import { IdsConstructor } from '../../core/ids-element';
-import { EventsMixinInterface } from '../../mixins/ids-events-mixin/ids-events-mixin';
-import type IdsDataGrid from './ids-data-grid';
+import { IdsConstructor } from '../../core/ids-element.ts';
+import { EventsMixinInterface } from '../../mixins/ids-events-mixin/ids-events-mixin.ts';
+import type IdsDataGrid from './ids-data-grid.ts';
 
-import { IdsDataGridColumn } from './ids-data-grid-column';
-import { IdsDataGridFilterConditions } from './ids-data-grid-filters';
+import { IdsDataGridColumn } from './ids-data-grid-column.ts';
+import { IdsDataGridFilterConditions } from './ids-data-grid-filters.ts';
 
 type Constraints = IdsConstructor<EventsMixinInterface>;
 

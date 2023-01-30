@@ -1,11 +1,11 @@
 // Supporting components
-import '../ids-hierarchy';
+import '../ids-hierarchy.ts';
 // eslint-disable-next-line no-unused-vars
-import '../ids-hierarchy-item';
-import '../ids-hierarchy-legend';
+import '../ids-hierarchy-item.ts';
+import '../ids-hierarchy-legend.ts';
 // eslint-disable-next-line no-unused-vars
-import '../ids-hierarchy-legend-item';
-import headshot from '../../../assets/images/headshot-1.jpg';
+import '../ids-hierarchy-legend-item.ts';
+import headshot from '../../../assets/images/headshot-1.jpg.ts';
 import hierarchyJSON from '../../../assets/data/hierarchy.json';
 
 const headshotImg: any = window.document.getElementById('headshot');

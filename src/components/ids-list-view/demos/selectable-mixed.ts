@@ -1,5 +1,5 @@
 // Supporting components
-import '../ids-list-view';
+import '../ids-list-view.ts';
 import productsJSON from '../../../assets/data/products-100.json';
 
 // Example for populating the List View

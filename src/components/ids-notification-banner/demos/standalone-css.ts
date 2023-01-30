@@ -1,5 +1,5 @@
-import css from '../../../assets/css/ids-notification-banner/standalone-css.css';
-import { appendStyleSheets } from '../../../../scripts/append-stylesheets';
+import css from '../../../assets/css/ids-notification-banner/standalone-css.css.ts';
+import { appendStyleSheets } from '../../../../scripts/append-stylesheets.ts';
 import hyperlinkStyles from '../../ids-hyperlink/ids-hyperlink.scss';
 import layoutStyles from '../../ids-layout-grid/ids-layout-grid.scss';
 import textStyles from '../../ids-text/ids-text.scss';

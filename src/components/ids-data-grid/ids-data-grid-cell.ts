@@ -1,10 +1,10 @@
-import { customElement } from '../../core/ids-decorators';
-import IdsElement from '../../core/ids-element';
-import type IdsDropdown from '../ids-dropdown/ids-dropdown';
-import type IdsInput from '../ids-input/ids-input';
-import type IdsDataGrid from './ids-data-grid';
-import type { IdsDataGridColumn } from './ids-data-grid-column';
-import { IdsDataGridEditor } from './ids-data-grid-editors';
+import { customElement } from '../../core/ids-decorators.ts';
+import IdsElement from '../../core/ids-element.ts';
+import type IdsDropdown from '../ids-dropdown/ids-dropdown.ts';
+import type IdsInput from '../ids-input/ids-input.ts';
+import type IdsDataGrid from './ids-data-grid.ts';
+import type { IdsDataGridColumn } from './ids-data-grid-column.ts';
+import { IdsDataGridEditor } from './ids-data-grid-editors.ts';
 
 @customElement('ids-data-grid-cell')
 export default class IdsDataGridCell extends IdsElement {

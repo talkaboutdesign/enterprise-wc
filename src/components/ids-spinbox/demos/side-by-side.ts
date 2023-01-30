@@ -1,4 +1,4 @@
-import '../ids-spinbox';
+import '../ids-spinbox.ts';
 
 // Initialize the 4.x
 $('body').initialize();

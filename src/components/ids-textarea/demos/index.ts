@@ -1,3 +1,3 @@
 // Supporting components
-import '../ids-textarea';
-import '../../ids-button/ids-button';
+import '../ids-textarea.ts';
+import '../../ids-button/ids-button.ts';

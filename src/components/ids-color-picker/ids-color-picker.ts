@@ -1,13 +1,13 @@
 import colorPalette from 'ids-identity/dist/theme-new/tokens/web/ui.config.color-palette';
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import IdsColor, { SwatchSizesType } from '../ids-color/ids-color';
-import IdsTriggerField from '../ids-trigger-field/ids-trigger-field';
-import IdsTriggerButton from '../ids-trigger-field/ids-trigger-button';
-import '../ids-input/ids-input';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import IdsColor, { SwatchSizesType } from '../ids-color/ids-color.ts';
+import IdsTriggerField from '../ids-trigger-field/ids-trigger-field.ts';
+import IdsTriggerButton from '../ids-trigger-field/ids-trigger-button.ts';
+import '../ids-input/ids-input.ts';
 
-import Base from './ids-color-picker-base';
+import Base from './ids-color-picker-base.ts';
 
 import styles from './ids-color-picker.scss';
 

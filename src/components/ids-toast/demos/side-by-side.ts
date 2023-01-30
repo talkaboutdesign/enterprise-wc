@@ -1,4 +1,4 @@
-import '../ids-toast';
+import '../ids-toast.ts';
 
 // Initialize Web Component
 document.addEventListener('DOMContentLoaded', () => {

@@ -1,11 +1,11 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
 
-import '../ids-color/ids-color';
-import '../ids-icon/ids-icon';
-import '../ids-text/ids-text';
+import '../ids-color/ids-color.ts';
+import '../ids-icon/ids-icon.ts';
+import '../ids-text/ids-text.ts';
 
-import Base from './ids-step-chart-base';
+import Base from './ids-step-chart-base.ts';
 
 import styles from './ids-step-chart.scss';
 

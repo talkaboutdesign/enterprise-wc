@@ -1,1 +1,1 @@
-import '../ids-wizard';
+import '../ids-wizard.ts';

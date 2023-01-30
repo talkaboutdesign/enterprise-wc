@@ -1,7 +1,7 @@
-import { IdsBaseConstructor } from '../../core/ids-element';
-import { IdsPopupElementRef } from '../../components/ids-popup/ids-popup-attributes';
-import { attributes } from '../../core/ids-attributes';
-import { getClosestContainerNode } from '../../utils/ids-dom-utils/ids-dom-utils';
+import { IdsBaseConstructor } from '../../core/ids-element.ts';
+import { IdsPopupElementRef } from '../../components/ids-popup/ids-popup-attributes.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { getClosestContainerNode } from '../../utils/ids-dom-utils/ids-dom-utils.ts';
 
 /**
  * A mixin that allows for its component to attach itself to another DOM node when a specified condition occurs.

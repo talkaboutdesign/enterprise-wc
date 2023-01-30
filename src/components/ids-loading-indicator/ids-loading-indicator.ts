@@ -1,9 +1,9 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import { getPercentageTextHtml, getInnerIndicatorHtml } from './ids-loading-indicator-attributes';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { getPercentageTextHtml, getInnerIndicatorHtml } from './ids-loading-indicator-attributes.ts';
 
-import Base from './ids-loading-indicator-base';
+import Base from './ids-loading-indicator-base.ts';
 
 import styles from './ids-loading-indicator.scss';
 

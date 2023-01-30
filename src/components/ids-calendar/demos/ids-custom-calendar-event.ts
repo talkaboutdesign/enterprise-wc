@@ -1,6 +1,6 @@
-import IdsCalendarEvent, { CalendarEventTypeData } from '../ids-calendar-event';
+import IdsCalendarEvent, { CalendarEventTypeData } from '../ids-calendar-event.ts';
 import styles from './ids-custom-calendar-event.scss';
-import { customElement, scss } from '../../../core/ids-decorators';
+import { customElement, scss } from '../../../core/ids-decorators.ts';
 
 interface CustomCalendarEventTypeData extends CalendarEventTypeData {
   noOfAttributes?: number;

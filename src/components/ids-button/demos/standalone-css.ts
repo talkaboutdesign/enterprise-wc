@@ -1,4 +1,4 @@
-import { appendStyleSheets } from '../../../../scripts/append-stylesheets';
+import { appendStyleSheets } from '../../../../scripts/append-stylesheets.ts';
 import buttonStyles from '../ids-button.scss';
 import layoutStyles from '../../ids-layout-grid/ids-layout-grid.scss';
 import iconStyles from '../../ids-icon/ids-icon.scss';

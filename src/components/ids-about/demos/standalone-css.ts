@@ -7,8 +7,8 @@ import textStyles from '../../ids-text/ids-text.scss';
 import iconStyles from '../../ids-icon/ids-icon.scss';
 import containerStyles from '../../ids-container/ids-container.scss';
 
-import { appendStyleSheets } from '../../../../scripts/append-stylesheets';
-import css from '../../../assets/css/ids-about/standalone-css.css';
+import { appendStyleSheets } from '../../../../scripts/append-stylesheets.ts';
+import css from '../../../assets/css/ids-about/standalone-css.css.ts';
 
 // Ids Css
 appendStyleSheets(

@@ -1,10 +1,10 @@
-import { customElement } from '../../core/ids-decorators';
-import IdsElement from '../../core/ids-element';
-import IdsEventsMixin from '../../mixins/ids-events-mixin/ids-events-mixin';
-import { escapeHTML } from '../../utils/ids-xss-utils/ids-xss-utils';
+import { customElement } from '../../core/ids-decorators.ts';
+import IdsElement from '../../core/ids-element.ts';
+import IdsEventsMixin from '../../mixins/ids-events-mixin/ids-events-mixin.ts';
+import { escapeHTML } from '../../utils/ids-xss-utils/ids-xss-utils.ts';
 
-import type IdsDataGrid from './ids-data-grid';
-import { IdsDataGridColumn, IdsDataGridColumnGroup } from './ids-data-grid-column';
+import type IdsDataGrid from './ids-data-grid.ts';
+import { IdsDataGridColumn, IdsDataGridColumnGroup } from './ids-data-grid-column.ts';
 
 @customElement('ids-data-grid-header')
 export default class IdsDataGridHeader extends IdsEventsMixin(IdsElement) {

@@ -1,12 +1,12 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import Base from './ids-error-page-base';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import Base from './ids-error-page-base.ts';
 
-import '../ids-modal/ids-modal';
-import '../ids-empty-message/ids-empty-message';
-import '../ids-icon/ids-icon';
+import '../ids-modal/ids-modal.ts';
+import '../ids-empty-message/ids-empty-message.ts';
+import '../ids-icon/ids-icon.ts';
 import styles from './ids-error-page.scss';
-import type IdsEmptyMessage from '../ids-empty-message/ids-empty-message';
+import type IdsEmptyMessage from '../ids-empty-message/ids-empty-message.ts';
 
 const DEFAULT_ICON = 'empty-error-loading';
 

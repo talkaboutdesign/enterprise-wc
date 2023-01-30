@@ -1,4 +1,4 @@
-import { attributes } from '../../core/ids-attributes';
+import { attributes } from '../../core/ids-attributes.ts';
 
 export const IdsDatePickerCommonAttributes = [
   attributes.DAY,

@@ -1,3 +1,3 @@
-import '../ids-swappable';
-import '../ids-swappable-item';
-import '../../ids-text/ids-text';
+import '../ids-swappable.ts';
+import '../ids-swappable-item.ts';
+import '../../ids-text/ids-text.ts';

@@ -1,4 +1,4 @@
-import '../ids-card';
+import '../ids-card.ts';
 
 // Initialize the 4.x
 $('body').initialize();

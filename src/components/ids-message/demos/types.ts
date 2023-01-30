@@ -1,8 +1,8 @@
 // Supporting Components
-import '../ids-message';
-import '../../ids-modal/ids-modal';
-import '../../ids-button/ids-button';
-import '../../ids-hyperlink/ids-hyperlink';
+import '../ids-message.ts';
+import '../../ids-modal/ids-modal.ts';
+import '../../ids-button/ids-button.ts';
+import '../../ids-hyperlink/ids-hyperlink.ts';
 
 // Convenience function for setting up modal/trigger button connection
 const setupMessage = (messageEl: any, triggerBtnEl: any) => {

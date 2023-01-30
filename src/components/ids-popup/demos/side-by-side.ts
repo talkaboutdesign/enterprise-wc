@@ -1,8 +1,8 @@
 // Supporting Components
-import '../ids-popup';
-import '../../ids-button/ids-button';
+import '../ids-popup.ts';
+import '../../ids-button/ids-button.ts';
 
-import css from '../../../assets/css/ids-popup/index.css';
+import css from '../../../assets/css/ids-popup/index.css.ts';
 
 const cssLink = `<link href="${css}" rel="stylesheet">`;
 const head = document.querySelector('head');

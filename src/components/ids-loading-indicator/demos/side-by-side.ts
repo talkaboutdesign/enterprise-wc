@@ -1,4 +1,4 @@
-import '../ids-loading-indicator';
+import '../ids-loading-indicator.ts';
 
 // Initialize the 4.x
 $('body').initialize();

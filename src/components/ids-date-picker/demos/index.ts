@@ -1,2 +1,2 @@
 // Supporting components
-import '../ids-date-picker';
+import '../ids-date-picker.ts';

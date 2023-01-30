@@ -1,20 +1,20 @@
-import { attributes } from '../../core/ids-attributes';
-import { customElement, scss } from '../../core/ids-decorators';
-import { injectTemplate, stringToBool, stringToNumber } from '../../utils/ids-string-utils/ids-string-utils';
-import { calculateTextRenderWidth } from '../../utils/ids-object-utils/ids-object-utils';
-import { QUALITATIVE_COLORS } from './ids-chart-colors';
-import { patternData } from './ids-pattern-data';
-import NiceScale from './ids-nice-scale';
-import debounce from '../../utils/ids-debounce-utils/ids-debounce-utils';
-import Base from './ids-axis-chart-base';
-import IdsDataSource from '../../core/ids-data-source';
-import '../ids-tooltip/ids-tooltip';
-import '../ids-empty-message/ids-empty-message';
+import { attributes } from '../../core/ids-attributes.ts';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { injectTemplate, stringToBool, stringToNumber } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { calculateTextRenderWidth } from '../../utils/ids-object-utils/ids-object-utils.ts';
+import { QUALITATIVE_COLORS } from './ids-chart-colors.ts';
+import { patternData } from './ids-pattern-data.ts';
+import NiceScale from './ids-nice-scale.ts';
+import debounce from '../../utils/ids-debounce-utils/ids-debounce-utils.ts';
+import Base from './ids-axis-chart-base.ts';
+import IdsDataSource from '../../core/ids-data-source.ts';
+import '../ids-tooltip/ids-tooltip.ts';
+import '../ids-empty-message/ids-empty-message.ts';
 import styles from './ids-axis-chart.scss';
-import { ChartSelectionHandler } from '../../mixins/ids-chart-selection-mixin/ids-chart-selection-mixin';
-import type IdsEmptyMessage from '../ids-empty-message/ids-empty-message';
-import type IdsText from '../ids-text/ids-text';
-import type IdsTooltip from '../ids-tooltip/ids-tooltip';
+import { ChartSelectionHandler } from '../../mixins/ids-chart-selection-mixin/ids-chart-selection-mixin.ts';
+import type IdsEmptyMessage from '../ids-empty-message/ids-empty-message.ts';
+import type IdsText from '../ids-text/ids-text.ts';
+import type IdsTooltip from '../ids-tooltip/ids-tooltip.ts';
 
 export type IdsChartData = {
   abbreviatedName?: string,

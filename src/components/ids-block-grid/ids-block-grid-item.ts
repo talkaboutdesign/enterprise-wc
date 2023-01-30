@@ -1,11 +1,11 @@
-import '../ids-checkbox/ids-checkbox';
-import { customElement, scss } from '../../core/ids-decorators';
-import Base from './ids-block-grid-item-base';
+import '../ids-checkbox/ids-checkbox.ts';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import Base from './ids-block-grid-item-base.ts';
 import styles from './ids-block-grid-item.scss';
-import { attributes } from '../../core/ids-attributes';
-import type IdsCard from '../ids-card/ids-card';
-import type IdsHyperlink from '../ids-hyperlink/ids-hyperlink';
-import type IdsCheckbox from '../ids-checkbox/ids-checkbox';
+import { attributes } from '../../core/ids-attributes.ts';
+import type IdsCard from '../ids-card/ids-card.ts';
+import type IdsHyperlink from '../ids-hyperlink/ids-hyperlink.ts';
+import type IdsCheckbox from '../ids-checkbox/ids-checkbox.ts';
 
 /**
  * IDS Block Grid Item Component

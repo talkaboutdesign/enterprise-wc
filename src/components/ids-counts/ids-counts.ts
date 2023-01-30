@@ -1,13 +1,13 @@
-import { customElement, scss, } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
+import { customElement, scss, } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
-import Base from './ids-count-base';
-import '../ids-text/ids-text';
-import '../ids-hyperlink/ids-hyperlink';
+import Base from './ids-count-base.ts';
+import '../ids-text/ids-text.ts';
+import '../ids-hyperlink/ids-hyperlink.ts';
 
 import styles from './ids-counts.scss';
-import type IdsText from '../ids-text/ids-text';
+import type IdsText from '../ids-text/ids-text.ts';
 
 /**
  * IDS Counts Component

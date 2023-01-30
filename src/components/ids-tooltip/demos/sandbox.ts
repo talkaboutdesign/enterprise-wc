@@ -1,6 +1,6 @@
-import '../../ids-input/ids-input';
+import '../../ids-input/ids-input.ts';
 import bikesJSON from '../../../assets/data/bikes.json';
-import css from '../../../assets/css/ids-tooltip/sandbox.css';
+import css from '../../../assets/css/ids-tooltip/sandbox.css.ts';
 
 const cssLink = `<link href="${css}" rel="stylesheet">`;
 const head = document.querySelector('head');

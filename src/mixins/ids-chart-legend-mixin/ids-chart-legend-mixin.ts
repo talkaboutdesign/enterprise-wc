@@ -1,8 +1,8 @@
-import { attributes } from '../../core/ids-attributes';
-import { IdsConstructor } from '../../core/ids-element';
-import { checkOverflow } from '../../utils/ids-dom-utils/ids-dom-utils';
-import { kebabCase } from '../../utils/ids-string-utils/ids-string-utils';
-import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin';
+import { attributes } from '../../core/ids-attributes.ts';
+import { IdsConstructor } from '../../core/ids-element.ts';
+import { checkOverflow } from '../../utils/ids-dom-utils/ids-dom-utils.ts';
+import { kebabCase } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin.ts';
 
 export interface ChartLegendHandler {
   setSelection?(dataIndex: string, isLegendClick?: boolean): void;

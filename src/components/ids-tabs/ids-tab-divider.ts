@@ -1,5 +1,5 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import Base from './ids-tab-divider-base';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import Base from './ids-tab-divider-base.ts';
 
 import styles from './ids-tab-divider.scss';
 

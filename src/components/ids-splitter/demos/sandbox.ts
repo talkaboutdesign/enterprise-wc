@@ -1,7 +1,7 @@
 // IdsSplitter Sandbox
-import '../../ids-radio/ids-radio';
+import '../../ids-radio/ids-radio.ts';
 
-import css from '../../../assets/css/ids-splitter/sandbox.css';
+import css from '../../../assets/css/ids-splitter/sandbox.css.ts';
 
 const cssLink = `<link href="${css}" rel="stylesheet">`;
 (document.querySelector('head') as any).insertAdjacentHTML('afterbegin', cssLink);

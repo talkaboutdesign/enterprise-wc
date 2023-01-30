@@ -1,14 +1,14 @@
-import { attributes } from '../../core/ids-attributes';
-import { customElement, scss } from '../../core/ids-decorators';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import { stripHTML } from '../../utils/ids-xss-utils/ids-xss-utils';
+import { attributes } from '../../core/ids-attributes.ts';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { stripHTML } from '../../utils/ids-xss-utils/ids-xss-utils.ts';
 
-import Base from './ids-trigger-field-base';
+import Base from './ids-trigger-field-base.ts';
 
-import './ids-trigger-button';
+import './ids-trigger-button.ts';
 
 import styles from './ids-trigger-field.scss';
-import type IdsTriggerButton from './ids-trigger-button';
+import type IdsTriggerButton from './ids-trigger-button.ts';
 
 /**
  * IDS Trigger Field Component

@@ -1,1 +1,1 @@
-import '../ids-axis-chart';
+import '../ids-axis-chart.ts';

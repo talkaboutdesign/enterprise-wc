@@ -1,4 +1,4 @@
-import '../ids-dropdown';
+import '../ids-dropdown.ts';
 
 const dropdownXssTest: any = document.querySelector('#e2e-dropdown-xss-loaded');
 

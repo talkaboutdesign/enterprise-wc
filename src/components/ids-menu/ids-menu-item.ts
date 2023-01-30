@@ -1,20 +1,20 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes, htmlAttributes } from '../../core/ids-attributes';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes, htmlAttributes } from '../../core/ids-attributes.ts';
 import {
   MENU_ITEM_SIZE, MENU_DEFAULTS, safeForAttribute
-} from './ids-menu-attributes';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
+} from './ids-menu-attributes.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
-import Base from './ids-menu-item-base';
-import '../ids-icon/ids-icon';
+import Base from './ids-menu-item-base.ts';
+import '../ids-icon/ids-icon.ts';
 
 import styles from './ids-menu-item.scss';
-import type IdsToolbarMoreActions from '../ids-toolbar/ids-toolbar-more-actions';
-import type IdsTabMore from '../ids-tabs/ids-tab-more';
-import type IdsPopupMenu from '../ids-popup-menu/ids-popup-menu';
-import type IdsMenu from './ids-menu';
-import type IdsMenuGroup from './ids-menu-group';
-import type IdsIcon from '../ids-icon/ids-icon';
+import type IdsToolbarMoreActions from '../ids-toolbar/ids-toolbar-more-actions.ts';
+import type IdsTabMore from '../ids-tabs/ids-tab-more.ts';
+import type IdsPopupMenu from '../ids-popup-menu/ids-popup-menu.ts';
+import type IdsMenu from './ids-menu.ts';
+import type IdsMenuGroup from './ids-menu-group.ts';
+import type IdsIcon from '../ids-icon/ids-icon.ts';
 
 /**
  * IDS Menu Item Component

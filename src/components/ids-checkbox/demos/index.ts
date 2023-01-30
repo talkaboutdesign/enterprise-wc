@@ -1,3 +1,3 @@
 // Supporting components
-import '../ids-checkbox';
-import '../../ids-button/ids-button';
+import '../ids-checkbox.ts';
+import '../../ids-button/ids-button.ts';

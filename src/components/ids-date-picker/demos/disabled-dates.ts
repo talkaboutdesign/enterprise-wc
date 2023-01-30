@@ -1,4 +1,4 @@
-import '../ids-date-picker';
+import '../ids-date-picker.ts';
 
 const disabledDates: any = document.querySelector('#e2e-date-picker-disabled-dates');
 const disabledYears: any = document.querySelector('#e2e-date-picker-disabled-years');

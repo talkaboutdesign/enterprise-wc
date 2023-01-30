@@ -1,8 +1,8 @@
-import IdsLocale from '../../components/ids-locale/ids-locale';
-import { attributes } from '../../core/ids-attributes';
-import { getClosest } from '../../utils/ids-dom-utils/ids-dom-utils';
-import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin';
-import { IdsConstructor } from '../../core/ids-element';
+import IdsLocale from '../../components/ids-locale/ids-locale.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { getClosest } from '../../utils/ids-dom-utils/ids-dom-utils.ts';
+import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin.ts';
+import { IdsConstructor } from '../../core/ids-element.ts';
 
 export interface LocaleMixinInterface {
   locale: IdsLocale;

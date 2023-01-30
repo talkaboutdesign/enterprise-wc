@@ -1,4 +1,4 @@
-import MaskAPI from './ids-mask-api';
+import MaskAPI from './ids-mask-api.ts';
 
 const maskAPI = new MaskAPI();
 

@@ -1,9 +1,9 @@
 // Supporting Components
-import '../../ids-checkbox/ids-checkbox';
-import '../../ids-input/ids-input';
-import '../../ids-dropdown/ids-dropdown';
-import '../../ids-modal-button/ids-modal-button';
-import '../../ids-textarea/ids-textarea';
+import '../../ids-checkbox/ids-checkbox.ts';
+import '../../ids-input/ids-input.ts';
+import '../../ids-dropdown/ids-dropdown.ts';
+import '../../ids-modal-button/ids-modal-button.ts';
+import '../../ids-textarea/ids-textarea.ts';
 
 // import './focus.scss';
 

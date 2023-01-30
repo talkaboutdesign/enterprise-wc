@@ -1,5 +1,5 @@
 import eventsJSON from '../../../assets/data/events.json';
-import css from '../../../assets/css/ids-list-view/index.css';
+import css from '../../../assets/css/ids-list-view/index.css.ts';
 
 const cssLink = `<link href="${css}" rel="stylesheet">`;
 const head = document.querySelector('head');

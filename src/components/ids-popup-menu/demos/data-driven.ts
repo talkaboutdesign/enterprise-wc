@@ -1,6 +1,6 @@
 // Supporting components
-import '../ids-popup-menu';
-import '../../ids-popup/ids-popup';
+import '../ids-popup-menu.ts';
+import '../../ids-popup/ids-popup.ts';
 import json from '../../../assets/data/menu-contents.json';
 
 document.addEventListener('DOMContentLoaded', () => {

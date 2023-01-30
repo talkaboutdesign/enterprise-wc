@@ -1,9 +1,9 @@
-import type IdsDataGrid from '../ids-data-grid';
-import '../ids-data-grid';
-import type { IdsDataGridColumn } from '../ids-data-grid-column';
+import type IdsDataGrid from '../ids-data-grid.ts';
+import '../ids-data-grid.ts';
+import type { IdsDataGridColumn } from '../ids-data-grid-column.ts';
 import productsJSON from '../../../assets/data/products.json';
 import treeLargeJSON from '../../../assets/data/tree-large.json';
-import css from '../../../assets/css/ids-data-grid/auto-fit.css';
+import css from '../../../assets/css/ids-data-grid/auto-fit.css.ts';
 
 const cssLink = `<link href="${css}" rel="stylesheet">`;
 document.querySelector('head')?.insertAdjacentHTML('afterbegin', cssLink);

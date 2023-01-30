@@ -1,5 +1,5 @@
-import '../ids-hyperlink';
-import type IdsHyperlink from '../ids-hyperlink';
+import '../ids-hyperlink.ts';
+import type IdsHyperlink from '../ids-hyperlink.ts';
 
 const link = document.querySelector<IdsHyperlink>('#link-no-href');
 

@@ -1,9 +1,9 @@
-import { attributes } from '../../core/ids-attributes';
-import { IdsConstructor } from '../../core/ids-element';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import type { IdsLabelStateMode } from './ids-label-state-common';
-import { IdsLabelStateAttributes, isLabelStateValid, isLabelRequiredValid } from './ids-label-state-common';
-import { LabelStateHandler } from './ids-label-state-mixin';
+import { attributes } from '../../core/ids-attributes.ts';
+import { IdsConstructor } from '../../core/ids-element.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import type { IdsLabelStateMode } from './ids-label-state-common.ts';
+import { IdsLabelStateAttributes, isLabelStateValid, isLabelRequiredValid } from './ids-label-state-common.ts';
+import { LabelStateHandler } from './ids-label-state-mixin.ts';
 
 interface LabelStateParentHandler {
   onLabelChange?(label: string | null): void;

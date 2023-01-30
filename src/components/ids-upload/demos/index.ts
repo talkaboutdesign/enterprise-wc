@@ -1,1 +1,1 @@
-import '../ids-upload';
+import '../ids-upload.ts';

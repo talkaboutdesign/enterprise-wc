@@ -1,9 +1,9 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import IdsInput from '../ids-input/ids-input';
-import '../ids-toolbar/ids-toolbar';
-import Base from './ids-list-builder-base';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import IdsInput from '../ids-input/ids-input.ts';
+import '../ids-toolbar/ids-toolbar.ts';
+import Base from './ids-list-builder-base.ts';
 import styles from './ids-list-builder.scss';
-import IdsSwappableItem from '../ids-swappable/ids-swappable-item';
+import IdsSwappableItem from '../ids-swappable/ids-swappable-item.ts';
 
 /**
  * IDS ListBuilder Component

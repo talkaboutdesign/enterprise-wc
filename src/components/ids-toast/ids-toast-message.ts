@@ -1,13 +1,13 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { waitForAnimationEnd } from '../../utils/ids-dom-utils/ids-dom-utils';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { waitForAnimationEnd } from '../../utils/ids-dom-utils/ids-dom-utils.ts';
 
-import Base from './ids-toast-message-base';
+import Base from './ids-toast-message-base.ts';
 
-import '../ids-icon/ids-icon';
-import '../ids-text/ids-text';
-import '../ids-trigger-field/ids-trigger-button';
-import '../ids-hyperlink/ids-hyperlink';
+import '../ids-icon/ids-icon.ts';
+import '../ids-text/ids-text.ts';
+import '../ids-trigger-field/ids-trigger-button.ts';
+import '../ids-hyperlink/ids-hyperlink.ts';
 
 import {
   ATTRIBUTE_MESSAGE_ID,
@@ -17,7 +17,7 @@ import {
   EVENTS,
   isBool,
   getBoolVal,
-} from './ids-toast-shared';
+} from './ids-toast-shared.ts';
 
 import styles from './ids-toast-message.scss';
 

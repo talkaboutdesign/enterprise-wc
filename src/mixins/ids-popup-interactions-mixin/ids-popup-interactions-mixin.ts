@@ -1,8 +1,8 @@
-import { attributes } from '../../core/ids-attributes';
-import type { IdsPopupElementRef } from '../../components/ids-popup/ids-popup-attributes';
-import { IdsConstructor } from '../../core/ids-element';
-import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin';
-import IdsPopup from '../../components/ids-popup/ids-popup';
+import { attributes } from '../../core/ids-attributes.ts';
+import type { IdsPopupElementRef } from '../../components/ids-popup/ids-popup-attributes.ts';
+import { IdsConstructor } from '../../core/ids-element.ts';
+import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin.ts';
+import IdsPopup from '../../components/ids-popup/ids-popup.ts';
 
 const POPUP_TRIGGER_TYPES = [
   'contextmenu',

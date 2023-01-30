@@ -1,12 +1,12 @@
-import '../ids-date-picker-popup';
-import '../ids-month-year-picklist';
-import '../ids-date-picker';
-import '../../ids-button/ids-button';
-import '../../ids-modal-button/ids-modal-button';
-import '../../ids-trigger-field/ids-trigger-field';
-import '../../ids-trigger-field/ids-trigger-button';
+import '../ids-date-picker-popup.ts';
+import '../ids-month-year-picklist.ts';
+import '../ids-date-picker.ts';
+import '../../ids-button/ids-button.ts';
+import '../../ids-modal-button/ids-modal-button.ts';
+import '../../ids-trigger-field/ids-trigger-field.ts';
+import '../../ids-trigger-field/ids-trigger-button.ts';
 
-import type IdsTriggerField from '../../ids-trigger-field/ids-trigger-field';
+import type IdsTriggerField from '../../ids-trigger-field/ids-trigger-field.ts';
 
 const fieldDefs = [
   {

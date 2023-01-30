@@ -1,8 +1,8 @@
-import { stringToBool, isPrintable } from '../../utils/ids-string-utils/ids-string-utils';
-import { requestAnimationTimeout, clearAnimationTimeout } from '../../utils/ids-timer-utils/ids-timer-utils';
-import type { FrameRequestLoopHandler } from '../../utils/ids-timer-utils/ids-timer-utils';
-import { getEventBaseName } from './ids-events-common';
-import { IdsBaseConstructor } from '../../core/ids-element';
+import { stringToBool, isPrintable } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { requestAnimationTimeout, clearAnimationTimeout } from '../../utils/ids-timer-utils/ids-timer-utils.ts';
+import type { FrameRequestLoopHandler } from '../../utils/ids-timer-utils/ids-timer-utils.ts';
+import { getEventBaseName } from './ids-events-common.ts';
+import { IdsBaseConstructor } from '../../core/ids-element.ts';
 
 export type EventOptions = { [key: string]: any } & AddEventListenerOptions;
 

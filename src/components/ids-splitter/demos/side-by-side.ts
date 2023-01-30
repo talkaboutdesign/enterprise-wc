@@ -1,5 +1,5 @@
-import '../ids-splitter';
-import css from '../../../assets/css/ids-splitter/side-by-side.css';
+import '../ids-splitter.ts';
+import css from '../../../assets/css/ids-splitter/side-by-side.css.ts';
 
 const cssLink = `<link href="${css}" rel="stylesheet">`;
 (document.querySelector('head') as any).insertAdjacentHTML('afterbegin', cssLink);

@@ -1,11 +1,11 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
 
-import Base from './ids-toast-base';
+import Base from './ids-toast-base.ts';
 
-import { isObject } from '../../utils/ids-object-utils/ids-object-utils';
-import { stripHTML, stripTags } from '../../utils/ids-xss-utils/ids-xss-utils';
-import { camelCase, stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
+import { isObject } from '../../utils/ids-object-utils/ids-object-utils.ts';
+import { stripHTML, stripTags } from '../../utils/ids-xss-utils/ids-xss-utils.ts';
+import { camelCase, stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
 import {
   DEFAULTS,
@@ -18,10 +18,10 @@ import {
   isBool,
   getBoolVal,
   POSITIONS
-} from './ids-toast-shared';
+} from './ids-toast-shared.ts';
 
-import './ids-toast-message';
-import '../ids-draggable/ids-draggable';
+import './ids-toast-message.ts';
+import '../ids-draggable/ids-draggable.ts';
 
 import styles from './ids-toast.scss';
 

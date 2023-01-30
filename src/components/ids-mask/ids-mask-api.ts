@@ -5,9 +5,9 @@ import {
   PLACEHOLDER_CHAR,
   DEFAULT_CONFORM_OPTIONS,
   IdsMaskOptions
-} from './ids-mask-common';
+} from './ids-mask-common.ts';
 
-import { deepClone } from '../../utils/ids-deep-clone-utils/ids-deep-clone-utils';
+import { deepClone } from '../../utils/ids-deep-clone-utils/ids-deep-clone-utils.ts';
 
 /**
  * @param {any} value the item to check for string

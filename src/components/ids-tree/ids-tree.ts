@@ -1,14 +1,14 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
 
-import Base from './ids-tree-base';
-import IdsDataSource from '../../core/ids-data-source';
-import IdsTreeShared from './ids-tree-shared';
-import './ids-tree-node';
-import '../ids-text/ids-text';
+import Base from './ids-tree-base.ts';
+import IdsDataSource from '../../core/ids-data-source.ts';
+import IdsTreeShared from './ids-tree-shared.ts';
+import './ids-tree-node.ts';
+import '../ids-text/ids-text.ts';
 
-import { unescapeHTML, escapeHTML } from '../../utils/ids-xss-utils/ids-xss-utils';
-import { stringToBool, camelCase } from '../../utils/ids-string-utils/ids-string-utils';
+import { unescapeHTML, escapeHTML } from '../../utils/ids-xss-utils/ids-xss-utils.ts';
+import { stringToBool, camelCase } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
 import styles from './ids-tree.scss';
 

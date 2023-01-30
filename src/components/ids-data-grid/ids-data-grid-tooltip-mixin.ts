@@ -1,14 +1,14 @@
-import { attributes } from '../../core/ids-attributes';
-import { stringToBool, stringToNumber } from '../../utils/ids-string-utils/ids-string-utils';
-import { eventPath, findInPath } from '../../utils/ids-event-path-utils/ids-event-path-utils';
-import { sanitizeHTML } from '../../utils/ids-xss-utils/ids-xss-utils';
-import { IdsDataGridTooltipOptions } from './ids-data-grid-column';
-import debounce from '../../utils/ids-debounce-utils/ids-debounce-utils';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToBool, stringToNumber } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { eventPath, findInPath } from '../../utils/ids-event-path-utils/ids-event-path-utils.ts';
+import { sanitizeHTML } from '../../utils/ids-xss-utils/ids-xss-utils.ts';
+import { IdsDataGridTooltipOptions } from './ids-data-grid-column.ts';
+import debounce from '../../utils/ids-debounce-utils/ids-debounce-utils.ts';
 
-import '../ids-tooltip/ids-tooltip';
-import { IdsConstructor } from '../../core/ids-element';
-import { EventsMixinInterface } from '../../mixins/ids-events-mixin/ids-events-mixin';
-import type IdsDataGrid from './ids-data-grid';
+import '../ids-tooltip/ids-tooltip.ts';
+import { IdsConstructor } from '../../core/ids-element.ts';
+import { EventsMixinInterface } from '../../mixins/ids-events-mixin/ids-events-mixin.ts';
+import type IdsDataGrid from './ids-data-grid.ts';
 
 type Constraints = IdsConstructor<EventsMixinInterface>;
 

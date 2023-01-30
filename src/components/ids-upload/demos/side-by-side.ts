@@ -1,4 +1,4 @@
-import '../ids-upload';
+import '../ids-upload.ts';
 
 // Initialize the 4.x
 $('body').initialize();

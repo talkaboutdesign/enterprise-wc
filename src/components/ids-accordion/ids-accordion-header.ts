@@ -1,12 +1,12 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import { applyContentAlignmentClass } from './ids-accordion-common';
-import Base from './ids-accordion-header-base';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { applyContentAlignmentClass } from './ids-accordion-common.ts';
+import Base from './ids-accordion-header-base.ts';
 
 import styles from './ids-accordion-header.scss';
-import type IdsIcon from '../ids-icon/ids-icon';
-import IdsText from '../ids-text/ids-text';
+import type IdsIcon from '../ids-icon/ids-icon.ts';
+import IdsText from '../ids-text/ids-text.ts';
 
 // Expander Types
 const EXPANDER_TYPES = ['caret', 'plus-minus'];

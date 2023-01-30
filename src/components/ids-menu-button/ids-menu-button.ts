@@ -1,16 +1,16 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import { attributes, htmlAttributes } from '../../core/ids-attributes';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { attributes, htmlAttributes } from '../../core/ids-attributes.ts';
 
-import Base from './ids-menu-button-base';
-import '../ids-icon/ids-icon';
-import '../ids-popup-menu/ids-popup-menu';
-import '../ids-menu/ids-menu-group';
-import '../ids-menu/ids-menu-item';
+import Base from './ids-menu-button-base.ts';
+import '../ids-icon/ids-icon.ts';
+import '../ids-popup-menu/ids-popup-menu.ts';
+import '../ids-menu/ids-menu-group.ts';
+import '../ids-menu/ids-menu-item.ts';
 
 import styles from '../ids-button/ids-button.scss';
 
-import type IdsIcon from '../ids-icon/ids-icon';
+import type IdsIcon from '../ids-icon/ids-icon.ts';
 
 /**
  * IDS Menu Button Component

@@ -1,6 +1,6 @@
-import '../../mixins/ids-events-mixin/ids-events-mixin';
-import '../../mixins/ids-color-variant-mixin/ids-color-variant-mixin';
-import IdsElement from '../../core/ids-element';
+import '../../mixins/ids-events-mixin/ids-events-mixin.ts';
+import '../../mixins/ids-color-variant-mixin/ids-color-variant-mixin.ts';
+import IdsElement from '../../core/ids-element.ts';
 
 const Base = IdsElement;
 

@@ -1,3 +1,3 @@
-import '../ids-search-field';
-import '../../ids-header/ids-header';
-import '../../ids-toolbar/ids-toolbar';
+import '../ids-search-field.ts';
+import '../../ids-header/ids-header.ts';
+import '../../ids-toolbar/ids-toolbar.ts';

@@ -1,6 +1,6 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import '../ids-line-chart/ids-line-chart';
-import Base from './ids-area-chart-base';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import '../ids-line-chart/ids-line-chart.ts';
+import Base from './ids-area-chart-base.ts';
 import styles from './ids-area-chart.scss';
 
 /**

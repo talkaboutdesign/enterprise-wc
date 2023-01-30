@@ -1,4 +1,4 @@
-import IdsLineChart from '../ids-line-chart/ids-line-chart';
+import IdsLineChart from '../ids-line-chart/ids-line-chart.ts';
 
 const Base = IdsLineChart;
 

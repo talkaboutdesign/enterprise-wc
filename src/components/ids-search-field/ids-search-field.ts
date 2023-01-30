@@ -1,11 +1,11 @@
-import { attributes } from '../../core/ids-attributes';
-import { customElement, scss } from '../../core/ids-decorators';
-import { stripHTML } from '../../utils/ids-xss-utils/ids-xss-utils';
+import { attributes } from '../../core/ids-attributes.ts';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { stripHTML } from '../../utils/ids-xss-utils/ids-xss-utils.ts';
 
-import Base from './ids-search-field-base';
-import '../ids-trigger-field/ids-trigger-button';
-import '../ids-input/ids-input';
-import '../ids-icon/ids-icon';
+import Base from './ids-search-field-base.ts';
+import '../ids-trigger-field/ids-trigger-button.ts';
+import '../ids-input/ids-input.ts';
+import '../ids-icon/ids-icon.ts';
 
 import styles from './ids-search-field.scss';
 

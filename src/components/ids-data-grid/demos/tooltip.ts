@@ -1,7 +1,7 @@
-import type IdsDataGrid from '../ids-data-grid';
-import '../ids-data-grid';
-import type { IdsDataGridColumn, IdsDataGridTooltipCallback } from '../ids-data-grid-column';
-import '../../ids-container/ids-container';
+import type IdsDataGrid from '../ids-data-grid.ts';
+import '../ids-data-grid.ts';
+import type { IdsDataGridColumn, IdsDataGridTooltipCallback } from '../ids-data-grid-column.ts';
+import '../../ids-container/ids-container.ts';
 import productsJSON from '../../../assets/data/products.json';
 
 // Example for populating the DataGrid

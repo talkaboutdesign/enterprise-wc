@@ -1,7 +1,7 @@
-import { attributes } from '../../core/ids-attributes';
-import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin';
-import { IdsConstructor } from '../../core/ids-element';
-import type IdsThemeSwitcher from '../../components/ids-theme-switcher/ids-theme-switcher';
+import { attributes } from '../../core/ids-attributes.ts';
+import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin.ts';
+import { IdsConstructor } from '../../core/ids-element.ts';
+import type IdsThemeSwitcher from '../../components/ids-theme-switcher/ids-theme-switcher.ts';
 
 type Constraints = IdsConstructor<EventsMixinInterface>;
 

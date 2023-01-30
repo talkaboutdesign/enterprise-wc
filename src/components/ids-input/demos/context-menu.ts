@@ -1,6 +1,6 @@
 // Supporting components
-import '../../ids-popup-menu/ids-popup-menu';
-import '../../ids-popup/ids-popup';
+import '../../ids-popup-menu/ids-popup-menu.ts';
+import '../../ids-popup/ids-popup.ts';
 
 // Standard menu configuration
 document.addEventListener('DOMContentLoaded', () => {

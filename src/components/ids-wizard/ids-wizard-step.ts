@@ -1,5 +1,5 @@
-import { customElement } from '../../core/ids-decorators';
-import Base from './ids-wizard-step-base';
+import { customElement } from '../../core/ids-decorators.ts';
+import Base from './ids-wizard-step-base.ts';
 
 // Note: this component is only used to count steps
 // and retrieve attributes via parent for markup for

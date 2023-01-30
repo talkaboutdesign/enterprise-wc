@@ -1,19 +1,19 @@
-import { customElement, scss } from '../../core/ids-decorators';
+import { customElement, scss } from '../../core/ids-decorators.ts';
 
-import Base from './ids-app-base';
-import '../ids-drawer/ids-drawer';
-import '../ids-accordion/ids-accordion';
-import '../ids-button/ids-button';
-import '../ids-icon/ids-icon';
-import '../ids-text/ids-text';
-import '../ids-toolbar/ids-toolbar';
-import { getClosest } from '../../utils/ids-dom-utils/ids-dom-utils';
+import Base from './ids-app-base.ts';
+import '../ids-drawer/ids-drawer.ts';
+import '../ids-accordion/ids-accordion.ts';
+import '../ids-button/ids-button.ts';
+import '../ids-icon/ids-icon.ts';
+import '../ids-text/ids-text.ts';
+import '../ids-toolbar/ids-toolbar.ts';
+import { getClosest } from '../../utils/ids-dom-utils/ids-dom-utils.ts';
 
 import styles from './ids-app-menu.scss';
-import type IdsAccordion from '../ids-accordion/ids-accordion';
-import type IdsButton from '../ids-button/ids-button';
-import type IdsSearchField from '../ids-search-field/ids-search-field';
-import type IdsContainer from '../ids-container/ids-container';
+import type IdsAccordion from '../ids-accordion/ids-accordion.ts';
+import type IdsButton from '../ids-button/ids-button.ts';
+import type IdsSearchField from '../ids-search-field/ids-search-field.ts';
+import type IdsContainer from '../ids-container/ids-container.ts';
 
 const CONTAINER_CLASS = 'app-menu';
 const CONTAINER_OPEN_CLASS = 'app-menu-is-open';

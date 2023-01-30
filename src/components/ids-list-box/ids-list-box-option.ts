@@ -1,6 +1,6 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import Base from './ids-list-box-option-base';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import Base from './ids-list-box-option-base.ts';
 
 import styles from './ids-list-box-option.scss';
 

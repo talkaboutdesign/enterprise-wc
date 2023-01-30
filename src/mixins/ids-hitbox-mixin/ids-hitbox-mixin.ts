@@ -1,6 +1,6 @@
-import { attributes } from '../../core/ids-attributes';
-import { IdsBaseConstructor } from '../../core/ids-element';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
+import { attributes } from '../../core/ids-attributes.ts';
+import { IdsBaseConstructor } from '../../core/ids-element.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
 /**
  * A mixin that will add hitbox stylings to the component element.

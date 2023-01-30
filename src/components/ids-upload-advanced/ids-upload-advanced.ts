@@ -1,18 +1,18 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { stringToBool, stringToNumber } from '../../utils/ids-string-utils/ids-string-utils';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToBool, stringToNumber } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
-import Base from './ids-upload-advanced-base';
+import Base from './ids-upload-advanced-base.ts';
 
-import './ids-upload-advanced-file';
-import '../ids-hyperlink/ids-hyperlink';
-import IdsUploadAdvancedShared from './ids-upload-advanced-shared';
+import './ids-upload-advanced-file.ts';
+import '../ids-hyperlink/ids-hyperlink.ts';
+import IdsUploadAdvancedShared from './ids-upload-advanced-shared.ts';
 
 import styles from './ids-upload-advanced.scss';
 
 // Supporting components
-import '../ids-toolbar/ids-toolbar';
-import '../ids-button/ids-button';
+import '../ids-toolbar/ids-toolbar.ts';
+import '../ids-button/ids-button.ts';
 
 const shared = IdsUploadAdvancedShared;
 

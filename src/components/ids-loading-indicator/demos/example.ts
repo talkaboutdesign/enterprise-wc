@@ -1,4 +1,4 @@
-import css from '../../../assets/css/ids-loading-indicator/index.css';
+import css from '../../../assets/css/ids-loading-indicator/index.css.ts';
 
 const cssLink = `<link href="${css}" rel="stylesheet">`;
 document.querySelector('head')?.insertAdjacentHTML('afterbegin', cssLink);

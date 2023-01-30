@@ -1,1 +1,1 @@
-import '../ids-pie-chart';
+import '../ids-pie-chart.ts';

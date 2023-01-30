@@ -1,9 +1,9 @@
 // Import Core
-import { customElement, scss } from '../../core/ids-decorators';
-import { htmlAttributes } from '../../core/ids-attributes';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { htmlAttributes } from '../../core/ids-attributes.ts';
 
 // Import Base and Mixins
-import Base from './ids-menu-header-base';
+import Base from './ids-menu-header-base.ts';
 
 // Import Styles
 import styles from './ids-menu-header.scss';

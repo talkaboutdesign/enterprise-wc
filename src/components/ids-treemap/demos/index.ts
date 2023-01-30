@@ -1,1 +1,1 @@
-import '../ids-treemap';
+import '../ids-treemap.ts';

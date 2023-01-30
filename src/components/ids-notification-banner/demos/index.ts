@@ -1,3 +1,3 @@
 // Supporting components
-import '../ids-notification-banner';
-import '../../ids-card/ids-card';
+import '../ids-notification-banner.ts';
+import '../../ids-card/ids-card.ts';

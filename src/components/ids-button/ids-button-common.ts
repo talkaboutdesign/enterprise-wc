@@ -1,4 +1,4 @@
-import { attributes } from '../../core/ids-attributes';
+import { attributes } from '../../core/ids-attributes.ts';
 
 export type IdsButtonIconAlignment = undefined | 'start' | 'end';
 

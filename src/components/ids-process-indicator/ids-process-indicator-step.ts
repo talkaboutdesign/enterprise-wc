@@ -1,9 +1,9 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import Base from './ids-process-indicator-step-base';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import Base from './ids-process-indicator-step-base.ts';
 
 import styles from './ids-process-indicator-step.scss';
-import type IdsProcessIndicator from './ids-process-indicator';
+import type IdsProcessIndicator from './ids-process-indicator.ts';
 
 const statuses = ['cancelled', 'started', 'done'];
 const DEFAULT_LABEL = 'empty label';

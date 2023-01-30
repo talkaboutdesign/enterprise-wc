@@ -1,9 +1,9 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes, htmlAttributes } from '../../core/ids-attributes';
-import { stripHTML } from '../../utils/ids-xss-utils/ids-xss-utils';
-import { getElementAtMouseLocation } from '../../utils/ids-dom-utils/ids-dom-utils';
-import '../ids-popup/ids-popup';
-import Base from './ids-popup-menu-base';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes, htmlAttributes } from '../../core/ids-attributes.ts';
+import { stripHTML } from '../../utils/ids-xss-utils/ids-xss-utils.ts';
+import { getElementAtMouseLocation } from '../../utils/ids-dom-utils/ids-dom-utils.ts';
+import '../ids-popup/ids-popup.ts';
+import Base from './ids-popup-menu-base.ts';
 
 import styles from './ids-popup-menu.scss';
 

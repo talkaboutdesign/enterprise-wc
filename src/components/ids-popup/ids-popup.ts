@@ -1,18 +1,18 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { camelCase, stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import { stripHTML } from '../../utils/ids-xss-utils/ids-xss-utils';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { camelCase, stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { stripHTML } from '../../utils/ids-xss-utils/ids-xss-utils.ts';
 
 import {
   getClosest,
   getClosestRootNode,
   getEditableRect,
   waitForTransitionEnd,
-} from '../../utils/ids-dom-utils/ids-dom-utils';
+} from '../../utils/ids-dom-utils/ids-dom-utils.ts';
 
-import Base from './ids-popup-base';
+import Base from './ids-popup-base.ts';
 
-import type { IdsPopupElementRef } from './ids-popup-attributes';
+import type { IdsPopupElementRef } from './ids-popup-attributes.ts';
 
 import {
   CENTER,
@@ -27,7 +27,7 @@ import {
   TYPES,
   POPUP_PROPERTIES,
   formatAlignAttribute
-} from './ids-popup-attributes';
+} from './ids-popup-attributes.ts';
 
 import styles from './ids-popup.scss';
 

@@ -1,5 +1,5 @@
 // Supporting components
-import '../ids-action-sheet';
-import '../../ids-block-grid/ids-block-grid';
-import '../../ids-card/ids-card';
-import '../../ids-data-grid/ids-data-grid';
+import '../ids-action-sheet.ts';
+import '../../ids-block-grid/ids-block-grid.ts';
+import '../../ids-card/ids-card.ts';
+import '../../ids-data-grid/ids-data-grid.ts';

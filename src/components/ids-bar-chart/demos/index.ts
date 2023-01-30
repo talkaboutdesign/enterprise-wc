@@ -1,4 +1,4 @@
-import '../ids-bar-chart';
+import '../ids-bar-chart.ts';
 
 import componentsJSON from '../../../assets/data/components-single.json';
 

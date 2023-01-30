@@ -1,10 +1,10 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import { ALIGNMENT_TYPES, applyContentAlignmentClass } from './ids-accordion-common';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { ALIGNMENT_TYPES, applyContentAlignmentClass } from './ids-accordion-common.ts';
 
-import Base from './ids-accordion-panel-base';
-import IdsAccordionHeader from './ids-accordion-header';
+import Base from './ids-accordion-panel-base.ts';
+import IdsAccordionHeader from './ids-accordion-header.ts';
 
 import styles from './ids-accordion-panel.scss';
 

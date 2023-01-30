@@ -1,2 +1,2 @@
 // Supporting components
-import '../ids-text';
+import '../ids-text.ts';

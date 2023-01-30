@@ -1,9 +1,9 @@
 // Supporting components
-import '../ids-action-panel';
-import '../../ids-checkbox/ids-checkbox';
-import '../../ids-dropdown/ids-dropdown';
-import '../../ids-popup-menu/ids-popup-menu';
-import '../../ids-textarea/ids-textarea';
-import '../../ids-toolbar/ids-toolbar';
-import '../../ids-button/ids-button';
-import '../../ids-separator/ids-separator';
+import '../ids-action-panel.ts';
+import '../../ids-checkbox/ids-checkbox.ts';
+import '../../ids-dropdown/ids-dropdown.ts';
+import '../../ids-popup-menu/ids-popup-menu.ts';
+import '../../ids-textarea/ids-textarea.ts';
+import '../../ids-toolbar/ids-toolbar.ts';
+import '../../ids-button/ids-button.ts';
+import '../../ids-separator/ids-separator.ts';

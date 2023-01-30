@@ -1,14 +1,14 @@
-import { attributes } from '../../core/ids-attributes';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import '../ids-popup/ids-popup';
-import '../ids-list-box/ids-list-box';
-import '../ids-list-box/ids-list-box-option';
-import IdsDataSource from '../../core/ids-data-source';
-import { EventsMixinInterface } from '../../mixins/ids-events-mixin/ids-events-mixin';
-import { KeyboardMixinInterface } from '../../mixins/ids-keyboard-mixin/ids-keyboard-mixin';
-import { LocaleMixinInterface } from '../../mixins/ids-locale-mixin/ids-locale-mixin';
-import { IdsInputInterface } from './ids-input-attributes';
-import { IdsConstructor } from '../../core/ids-element';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import '../ids-popup/ids-popup.ts';
+import '../ids-list-box/ids-list-box.ts';
+import '../ids-list-box/ids-list-box-option.ts';
+import IdsDataSource from '../../core/ids-data-source.ts';
+import { EventsMixinInterface } from '../../mixins/ids-events-mixin/ids-events-mixin.ts';
+import { KeyboardMixinInterface } from '../../mixins/ids-keyboard-mixin/ids-keyboard-mixin.ts';
+import { LocaleMixinInterface } from '../../mixins/ids-locale-mixin/ids-locale-mixin.ts';
+import { IdsInputInterface } from './ids-input-attributes.ts';
+import { IdsConstructor } from '../../core/ids-element.ts';
 
 type Constraints = IdsConstructor<EventsMixinInterface & KeyboardMixinInterface & LocaleMixinInterface>;
 

@@ -1,20 +1,20 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { stringToBool, stringToNumber } from '../../utils/ids-string-utils/ids-string-utils';
-import { hoursTo12, hoursTo24, isValidDate } from '../../utils/ids-date-utils/ids-date-utils';
-import { getClosest } from '../../utils/ids-dom-utils/ids-dom-utils';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToBool, stringToNumber } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { hoursTo12, hoursTo24, isValidDate } from '../../utils/ids-date-utils/ids-date-utils.ts';
+import { getClosest } from '../../utils/ids-dom-utils/ids-dom-utils.ts';
 
-import Base from './ids-time-picker-base';
-import '../ids-dropdown/ids-dropdown';
-import '../ids-popup/ids-popup';
-import '../ids-trigger-field/ids-trigger-field';
-import type IdsDropdown from '../ids-dropdown/ids-dropdown';
-import type IdsTriggerField from '../ids-trigger-field/ids-trigger-field';
-import type IdsPopup from '../ids-popup/ids-popup';
+import Base from './ids-time-picker-base.ts';
+import '../ids-dropdown/ids-dropdown.ts';
+import '../ids-popup/ids-popup.ts';
+import '../ids-trigger-field/ids-trigger-field.ts';
+import type IdsDropdown from '../ids-dropdown/ids-dropdown.ts';
+import type IdsTriggerField from '../ids-trigger-field/ids-trigger-field.ts';
+import type IdsPopup from '../ids-popup/ids-popup.ts';
 
 import styles from './ids-time-picker.scss';
-import IdsTriggerButton from '../ids-trigger-field/ids-trigger-button';
-import { IdsPopupElementRef } from '../ids-popup/ids-popup-attributes';
+import IdsTriggerButton from '../ids-trigger-field/ids-trigger-button.ts';
+import { IdsPopupElementRef } from '../ids-popup/ids-popup-attributes.ts';
 
 const range: any = (start: any, stop: any, step = 1) => (
   start > stop ? [] : [start, ...range(start + Math.abs(step), stop, step)]

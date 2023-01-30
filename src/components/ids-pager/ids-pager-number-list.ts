@@ -1,10 +1,10 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { stringToBool, stringToNumber } from '../../utils/ids-string-utils/ids-string-utils';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToBool, stringToNumber } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
-import Base from './ids-pager-number-list-base';
-import '../ids-text/ids-text';
-import '../ids-button/ids-button';
+import Base from './ids-pager-number-list-base.ts';
+import '../ids-text/ids-text.ts';
+import '../ids-button/ids-button.ts';
 
 import styles from './ids-pager-number-list.scss';
 

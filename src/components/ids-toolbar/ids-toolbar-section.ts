@@ -1,7 +1,7 @@
-import { attributes } from '../../core/ids-attributes';
-import { customElement, scss } from '../../core/ids-decorators';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import Base from './ids-toolbar-section-base';
+import { attributes } from '../../core/ids-attributes.ts';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import Base from './ids-toolbar-section-base.ts';
 import styles from './ids-toolbar-section.scss';
 
 const TOOLBAR_SECTION_ATTRIBUTES = [

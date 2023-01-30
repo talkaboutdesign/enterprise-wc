@@ -1,2 +1,2 @@
 // Supporting components
-import '../ids-data-grid';
+import '../ids-data-grid.ts';

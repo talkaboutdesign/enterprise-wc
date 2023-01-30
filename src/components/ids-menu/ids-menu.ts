@@ -1,19 +1,19 @@
-import { attributes, htmlAttributes } from '../../core/ids-attributes';
-import { customElement, scss } from '../../core/ids-decorators';
-import { getClosestContainerNode } from '../../utils/ids-dom-utils/ids-dom-utils';
-import { isValidGroup, isUsableItem } from './ids-menu-attributes';
+import { attributes, htmlAttributes } from '../../core/ids-attributes.ts';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { getClosestContainerNode } from '../../utils/ids-dom-utils/ids-dom-utils.ts';
+import { isValidGroup, isUsableItem } from './ids-menu-attributes.ts';
 
-import IdsDataSource from '../../core/ids-data-source';
-import Base from './ids-menu-base';
-import './ids-menu-group';
-import './ids-menu-header';
-import './ids-menu-item';
-import '../ids-separator/ids-separator';
+import IdsDataSource from '../../core/ids-data-source.ts';
+import Base from './ids-menu-base.ts';
+import './ids-menu-group.ts';
+import './ids-menu-header.ts';
+import './ids-menu-item.ts';
+import '../ids-separator/ids-separator.ts';
 
 import styles from './ids-menu.scss';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import type IdsMenuItem from './ids-menu-item';
-import type IdsMenuHeader from './ids-menu-header';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import type IdsMenuItem from './ids-menu-item.ts';
+import type IdsMenuHeader from './ids-menu-header.ts';
 
 /**
  * IDS Menu Component

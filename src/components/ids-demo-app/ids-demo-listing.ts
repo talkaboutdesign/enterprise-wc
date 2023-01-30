@@ -1,8 +1,8 @@
-import { customElement } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import Base from './ids-demo-listing-base';
-import '../ids-data-grid/ids-data-grid';
-import type IdsDataGrid from '../ids-data-grid/ids-data-grid';
+import { customElement } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import Base from './ids-demo-listing-base.ts';
+import '../ids-data-grid/ids-data-grid.ts';
+import type IdsDataGrid from '../ids-data-grid/ids-data-grid.ts';
 
 /**
  * IDS Demo Listing Component

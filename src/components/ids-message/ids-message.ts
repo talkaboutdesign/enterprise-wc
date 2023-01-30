@@ -1,13 +1,13 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import MESSAGE_STATUSES from './ids-message-attributes';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import MESSAGE_STATUSES from './ids-message-attributes.ts';
 
-import Base from './ids-message-base';
-import '../ids-icon/ids-icon';
+import Base from './ids-message-base.ts';
+import '../ids-icon/ids-icon.ts';
 
 import styles from './ids-message.scss';
-import type IdsIcon from '../ids-icon/ids-icon';
-import type IdsOverlay from '../ids-modal/ids-overlay';
+import type IdsIcon from '../ids-icon/ids-icon.ts';
+import type IdsOverlay from '../ids-modal/ids-overlay.ts';
 
 /**
  * IDS Message Component

@@ -1,4 +1,4 @@
-import '../ids-line-chart';
+import '../ids-line-chart.ts';
 import componentsJSON from '../../../assets/data/components.json';
 
 const setData = async () => {

@@ -1,1 +1,1 @@
-import '../ids-progress-chart';
+import '../ids-progress-chart.ts';

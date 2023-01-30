@@ -1,5 +1,5 @@
-import { attributes } from '../../core/ids-attributes';
-import { IdsLabelStateAttributes } from '../../mixins/ids-label-state-mixin/ids-label-state-common';
+import { attributes } from '../../core/ids-attributes.ts';
+import { IdsLabelStateAttributes } from '../../mixins/ids-label-state-mixin/ids-label-state-common.ts';
 
 // List of view modes
 export const VIEWS = ['editor', 'source'];

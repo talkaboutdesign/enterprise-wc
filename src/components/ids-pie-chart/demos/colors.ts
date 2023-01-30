@@ -1,4 +1,4 @@
-import '../ids-pie-chart';
+import '../ids-pie-chart.ts';
 import componentsColorsJSON from '../../../assets/data/items-single-color.json';
 
 const setData = async () => {

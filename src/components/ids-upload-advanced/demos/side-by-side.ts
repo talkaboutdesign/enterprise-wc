@@ -1,4 +1,4 @@
-import '../ids-upload-advanced';
+import '../ids-upload-advanced.ts';
 
 /**
  * Example to show the way to custom send method for uploading files.

@@ -1,3 +1,3 @@
 // Supporting components
-import '../ids-process-indicator';
-import '../../ids-hyperlink/ids-hyperlink';
+import '../ids-process-indicator.ts';
+import '../../ids-hyperlink/ids-hyperlink.ts';

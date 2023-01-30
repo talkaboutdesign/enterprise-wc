@@ -1,13 +1,13 @@
 import pathImport from 'ids-identity/dist/theme-new/icons/standard/path-data.json';
 import emptyPathImport from 'ids-identity/dist/theme-new/icons/empty/path-data.json';
 
-import { attributes } from '../../core/ids-attributes';
-import { customElement, scss } from '../../core/ids-decorators';
-import { sizes } from './ids-icon-attributes';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import { getClosest } from '../../utils/ids-dom-utils/ids-dom-utils';
+import { attributes } from '../../core/ids-attributes.ts';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { sizes } from './ids-icon-attributes.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { getClosest } from '../../utils/ids-dom-utils/ids-dom-utils.ts';
 
-import Base from './ids-icon-base';
+import Base from './ids-icon-base.ts';
 import styles from './ids-icon.scss';
 
 const emptyIconPathData: any = emptyPathImport;

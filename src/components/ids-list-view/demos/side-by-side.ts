@@ -1,7 +1,7 @@
-import '../ids-list-view';
-import '../../ids-card/ids-card';
+import '../ids-list-view.ts';
+import '../../ids-card/ids-card.ts';
 import productsJSON from '../../../assets/data/products-100.json';
-import css from '../../../assets/css/ids-list-view/side-by-side.css';
+import css from '../../../assets/css/ids-list-view/side-by-side.css.ts';
 
 const cssLink = `<link href="${css}" rel="stylesheet">`;
 const head = document.querySelector('head');

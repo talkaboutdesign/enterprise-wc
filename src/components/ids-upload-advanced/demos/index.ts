@@ -1,1 +1,1 @@
-import '../ids-upload-advanced';
+import '../ids-upload-advanced.ts';

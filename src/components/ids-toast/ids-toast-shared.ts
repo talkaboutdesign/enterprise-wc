@@ -1,4 +1,4 @@
-import { stringToBool, camelCase } from '../../utils/ids-string-utils/ids-string-utils';
+import { stringToBool, camelCase } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
 /**
  * Default settings

@@ -1,5 +1,5 @@
-import '../ids-modal';
-import '../../ids-button/ids-button';
+import '../ids-modal.ts';
+import '../../ids-button/ids-button.ts';
 
 document.addEventListener('DOMContentLoaded', () => {
   const parentTriggerId = '#parent-modal-trigger-btn';

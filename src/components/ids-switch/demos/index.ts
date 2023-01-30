@@ -1,1 +1,1 @@
-import '../ids-switch';
+import '../ids-switch.ts';

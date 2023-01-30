@@ -1,6 +1,6 @@
-import '../ids-slider';
-import '../../ids-input/ids-input';
-import '../../ids-draggable/ids-draggable';
+import '../ids-slider.ts';
+import '../../ids-input/ids-input.ts';
+import '../../ids-draggable/ids-draggable.ts';
 
 document.addEventListener('DOMContentLoaded', () => {
   const slider: any = document.querySelector('#slider-bound');

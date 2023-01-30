@@ -1,8 +1,8 @@
 // Supporting components
-import '../ids-card';
-import '../../ids-text/ids-text';
-import '../../ids-button/ids-button';
-import '../../ids-list-view/ids-list-view';
+import '../ids-card.ts';
+import '../../ids-text/ids-text.ts';
+import '../../ids-button/ids-button.ts';
+import '../../ids-list-view/ids-list-view.ts';
 import eventsJSON from '../../../assets/data/events.json';
 
 // Example for populating the List View

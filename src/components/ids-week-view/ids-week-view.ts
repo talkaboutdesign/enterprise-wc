@@ -1,7 +1,7 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
 
-import Base from './ids-week-view-base';
+import Base from './ids-week-view-base.ts';
 
 import {
   daysDiff,
@@ -11,18 +11,18 @@ import {
   isTodaysDate,
   isValidDate,
   lastDayOfWeekDate
-} from '../../utils/ids-date-utils/ids-date-utils';
-import { stringToBool, stringToNumber } from '../../utils/ids-string-utils/ids-string-utils';
+} from '../../utils/ids-date-utils/ids-date-utils.ts';
+import { stringToBool, stringToNumber } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
-import '../ids-date-picker/ids-date-picker';
-import '../ids-button/ids-button';
-import '../ids-icon/ids-icon';
-import '../ids-text/ids-text';
+import '../ids-date-picker/ids-date-picker.ts';
+import '../ids-button/ids-button.ts';
+import '../ids-icon/ids-icon.ts';
+import '../ids-text/ids-text.ts';
 
 import styles from './ids-week-view.scss';
-import IdsCalendarEvent, { CalendarEventData, CalendarEventTypeData } from '../ids-calendar/ids-calendar-event';
-import { getClosest } from '../../utils/ids-dom-utils/ids-dom-utils';
-import { clearAnimationInterval, FrameRequestLoopHandler, requestAnimationInterval } from '../../utils/ids-timer-utils/ids-timer-utils';
+import IdsCalendarEvent, { CalendarEventData, CalendarEventTypeData } from '../ids-calendar/ids-calendar-event.ts';
+import { getClosest } from '../../utils/ids-dom-utils/ids-dom-utils.ts';
+import { clearAnimationInterval, FrameRequestLoopHandler, requestAnimationInterval } from '../../utils/ids-timer-utils/ids-timer-utils.ts';
 
 interface DayMapData {
   key: number;

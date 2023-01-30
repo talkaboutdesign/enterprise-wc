@@ -1,13 +1,13 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { camelCase, stringToBool, stringToNumber } from '../../utils/ids-string-utils/ids-string-utils';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { camelCase, stringToBool, stringToNumber } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
-import Base from './ids-upload-advanced-file-base';
+import Base from './ids-upload-advanced-file-base.ts';
 
-import '../ids-alert/ids-alert';
-import '../ids-trigger-field/ids-trigger-button';
-import '../ids-progress-bar/ids-progress-bar';
-import IdsUploadAdvancedShared from './ids-upload-advanced-shared';
+import '../ids-alert/ids-alert.ts';
+import '../ids-trigger-field/ids-trigger-button.ts';
+import '../ids-progress-bar/ids-progress-bar.ts';
+import IdsUploadAdvancedShared from './ids-upload-advanced-shared.ts';
 
 import styles from './ids-upload-advanced-file.scss';
 

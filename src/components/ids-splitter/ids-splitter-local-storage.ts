@@ -1,4 +1,4 @@
-import IdsSplitterPane from './ids-splitter-pane';
+import IdsSplitterPane from './ids-splitter-pane.ts';
 
 /**
  * Saved object type

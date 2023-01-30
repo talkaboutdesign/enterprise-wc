@@ -1,18 +1,18 @@
-import { attributes } from '../../core/ids-attributes';
-import { breakpoints, Breakpoints } from '../../utils/ids-breakpoint-utils/ids-breakpoint-utils';
-import { customElement, scss } from '../../core/ids-decorators';
+import { attributes } from '../../core/ids-attributes.ts';
+import { breakpoints, Breakpoints } from '../../utils/ids-breakpoint-utils/ids-breakpoint-utils.ts';
+import { customElement, scss } from '../../core/ids-decorators.ts';
 
-import Base from './ids-modal-base';
+import Base from './ids-modal-base.ts';
 
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import { waitForTransitionEnd } from '../../utils/ids-dom-utils/ids-dom-utils';
-import { cssTransitionTimeout } from '../../utils/ids-timer-utils/ids-timer-utils';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { waitForTransitionEnd } from '../../utils/ids-dom-utils/ids-dom-utils.ts';
+import { cssTransitionTimeout } from '../../utils/ids-timer-utils/ids-timer-utils.ts';
 
-import zCounter from './ids-modal-z-counter';
-import '../ids-popup/ids-popup';
-import '../ids-modal-button/ids-modal-button';
-import IdsOverlay from './ids-overlay';
-import type IdsModalButton from '../ids-modal-button/ids-modal-button';
+import zCounter from './ids-modal-z-counter.ts';
+import '../ids-popup/ids-popup.ts';
+import '../ids-modal-button/ids-modal-button.ts';
+import IdsOverlay from './ids-overlay.ts';
+import type IdsModalButton from '../ids-modal-button/ids-modal-button.ts';
 
 // Import Styles
 import styles from './ids-modal.scss';

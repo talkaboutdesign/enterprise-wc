@@ -1,10 +1,10 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { stringToBool, stringToNumber, camelCase } from '../../utils/ids-string-utils/ids-string-utils';
-import { HOME_PAGE_DEFAULTS, EVENTS } from './ids-home-page-attributes';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToBool, stringToNumber, camelCase } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { HOME_PAGE_DEFAULTS, EVENTS } from './ids-home-page-attributes.ts';
 
-import '../ids-card/ids-card';
-import Base from './ids-home-page-base';
+import '../ids-card/ids-card.ts';
+import Base from './ids-home-page-base.ts';
 
 import styles from './ids-home-page.scss';
 

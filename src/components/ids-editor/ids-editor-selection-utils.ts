@@ -1,4 +1,4 @@
-import { BLOCK_ELEMENTS, qsAll } from './ids-editor-shared';
+import { BLOCK_ELEMENTS, qsAll } from './ids-editor-shared.ts';
 
 export interface IdsEditorBlockElem {
   /** The block element */

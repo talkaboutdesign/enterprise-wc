@@ -1,2 +1,2 @@
-import '../ids-virtual-scroll';
-import '../../ids-card/ids-card';
+import '../ids-virtual-scroll.ts';
+import '../../ids-card/ids-card.ts';

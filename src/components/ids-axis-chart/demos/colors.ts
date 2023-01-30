@@ -1,4 +1,4 @@
-import '../ids-axis-chart';
+import '../ids-axis-chart.ts';
 import componentsColorsJSON from '../../../assets/data/components-colors.json';
 
 const setData = async () => {

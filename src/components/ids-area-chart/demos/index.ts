@@ -1,1 +1,1 @@
-import '../ids-area-chart';
+import '../ids-area-chart.ts';

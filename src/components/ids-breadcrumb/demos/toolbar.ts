@@ -1,6 +1,6 @@
-import '../../ids-search-field/ids-search-field';
-import '../../ids-header/ids-header';
-import '../ids-breadcrumb';
-import '../../ids-hyperlink/ids-hyperlink';
-import '../../ids-text/ids-text';
-import '../../ids-toolbar/ids-toolbar';
+import '../../ids-search-field/ids-search-field.ts';
+import '../../ids-header/ids-header.ts';
+import '../ids-breadcrumb.ts';
+import '../../ids-hyperlink/ids-hyperlink.ts';
+import '../../ids-text/ids-text.ts';
+import '../../ids-toolbar/ids-toolbar.ts';

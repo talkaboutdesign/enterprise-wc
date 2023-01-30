@@ -1,1 +1,1 @@
-import '../ids-tree';
+import '../ids-tree.ts';

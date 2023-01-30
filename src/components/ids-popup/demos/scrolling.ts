@@ -1,7 +1,7 @@
 // Supporting components
-import '../ids-popup';
-import '../../ids-draggable/ids-draggable';
-import css from '../../../assets/css/ids-popup/scrolling.css';
+import '../ids-popup.ts';
+import '../../ids-draggable/ids-draggable.ts';
+import css from '../../../assets/css/ids-popup/scrolling.css.ts';
 
 const cssLink = `<link href="${css}" rel="stylesheet">`;
 (document.querySelector('head') as any).insertAdjacentHTML('afterbegin', cssLink);

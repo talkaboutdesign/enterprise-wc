@@ -1,10 +1,10 @@
-import type IdsDataGrid from '../ids-data-grid';
-import '../ids-data-grid';
-import type { IdsDataGridColumn } from '../ids-data-grid-column';
-import { escapeHTML } from '../../../utils/ids-xss-utils/ids-xss-utils';
+import type IdsDataGrid from '../ids-data-grid.ts';
+import '../ids-data-grid.ts';
+import type { IdsDataGridColumn } from '../ids-data-grid-column.ts';
+import { escapeHTML } from '../../../utils/ids-xss-utils/ids-xss-utils.ts';
 import booksJSON from '../../../assets/data/books.json';
-import css from '../../../assets/css/ids-data-grid/custom-link.css';
-import { addIcon } from '../../ids-icon/ids-icon';
+import css from '../../../assets/css/ids-data-grid/custom-link.css.ts';
+import { addIcon } from '../../ids-icon/ids-icon.ts';
 
 // Add custom icon
 addIcon('custom-cargoship', '<path transform="translate(-0.12 -4.69)" d="m17.54 12.23-1.42 1H3.1l-2-2.6h16.42ZM3.32 8.85h2.74V7H3.32Zm4.78 0h2.74V7H8.1Zm8.56 1.62V5.19h-3.4v5.21"></path>');

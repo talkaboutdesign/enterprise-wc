@@ -1,11 +1,11 @@
-import { customElement } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { stringToBool, buildClassAttrib, removeNewLines } from '../../utils/ids-string-utils/ids-string-utils';
+import { customElement } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToBool, buildClassAttrib, removeNewLines } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
-import Base from './ids-tab-more-base';
-import '../ids-popup-menu/ids-popup-menu';
-import '../ids-text/ids-text';
-import type IdsTabs from './ids-tabs';
+import Base from './ids-tab-more-base.ts';
+import '../ids-popup-menu/ids-popup-menu.ts';
+import '../ids-text/ids-text.ts';
+import type IdsTabs from './ids-tabs.ts';
 
 const MORE_ACTIONS_SELECTOR = `[${attributes.MORE_ACTIONS}]`;
 

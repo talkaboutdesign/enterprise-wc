@@ -1,6 +1,6 @@
-import { IdsInputInterface } from '../../components/ids-input/ids-input-attributes';
-import { IdsBaseConstructor } from '../../core/ids-element';
-import type { IdsValidationErrorMessage } from './ids-validation-mixin';
+import { IdsInputInterface } from '../../components/ids-input/ids-input-attributes.ts';
+import { IdsBaseConstructor } from '../../core/ids-element.ts';
+import type { IdsValidationErrorMessage } from './ids-validation-mixin.ts';
 
 /**
  * Adds validation to any input field

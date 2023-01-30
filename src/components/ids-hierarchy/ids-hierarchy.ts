@@ -1,6 +1,6 @@
-import { customElement } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import Base from './ids-hierarchy-base';
+import { customElement } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import Base from './ids-hierarchy-base.ts';
 
 /**
  * IDS Hierarchy Component

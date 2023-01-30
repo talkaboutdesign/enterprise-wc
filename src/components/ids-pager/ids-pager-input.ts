@@ -1,13 +1,13 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
 
-import Base from './ids-pager-input-base';
-import '../ids-input/ids-input';
-import '../ids-text/ids-text';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
+import Base from './ids-pager-input-base.ts';
+import '../ids-input/ids-input.ts';
+import '../ids-text/ids-text.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
 import styles from './ids-pager-input.scss';
-import type IdsInput from '../ids-input/ids-input';
+import type IdsInput from '../ids-input/ids-input.ts';
 
 /**
  * IDS PagerInput Component

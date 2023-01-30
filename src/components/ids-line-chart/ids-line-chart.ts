@@ -1,7 +1,7 @@
-import { attributes } from '../../core/ids-attributes';
-import { customElement, scss } from '../../core/ids-decorators';
-import { stringToBool, stringToNumber } from '../../utils/ids-string-utils/ids-string-utils';
-import Base from './ids-line-chart-base';
+import { attributes } from '../../core/ids-attributes.ts';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { stringToBool, stringToNumber } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import Base from './ids-line-chart-base.ts';
 import styles from './ids-line-chart.scss';
 
 type IdsLineChartMarkers = {

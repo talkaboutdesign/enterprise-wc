@@ -1,7 +1,7 @@
-import { customElement, scss } from '../../core/ids-decorators';
+import { customElement, scss } from '../../core/ids-decorators.ts';
 
 // Import Mixins
-import Base from './ids-splitter-base';
+import Base from './ids-splitter-base.ts';
 
 import styles from './ids-splitter-pane.scss';
 

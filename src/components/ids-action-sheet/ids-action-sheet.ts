@@ -1,15 +1,15 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { breakpoints } from '../../utils/ids-breakpoint-utils/ids-breakpoint-utils';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { breakpoints } from '../../utils/ids-breakpoint-utils/ids-breakpoint-utils.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
-import Base from './ids-action-sheet-base';
-import '../ids-modal/ids-overlay';
-import '../ids-popup-menu/ids-popup-menu';
+import Base from './ids-action-sheet-base.ts';
+import '../ids-modal/ids-overlay.ts';
+import '../ids-popup-menu/ids-popup-menu.ts';
 
 import styles from './ids-action-sheet.scss';
-import type IdsOverlay from '../ids-modal/ids-overlay';
-import type IdsButton from '../ids-button/ids-button';
+import type IdsOverlay from '../ids-modal/ids-overlay.ts';
+import type IdsButton from '../ids-button/ids-button.ts';
 
 /**
  * IDS Action Sheet Component

@@ -1,2 +1,2 @@
 // Supporting components
-import '../ids-hyperlink';
+import '../ids-hyperlink.ts';

@@ -1,5 +1,5 @@
-import { sanitizeHTML } from '../../utils/ids-xss-utils/ids-xss-utils';
-import { BLOCK_ELEMENTS } from './ids-editor-shared';
+import { sanitizeHTML } from '../../utils/ids-xss-utils/ids-xss-utils.ts';
+import { BLOCK_ELEMENTS } from './ids-editor-shared.ts';
 
 /**
  * Check if given html is word format

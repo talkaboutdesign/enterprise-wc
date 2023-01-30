@@ -1,11 +1,11 @@
-import { attributes } from '../../core/ids-attributes';
-import { IdsConstructor } from '../../core/ids-element';
-import { LocaleHandler, LocaleMixinInterface } from '../ids-locale-mixin/ids-locale-mixin';
-import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin';
-import { CalendarEventsHandler } from '../ids-calendar-events-mixin/ids-calendar-events-mixin';
+import { attributes } from '../../core/ids-attributes.ts';
+import { IdsConstructor } from '../../core/ids-element.ts';
+import { LocaleHandler, LocaleMixinInterface } from '../ids-locale-mixin/ids-locale-mixin.ts';
+import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin.ts';
+import { CalendarEventsHandler } from '../ids-calendar-events-mixin/ids-calendar-events-mixin.ts';
 
-import { MIN_MONTH, MAX_MONTH } from '../../components/ids-date-picker/ids-date-picker-common';
-import { stringToNumber } from '../../utils/ids-string-utils/ids-string-utils';
+import { MIN_MONTH, MAX_MONTH } from '../../components/ids-date-picker/ids-date-picker-common.ts';
+import { stringToNumber } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
 export type IdsDateAttributeChangeCallback = undefined | ((newValue: number, isValid: boolean) => void);
 

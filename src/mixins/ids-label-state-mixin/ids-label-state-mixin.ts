@@ -1,9 +1,9 @@
-import { IdsInputInterface } from '../../components/ids-input/ids-input-attributes';
-import { attributes, htmlAttributes } from '../../core/ids-attributes';
-import { IdsConstructor } from '../../core/ids-element';
-import { stripTags, stripHTML } from '../../utils/ids-xss-utils/ids-xss-utils';
-import type { IdsLabelStateMode } from './ids-label-state-common';
-import { IdsLabelStateAttributes, isLabelRequiredValid } from './ids-label-state-common';
+import { IdsInputInterface } from '../../components/ids-input/ids-input-attributes.ts';
+import { attributes, htmlAttributes } from '../../core/ids-attributes.ts';
+import { IdsConstructor } from '../../core/ids-element.ts';
+import { stripTags, stripHTML } from '../../utils/ids-xss-utils/ids-xss-utils.ts';
+import type { IdsLabelStateMode } from './ids-label-state-common.ts';
+import { IdsLabelStateAttributes, isLabelRequiredValid } from './ids-label-state-common.ts';
 
 export interface LabelStateHandler {
   onLabelStateChange?(variantName: IdsLabelStateMode): void;

@@ -1,6 +1,6 @@
 // Supporting components
-import '../ids-list-view';
-import '../../ids-radio/ids-radio';
+import '../ids-list-view.ts';
+import '../../ids-radio/ids-radio.ts';
 import productsJSON from '../../../assets/data/products-100.json';
 
 // Example for populating the List View

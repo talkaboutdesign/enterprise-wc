@@ -1,7 +1,7 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
 
-import Base from './ids-month-view-base';
+import Base from './ids-month-view-base.ts';
 
 // Import Utils
 import {
@@ -18,30 +18,30 @@ import {
   weeksInMonth,
   weeksInRange,
   removeDateRange
-} from '../../utils/ids-date-utils/ids-date-utils';
+} from '../../utils/ids-date-utils/ids-date-utils.ts';
 import {
   stringToBool,
   stringToNumber,
   buildClassAttrib,
-} from '../../utils/ids-string-utils/ids-string-utils';
-import { getClosest } from '../../utils/ids-dom-utils/ids-dom-utils';
+} from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { getClosest } from '../../utils/ids-dom-utils/ids-dom-utils.ts';
 
 // Supporting components
-import '../ids-button/ids-button';
-import '../ids-icon/ids-icon';
-import '../ids-text/ids-text';
-import '../ids-trigger-field/ids-trigger-button';
+import '../ids-button/ids-button.ts';
+import '../ids-icon/ids-icon.ts';
+import '../ids-text/ids-text.ts';
+import '../ids-trigger-field/ids-trigger-button.ts';
 
 // Import Styles
 import styles from './ids-month-view.scss';
-import IdsCalendarEvent, { CalendarEventData, CalendarEventTypeData } from '../ids-calendar/ids-calendar-event';
-import { getDateValuesFromString } from '../ids-date-picker/ids-date-picker-common';
+import IdsCalendarEvent, { CalendarEventData, CalendarEventTypeData } from '../ids-calendar/ids-calendar-event.ts';
+import { getDateValuesFromString } from '../ids-date-picker/ids-date-picker-common.ts';
 
 import type {
   IdsRangeSettings,
   IdsDisableSettings,
   IdsLegendSettings,
-} from './ids-month-view-common';
+} from './ids-month-view-common.ts';
 import {
   BASE_Y_OFFSET,
   MIN_MONTH,
@@ -49,7 +49,7 @@ import {
   MAX_EVENT_COUNT,
   WEEK_LENGTH,
   IdsRangeSettingsInterface
-} from './ids-month-view-common';
+} from './ids-month-view-common.ts';
 
 export type IdsDayselectedEvent = CustomEventInit & {
   detail: {

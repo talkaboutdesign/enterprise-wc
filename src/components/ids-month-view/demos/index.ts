@@ -1,3 +1,3 @@
 // Supporting components
-import '../ids-month-view';
-import '../../ids-calendar/ids-calendar-event';
+import '../ids-month-view.ts';
+import '../../ids-calendar/ids-calendar-event.ts';

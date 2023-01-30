@@ -1,5 +1,5 @@
-import '../../ids-card/ids-card';
-import '../../ids-list-view/ids-list-view';
+import '../../ids-card/ids-card.ts';
+import '../../ids-list-view/ids-list-view.ts';
 import bikesJSON from '../../../assets/data/bikes.json';
 
 // Example for populating the List View

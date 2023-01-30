@@ -1,5 +1,5 @@
 // Supporting components
-import '../ids-lookup';
+import '../ids-lookup.ts';
 
 import booksJSON from '../../../assets/data/books.json';
 

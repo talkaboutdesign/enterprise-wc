@@ -1,5 +1,5 @@
 // Supporting components
-import '../../ids-radio/ids-radio';
+import '../../ids-radio/ids-radio.ts';
 import treeBasicJSON from '../../../assets/data/tree-basic.json';
 import treeBadgesJSON from '../../../assets/data/tree-badges.json';
 

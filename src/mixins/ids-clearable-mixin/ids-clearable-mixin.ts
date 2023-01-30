@@ -1,8 +1,8 @@
-import { IdsInputInterface } from '../../components/ids-input/ids-input-attributes';
-import { attributes } from '../../core/ids-attributes';
-import { IdsConstructor } from '../../core/ids-element';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin';
+import { IdsInputInterface } from '../../components/ids-input/ids-input-attributes.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { IdsConstructor } from '../../core/ids-element.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin.ts';
 
 type Constraints = IdsConstructor<EventsMixinInterface>;
 

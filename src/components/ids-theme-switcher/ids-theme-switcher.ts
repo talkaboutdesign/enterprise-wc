@@ -1,10 +1,10 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import Base from './ids-theme-switcher-base';
-import '../ids-menu-button/ids-menu-button';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import Base from './ids-theme-switcher-base.ts';
+import '../ids-menu-button/ids-menu-button.ts';
 import styles from './ids-theme-switcher.scss';
-import type IdsPopupMenu from '../ids-popup-menu/ids-popup-menu';
-import type IdsMenuButton from '../ids-menu-button/ids-menu-button';
+import type IdsPopupMenu from '../ids-popup-menu/ids-popup-menu.ts';
+import type IdsMenuButton from '../ids-menu-button/ids-menu-button.ts';
 
 /**
  * IDS Theme Switcher Component

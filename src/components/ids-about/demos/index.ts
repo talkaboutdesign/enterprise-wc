@@ -1,3 +1,3 @@
 // Supporting components
-import '../../ids-button/ids-button';
-import '../ids-about';
+import '../../ids-button/ids-button.ts';
+import '../ids-about.ts';

@@ -1,4 +1,4 @@
-import IdsInput from '../ids-input/ids-input';
+import IdsInput from '../ids-input/ids-input.ts';
 
 const Base = IdsInput;
 

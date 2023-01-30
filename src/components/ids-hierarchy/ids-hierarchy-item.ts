@@ -1,12 +1,12 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
-import Base, { IdsHierarchyItemInfo } from './ids-hierarchy-item-base';
+import Base, { IdsHierarchyItemInfo } from './ids-hierarchy-item-base.ts';
 
 import styles from './ids-hierarchy-item.scss';
-import IdsButton from '../ids-button/ids-button';
-import IdsMenuButton from '../ids-menu-button/ids-menu-button';
+import IdsButton from '../ids-button/ids-button.ts';
+import IdsMenuButton from '../ids-menu-button/ids-menu-button.ts';
 
 /**
  * IDS Hierarchy Item Component

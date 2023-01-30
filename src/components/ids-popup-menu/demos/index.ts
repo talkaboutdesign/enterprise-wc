@@ -1,6 +1,6 @@
 // Supporting components
-import '../ids-popup-menu';
-import '../../ids-popup/ids-popup';
+import '../ids-popup-menu.ts';
+import '../../ids-popup/ids-popup.ts';
 
 document.addEventListener('DOMContentLoaded', () => {
   const popupmenuEl: any = document.querySelector('ids-popup-menu');

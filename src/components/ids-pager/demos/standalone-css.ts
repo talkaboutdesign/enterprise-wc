@@ -1,4 +1,4 @@
-import { appendStyleSheets } from '../../../../scripts/append-stylesheets';
+import { appendStyleSheets } from '../../../../scripts/append-stylesheets.ts';
 import pagerStyles from '../ids-pager.scss';
 import pagerButtonStyles from '../ids-pager-button.scss';
 import pagerInputStyles from '../ids-pager-input.scss';

@@ -1,10 +1,10 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import Base from './ids-progress-chart-base';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import Base from './ids-progress-chart-base.ts';
 
 import styles from './ids-progress-chart.scss';
-import type IdsIcon from '../ids-icon/ids-icon';
-import type IdsText from '../ids-text/ids-text';
+import type IdsIcon from '../ids-icon/ids-icon.ts';
+import type IdsText from '../ids-text/ids-text.ts';
 
 // Defaults
 const DEFAULT_PROGRESS = 0;

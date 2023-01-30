@@ -1,9 +1,9 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import { stripHTML } from '../../utils/ids-xss-utils/ids-xss-utils';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { stripHTML } from '../../utils/ids-xss-utils/ids-xss-utils.ts';
 
-import Base from './ids-header-base';
-import '../ids-input/ids-input';
+import Base from './ids-header-base.ts';
+import '../ids-input/ids-input.ts';
 
 import styles from './ids-header.scss';
 

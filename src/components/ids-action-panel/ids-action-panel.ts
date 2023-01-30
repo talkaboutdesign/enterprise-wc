@@ -1,7 +1,7 @@
-import { customElement, scss } from '../../core/ids-decorators';
+import { customElement, scss } from '../../core/ids-decorators.ts';
 
-import Base from './ids-action-panel-base';
-import '../ids-toolbar/ids-toolbar';
+import Base from './ids-action-panel-base.ts';
+import '../ids-toolbar/ids-toolbar.ts';
 
 import styles from './ids-action-panel.scss';
 

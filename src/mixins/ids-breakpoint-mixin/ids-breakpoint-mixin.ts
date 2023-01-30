@@ -1,6 +1,6 @@
-import { attributes } from '../../core/ids-attributes';
-import { IdsBaseConstructor } from '../../core/ids-element';
-import { Breakpoints, isWidthAbove, isWidthBelow } from '../../utils/ids-breakpoint-utils/ids-breakpoint-utils';
+import { attributes } from '../../core/ids-attributes.ts';
+import { IdsBaseConstructor } from '../../core/ids-element.ts';
+import { Breakpoints, isWidthAbove, isWidthBelow } from '../../utils/ids-breakpoint-utils/ids-breakpoint-utils.ts';
 
 type IdsBreakpointRespondAttribute = keyof Breakpoints | null;
 type IdsBreakpointResponseCallback = (val: keyof Breakpoints, matches: boolean) => void;

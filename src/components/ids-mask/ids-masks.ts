@@ -1,8 +1,8 @@
 import {
   ALPHAS_REGEX, ANY_REGEX, CARET_TRAP, DIGITS_REGEX, EMPTY_STRING, NON_DIGITS_REGEX, IdsMaskOptions
-} from './ids-mask-common';
-import { removeDuplicates } from '../../utils/ids-string-utils/ids-string-utils';
-import { deepClone } from '../../utils/ids-deep-clone-utils/ids-deep-clone-utils';
+} from './ids-mask-common.ts';
+import { removeDuplicates } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import { deepClone } from '../../utils/ids-deep-clone-utils/ids-deep-clone-utils.ts';
 
 // Default Number Mask Options
 export const DEFAULT_NUMBER_MASK_OPTIONS = {

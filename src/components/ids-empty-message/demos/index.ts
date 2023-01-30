@@ -1,5 +1,5 @@
 // Supporting components
-import '../ids-empty-message';
-import '../../ids-card/ids-card';
-import '../../ids-toast/ids-toast';
-import '../../ids-button/ids-button';
+import '../ids-empty-message.ts';
+import '../../ids-card/ids-card.ts';
+import '../../ids-toast/ids-toast.ts';
+import '../../ids-button/ids-button.ts';

@@ -1,3 +1,3 @@
 // Supporting components
-import '../ids-hidden';
-import '../../ids-card/ids-card';
+import '../ids-hidden.ts';
+import '../../ids-card/ids-card.ts';

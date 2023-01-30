@@ -1,10 +1,10 @@
-import '../ids-popup';
-import '../../ids-button/ids-button';
-import '../../ids-checkbox/ids-checkbox';
-import '../../ids-fieldset/ids-fieldset';
-import '../../ids-radio/ids-radio';
-import '../../ids-input/ids-input';
-import css from '../../../assets/css/ids-popup/sandbox.css';
+import '../ids-popup.ts';
+import '../../ids-button/ids-button.ts';
+import '../../ids-checkbox/ids-checkbox.ts';
+import '../../ids-fieldset/ids-fieldset.ts';
+import '../../ids-radio/ids-radio.ts';
+import '../../ids-input/ids-input.ts';
+import css from '../../../assets/css/ids-popup/sandbox.css.ts';
 
 const cssLink = `<link href="${css}" rel="stylesheet">`;
 document.querySelector('head')?.insertAdjacentHTML('afterbegin', cssLink);

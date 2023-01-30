@@ -1,5 +1,5 @@
 import componentsJSON from '../../../assets/data/components.json';
-import css from '../../../assets/css/ids-line-chart/standalone-css.css';
+import css from '../../../assets/css/ids-line-chart/standalone-css.css.ts';
 
 const cssLink = `<link href="${css}" rel="stylesheet">`;
 (document as any).querySelector('head').insertAdjacentHTML('afterbegin', cssLink);

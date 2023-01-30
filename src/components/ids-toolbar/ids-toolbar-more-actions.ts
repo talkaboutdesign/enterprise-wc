@@ -1,15 +1,15 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
-import Base from './ids-toolbar-more-actions-base';
-import { removeNewLines, stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import Base from './ids-toolbar-more-actions-base.ts';
+import { removeNewLines, stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
 
-import './ids-toolbar-section';
-import '../ids-menu-button/ids-menu-button';
-import '../ids-popup-menu/ids-popup-menu';
+import './ids-toolbar-section.ts';
+import '../ids-menu-button/ids-menu-button.ts';
+import '../ids-popup-menu/ids-popup-menu.ts';
 
 import styles from './ids-toolbar-more-actions.scss';
-import type IdsMenuButton from '../ids-menu-button/ids-menu-button';
-import type IdsPopupMenu from '../ids-popup-menu/ids-popup-menu';
+import type IdsMenuButton from '../ids-menu-button/ids-menu-button.ts';
+import type IdsPopupMenu from '../ids-popup-menu/ids-popup-menu.ts';
 
 const MORE_ACTIONS_SELECTOR = `[${attributes.MORE_ACTIONS}]`;
 

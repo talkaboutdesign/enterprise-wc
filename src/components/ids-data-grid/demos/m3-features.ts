@@ -1,10 +1,10 @@
-import type IdsDataGrid from '../ids-data-grid';
-import '../ids-data-grid';
-import type { IdsDataGridColumn } from '../ids-data-grid-column';
+import type IdsDataGrid from '../ids-data-grid.ts';
+import '../ids-data-grid.ts';
+import type { IdsDataGridColumn } from '../ids-data-grid-column.ts';
 import productInfo from '../../../assets/data/product-info.json';
 
 // Custom Datagrid Cell Colors are defined in this file:
-import css from '../../../assets/css/ids-data-grid/custom-css.css';
+import css from '../../../assets/css/ids-data-grid/custom-css.css.ts';
 
 const cssLink = `<link href="${css}" rel="stylesheet">`;
 document.querySelector('head')?.insertAdjacentHTML('afterbegin', cssLink);

@@ -1,9 +1,9 @@
-import IdsCalendarEvent, { CalendarEventData, CalendarEventTypeData } from '../../components/ids-calendar/ids-calendar-event';
-import { attributes } from '../../core/ids-attributes';
-import { IdsConstructor } from '../../core/ids-element';
-import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import type IdsMenuButton from '../../components/ids-menu-button/ids-menu-button';
+import IdsCalendarEvent, { CalendarEventData, CalendarEventTypeData } from '../../components/ids-calendar/ids-calendar-event.ts';
+import { attributes } from '../../core/ids-attributes.ts';
+import { IdsConstructor } from '../../core/ids-element.ts';
+import { EventsMixinInterface } from '../ids-events-mixin/ids-events-mixin.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import type IdsMenuButton from '../../components/ids-menu-button/ids-menu-button.ts';
 
 export interface CalendarEventsHandler {
   renderEventsData?(forceRender?: boolean): void;

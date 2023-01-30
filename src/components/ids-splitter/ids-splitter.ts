@@ -1,11 +1,11 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes } from '../../core/ids-attributes';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes } from '../../core/ids-attributes.ts';
 
-import Base from './ids-splitter-base';
-import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils';
-import IdsSplitterLocalStorage from './ids-splitter-local-storage';
-import IdsSplitterPane from './ids-splitter-pane';
-import '../ids-draggable/ids-draggable';
+import Base from './ids-splitter-base.ts';
+import { stringToBool } from '../../utils/ids-string-utils/ids-string-utils.ts';
+import IdsSplitterLocalStorage from './ids-splitter-local-storage.ts';
+import IdsSplitterPane from './ids-splitter-pane.ts';
+import '../ids-draggable/ids-draggable.ts';
 
 import styles from './ids-splitter.scss';
 

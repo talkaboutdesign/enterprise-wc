@@ -1,2 +1,2 @@
 // Supporting components
-import '../ids-color-picker';
+import '../ids-color-picker.ts';

@@ -1,14 +1,14 @@
-import { customElement, scss } from '../../core/ids-decorators';
-import { attributes, htmlAttributes } from '../../core/ids-attributes';
-import { getClosest } from '../../utils/ids-dom-utils/ids-dom-utils';
+import { customElement, scss } from '../../core/ids-decorators.ts';
+import { attributes, htmlAttributes } from '../../core/ids-attributes.ts';
+import { getClosest } from '../../utils/ids-dom-utils/ids-dom-utils.ts';
 
-import Base from './ids-tabs-base';
-import IdsHeader from '../ids-header/ids-header';
-import './ids-tab';
-import './ids-tab-more';
-import './ids-tab-divider';
-import type IdsTab from './ids-tab';
-import type IdsTabMore from './ids-tab-more';
+import Base from './ids-tabs-base.ts';
+import IdsHeader from '../ids-header/ids-header.ts';
+import './ids-tab.ts';
+import './ids-tab-more.ts';
+import './ids-tab-divider.ts';
+import type IdsTab from './ids-tab.ts';
+import type IdsTabMore from './ids-tab-more.ts';
 
 import styles from './ids-tabs.scss';
 
