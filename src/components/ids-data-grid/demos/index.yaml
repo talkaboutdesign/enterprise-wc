@@ -23,6 +23,9 @@
   - link: columns-alignment.html
     type: Example
     description: Showing column and header alignment
+  - link: columns-click-callback.html
+    type: Example
+    description: Shows a data grid with columns click callback
   - link: columns-custom-css.html
     type: Example
     description: Showing initialy hidden columns

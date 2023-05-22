@@ -666,6 +666,9 @@ export default class IdsDataGrid extends Base {
       const hyperlink = cellNode.querySelector('ids-hyperlink');
       const button = cellNode.querySelector('ids-button');
       const customLink = cellNode.querySelector('a');
+      const inFilter = findInPath(eventPath(e), '.ids-data-grid-header-cell-filter-wrapper');
+
+      if (inFilter) return;
 
       if (hyperlink && !hyperlink.container.matches(':focus') && !hyperlink.hasAttribute('disabled')) {
         hyperlink.container.click();
