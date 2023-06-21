@@ -15,24 +15,29 @@
     "module": "es2022",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "sourceMap": true,
+    "sourceMap": false,
+    "inlineSourceMap": false,
     "declaration": true,
     "emitDeclarationOnly": true,
     "declarationMap": false,
     "forceConsistentCasingInFileNames": true,
-    "outDir": "./build/types"
+    "outDir": "./build/types",
+    "baseUrl": "./",
+    "skipLibCheck": true
   },
   "include": [
-    "test/**/*.ts",
+    "cypress/**/*.ts",
     "src/**/**/*.ts",
     "scripts/*.ts",
-     "./declaration.d.ts"
+     "./declaration.d.ts",
+    "./*.ts"
   ],
   "exclude": [
     "src/**/*.d.ts",
-    "node_modules",
+    "node_modules/**",
     "node_modules/@types/node/globals.d.ts",
     "node_modules/typescript/lib/lib.dom.d.ts",
+    "node_modules/cypress/types/jquery/misc.d.ts",
     "build/types",
     "dist",
     "aws",
@@ -41,6 +46,8 @@
   "types": [
     "@types/jest",
     "@types/puppeteer",
-    "@types/jest-axe"
+    "@types/jest-axe",
+    "cypress",
+    "cypress-axe"
   ]
 }

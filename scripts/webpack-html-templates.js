@@ -6,6 +6,8 @@ let htmlTemplates = fsFiles(`./src/components`, 'html');
 const isWin32 = process.platform === 'win32' ? '\\' : '/';
 const filterComponents = process.env.npm_config_components || '';
 
+const isCspDisabled = process.argv[process.argv.indexOf('--env') + 1] === 'no-csp';
+
 if (filterComponents) {
   htmlTemplates = htmlTemplates.filter((item) => item.indexOf(filterComponents) > -1 || item.indexOf('ids-container') > -1 || item.indexOf('ids-text') > -1 || item.indexOf('ids-layout-grid') > -1 || item.indexOf('ids-text') > -1);
 }
@@ -16,7 +18,8 @@ const htmlExamples = htmlTemplates.map((template) => {
   const chunkName = chunkArray[0];
   const chunkFileNameArray = template.split(isWin32);
   const chunkFileName = chunkFileNameArray.slice(-1)[0];
-  const noCSP = !!chunkFileName.includes('side-by-side');
+  const noCSP = !!chunkFileName.includes('side-by-side') || isCspDisabled;
+
   const title = `${chunkName.split('-').map((word) => `${word.substring(0, 1).toUpperCase()}${word.substring(1)}`).join(' ').replace('Ids ', 'IDS ')}${chunkName === 'ids-demo-app' ? '' : ' Component'}`;
   let extraChunk;
   chunkFileName !== 'index.html' && fs.existsSync(`./src/components/${chunkName}/demos/${chunkFileName.replace('.html', '.ts')}`);

@@ -33,7 +33,7 @@ const result = await esbuild
     entryPoints: components,
     outdir: outDir,
     bundle: true,
-    splitting: true,
+    // splitting: true,
     minify: mode === 'production',
     sourcemap: mode === 'development',
     chunkNames: 'chunks/ids-[name]-[hash]',

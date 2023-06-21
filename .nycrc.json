@@ -1,0 +1,13 @@
+{
+  "all": true,
+  "include": [
+    "src/components/**/*.ts"
+  ],
+  "exclude": [
+    "src/components/ids-demo-app",
+    "src/components/**/demos/*.ts",
+    "*scss.js"
+  ],
+  "reporter": ["html", "lcov", "json"],
+  "report-dir": "coverage"
+}

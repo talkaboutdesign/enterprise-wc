@@ -59,7 +59,8 @@ module.exports = {
             options: {
               loader: 'ts',
               format: 'esm',
-              target: 'es2022'
+              target: 'es2022',
+              sourcemap: 'inline'
             },
           }
         ],

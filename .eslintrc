@@ -31,7 +31,8 @@
     "module": true,
     "require": true,
     "__dirname": true,
-    "before": true
+    "before": true,
+    "cy": true
   },
   "parserOptions": {
     "ecmaVersion": 2022,
